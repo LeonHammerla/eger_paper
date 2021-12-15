@@ -3,12 +3,16 @@ import sys
 from typing import Optional, Tuple
 
 sys.path.append("/home/stud_homes/s5935481/uima_cassis/src")
+sys.path.append(os.path.realpath(os.path.join(os.path.dirname(__file__), '..', '..')))
 from cassis_utility.loading_utility import load_cas_from_xmi_dir, \
     load_cas_from_dir, \
     find_paths_in_dir, \
     load_typesystem_from_path, \
     load_cas_from_path
-
+from src.main_process.bucket_funcs import bucket_hansard, \
+    bucket_dta, \
+    bucket_bundestag, \
+    bucket_coah
 import cassis
 from tqdm import tqdm
 from datetime import datetime, timedelta
@@ -17,70 +21,8 @@ from datetime import datetime, timedelta
 ROOT_DIR = os.path.realpath(os.path.join(os.path.dirname(__file__), '..', '..'))
 
 
-def bucket_bundestag(input_tuple: Tuple[cassis.Cas, Optional[str]]) -> str:
-    """
-    Getting year-bucket-identifier for cas-object from Bundestag-Corpus.
-    :param input_tuple:
-    :return:
-    """
 
-    cas, _ = input_tuple
-    # ==== Loading Type DocumentAnnotation ====
-    document_annotations = cas.select("org.texttechnologylab.annotation.DocumentAnnotation")
-
-    # ==== Getting Year ====
-    print(document_annotations)
-    timestamp = int(document_annotations[0]["timestamp"])
-    dt = datetime(1970, 1, 1) + timedelta(milliseconds=timestamp)
-    year = dt.year
-    return str(year)
-
-
-def bucket_coah(input_tuple: Tuple[cassis.Cas, Optional[str]]) -> str:
-    """
-    Getting year-bucket-identifier for cas-object from COAH-Corpus.
-    :param input_tuple:
-    :return:
-    """
-    cas, _ = input_tuple
-    # ==== Loading Type DocumentMetaData ====
-    document_metadata = cas.select("de.tudarmstadt.ukp.dkpro.core.api.metadata.type.DocumentMetaData")
-
-    # ==== Getting Year ====
-    title = document_metadata[0]["documentTitle"]
-    return title.split("_")[1]
-
-
-def bucket_dta(input_tuple: Tuple[cassis.Cas, Optional[str]]) -> str:
-    """
-    Getting year-bucket-identifier for cas-object from DTA-Corpus.
-    :param input_tuple:
-    :return:
-    """
-    cas, _ = input_tuple
-    # ==== Loading Type DocumentMetaData ====
-    document_metadata = cas.select("de.tudarmstadt.ukp.dkpro.core.api.metadata.type.DocumentMetaData")
-
-    # ==== Getting Year ====
-    id = document_metadata[0]["documentId"]
-    year = id.split(".")[0].split("_")[-1]
-    return year
-
-
-def bucket_hansard(input_tuple: Tuple[cassis.Cas, Optional[str]]) -> str:
-    """
-    Getting year-bucket-identifier for cas-object from Hansard-Corpus.
-    :param input_tuple:
-    :return:
-    """
-    cas, _ = input_tuple
-    # ==== Loading Type DocumentAnnotation ====
-    document_annotations = cas.select("org.texttechnologylab.annotation.DocumentAnnotation")
-    year = document_annotations[0]["dateYear"]
-    return str(year)
-
-
-def load_cas_from_corpus(dir_path: str, corpus_ident: str, verbose: bool) -> dict:
+def process_dir_of_xmi(dir_path: str, corpus_ident: str, verbose: bool) -> dict:
     """
     Paths to the Corporas:
 
@@ -145,6 +87,6 @@ def load_cas_from_corpus(dir_path: str, corpus_ident: str, verbose: bool) -> dic
 
 
 
-load_cas_from_corpus("/resources/corpora/COHA/texts_clean_xmi_ttlab/text_1810s_kso", "COAH", True)
+process_dir_of_xmi("/resources/corpora/COHA/texts_clean_xmi_ttlab/text_1810s_kso", "COAH", True)
 
 #load_cas_from_corpus("/resources/corpora/paraliamentary_german/xmi_ttlab", "", True)
