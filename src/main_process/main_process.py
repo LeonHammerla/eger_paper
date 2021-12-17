@@ -1,6 +1,6 @@
 import os
 import sys
-from typing import Optional, Tuple
+from typing import Optional, Tuple, List, Dict
 
 sys.path.append("/home/stud_homes/s5935481/uima_cassis/src")
 sys.path.append(os.path.realpath(os.path.join(os.path.dirname(__file__), '..', '..')))
@@ -13,6 +13,8 @@ from src.main_process.bucket_funcs import bucket_hansard, \
     bucket_dta, \
     bucket_bundestag, \
     bucket_coah
+from src.main_process.measure_funcs import measurements_for_cas_sent_based, \
+    measurements_for_cas_doc_based
 import cassis
 from tqdm import tqdm
 from datetime import datetime, timedelta
@@ -22,7 +24,7 @@ ROOT_DIR = os.path.realpath(os.path.join(os.path.dirname(__file__), '..', '..'))
 
 
 
-def process_dir_of_xmi(dir_path: str, corpus_ident: str, verbose: bool) -> dict:
+def process_dir_of_xmi(dir_path: str, corpus_ident: str, verbose: bool) -> Dict[str, List[Tuple[List[Tuple[int, int, float, float]], str]]]:
     """
     Paths to the Corporas:
 
@@ -71,16 +73,16 @@ def process_dir_of_xmi(dir_path: str, corpus_ident: str, verbose: bool) -> dict:
 
         # ==== determine year (bucket-id) ====
         year = bucket_determiner[corpus_ident]((cas, file_paths[i]))
-        print(year)
 
-        # TODO: Add extracting of measures for a cas object
+        # ==== Performing measures on cas-object ====
+        # TODO: Should be not sent based, so reeturn type of this whole function will change
+        result = measurements_for_cas_sent_based(cas)
 
         # ==== pushing result into buckets they belong ====
-        # (TODO: Edit out the saving of the cas itself because of memory, instead save results of measures)
         if year in buckets:
-            buckets[year].append((cas, file_paths[i]))
+            buckets[year].append((result, file_paths[i]))
         else:
-            buckets[year] = [(cas, file_paths[i])]
+            buckets[year] = [(result, file_paths[i])]
         bar.update(1)
 
     return buckets
