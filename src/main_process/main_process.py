@@ -13,8 +13,7 @@ from src.main_process.bucket_funcs import bucket_hansard, \
     bucket_dta, \
     bucket_bundestag, \
     bucket_coah
-from src.main_process.measure_funcs import measurements_for_cas_sent_based, \
-    measurements_for_cas_doc_based
+from src.main_process.measure_funcs import
 import cassis
 from tqdm import tqdm
 from datetime import datetime, timedelta
