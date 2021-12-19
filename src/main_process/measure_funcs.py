@@ -74,12 +74,20 @@ def n_verbs_in_sentence(cas: cassis.Cas,
 
     verb_count = 0
     for token in tokens:
+        is_verb = False
         pos = cas.select_covered("de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS", token)[0]
         pos_value = pos["PosValue"]
         for possible_verb_tag in VERB_TAGS:
             if possible_verb_tag in pos_value:
-                verb_count += 1
+                is_verb = True
                 break
+        if not is_verb:
+            pos_value2 = pos["coarseValue"]
+            if pos_value2:
+                if pos_value2.lower() == "verb":
+                    is_verb = True
+        if is_verb:
+            verb_count += 1
 
     return verb_count
 
