@@ -16,6 +16,7 @@ from src.main_process.bucket_funcs import bucket_hansard, \
     bucket_bundestag, \
     bucket_coah
 from src.main_process.measure_funcs import sent_based_measurements_for_cas, doc_based_measurements_for_cas
+from src.main_process.saving_plotting_utility import plotting_results
 import cassis
 from tqdm import tqdm
 from datetime import datetime, timedelta
@@ -95,6 +96,11 @@ def process_dir_of_xmi(dir_path: str,
 
 
 
+    plotting_results(result_bucket=buckets_result,
+                     paths_dict=buckets_paths,
+                     corpus_ident=corpus_ident,
+                     res_type=return_type,
+                     verbose=verbose)
 
     return buckets_result, buckets_paths
 
@@ -191,7 +197,7 @@ def process_list_of_cas_paths(cas_paths: Union[List[str], Tuple[List[str], int]]
     return buckets_result, buckets_paths
 
 
-def combine_result_dicts(result: List[Tuple[dict, dict]]):
+def combine_result_dicts(result: List[Tuple[dict, dict]]) -> Tuple[dict, dict]:
     """
     Function combines result dicts from multiprocessing mapping result to one result tuple.
     :param result:
