@@ -63,7 +63,8 @@ def box_plot_of_result_at_idx(result_tuple_index: int,
     for time_slice in data:
         data[time_slice] = data[time_slice] + [np.nan for i in range(0, max_length - len(data[time_slice]))]
 
-    # ==== Constructing pandas dataframe and plt figure ====
+    # ==== Constructing pandas dataframe and plt figure, sorting by year ====
+    data = {k: v for k, v in sorted(data.items(), key=lambda v: int(v[0]))}
     df = pd.DataFrame(data=data)
     fig = df.plot(ylabel=mapping_type[res_type][result_tuple_index], kind="box").get_figure()
     return fig
