@@ -3,3 +3,5 @@ psutil
 dkpro-cassis
 tqdm
 numpy
+pandas
+matplotlib
