@@ -1,5 +1,6 @@
 import pathlib
 import os
+import shutil
 import sys
 from typing import Optional, Tuple, List, Dict
 import matplotlib
@@ -73,13 +74,24 @@ def plotting_results(result_bucket: dict,
                      corpus_ident: str,
                      res_type: str,
                      verbose: bool):
+    """
+    Function for plotting all results"
+    :param result_bucket:
+    :param paths_dict:
+    :param corpus_ident:
+    :param res_type:
+    :param verbose:
+    :return:
+    """
+    # ==== Removing dir if already exists to make a new clean one
+    data_dir = os.path.join(ROOT_DIR, "data", corpus_ident)
+    shutil.rmtree(data_dir)
 
     # ==== Saving time slices -> filepaths ====
     save_file_paths_time_slices(paths_dict=paths_dict,
                                 corpus_ident=corpus_ident)
 
     # ==== Finding Tuple-Length ====
-    data_dir = os.path.join(ROOT_DIR, "data", corpus_ident)
     tuple_length = 0
     for i in result_bucket:
         for j in result_bucket[i]:
