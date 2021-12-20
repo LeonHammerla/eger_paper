@@ -85,7 +85,10 @@ def plotting_results(result_bucket: dict,
     """
     # ==== Removing dir if already exists to make a new clean one
     data_dir = os.path.join(ROOT_DIR, "data", corpus_ident)
-    shutil.rmtree(data_dir)
+    try:
+        shutil.rmtree(data_dir)
+    except:
+        pass
 
     # ==== Saving time slices -> filepaths ====
     save_file_paths_time_slices(paths_dict=paths_dict,

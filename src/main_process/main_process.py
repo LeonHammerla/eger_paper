@@ -223,13 +223,15 @@ def combine_result_dicts(result: List[Tuple[dict, dict]]) -> Tuple[dict, dict]:
 
 
 if __name__ == '__main__':
-    res = process_dir_of_xmi(dir_path="/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1810s_kso",
+    res = process_dir_of_xmi(dir_path="/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab",
                              corpus_ident="COAH",
                              verbose=True,
                              n_procs=28,
                              return_type="doc")
+    """
     doc_res_dict, _ = res
     for i in doc_res_dict:
         print(f"==================================={i}===================================")
         for j in doc_res_dict[i]:
             print(j)
+    """
