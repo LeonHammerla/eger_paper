@@ -305,12 +305,23 @@ if __name__ == '__main__':
                              n_procs=28,
                              return_type="doc")
     """
+
+    """
     # DTA
     res = process_dir_of_xmi(dir_path="/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi",
                              corpus_ident="DTA",
                              verbose=True,
                              n_procs=28,
                              return_type="doc")
+    """
+
+    # Bundestag
+    res = process_dir_of_xmi(dir_path="/resources/corpora/Bundestag/outT2W",
+                             corpus_ident="Bundestag",
+                             verbose=True,
+                             n_procs=28,
+                             return_type="doc")
+
     """
     doc_res_dict, _ = res
     for i in doc_res_dict:

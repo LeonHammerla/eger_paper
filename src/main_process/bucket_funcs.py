@@ -24,7 +24,6 @@ def bucket_bundestag(input_tuple: Tuple[cassis.Cas, Optional[str]]) -> str:
     document_annotations = cas.select("org.texttechnologylab.annotation.DocumentAnnotation")
 
     # ==== Getting Year ====
-    print(document_annotations)
     timestamp = int(document_annotations[0]["timestamp"])
     dt = datetime(1970, 1, 1) + timedelta(milliseconds=timestamp)
     year = dt.year
