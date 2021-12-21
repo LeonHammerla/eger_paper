@@ -135,14 +135,15 @@ def process_list_of_cas_paths(cas_paths: Union[List[str], Tuple[List[str], int]]
     if type(cas_paths) == tuple:
         pos = cas_paths[1]
         cas_paths = cas_paths[0]
-        pbar = tqdm(total=len(cas_paths), desc=f"Processing Cas-Object: PID: {pos}", leave=True, position=pos)
+        if verbose:
+            pbar = tqdm(total=len(cas_paths), desc=f"Processing Cas-Object: PID: {pos}", leave=True, position=pos)
+        else:
+            pbar = tqdm(total=len(cas_paths), desc=f"Processing Cas-Object: PID: {pos}", leave=True, position=pos, disable=True)
     else:
-        pbar = tqdm(total=len(cas_paths), desc="Processing List of Cas", leave=True, position=0)
-
-    # ==== If verbose is disabled, also disable pbar ====
-    if not verbose:
-        pbar.disable = True
-        pbar.refresh()
+        if verbose:
+            pbar = tqdm(total=len(cas_paths), desc="Processing List of Cas", leave=True, position=0)
+        else:
+            pbar = tqdm(total=len(cas_paths), desc="Processing List of Cas", leave=True, position=0, disable=True)
 
     # ==== Results are saved in buckets determined by their documents creation year ====
     buckets_result = dict()
@@ -150,6 +151,7 @@ def process_list_of_cas_paths(cas_paths: Union[List[str], Tuple[List[str], int]]
 
     # ==== Going through single casses ====
     for i in range(0, len(cas_paths)):
+
 
         # ==== loading cas ====
         cas = load_cas_from_path(filepath=cas_paths[i], typesystem=typesystem)
@@ -225,7 +227,7 @@ def combine_result_dicts(result: List[Tuple[dict, dict]]) -> Tuple[dict, dict]:
 if __name__ == '__main__':
     res = process_dir_of_xmi(dir_path="/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab",
                              corpus_ident="COAH",
-                             verbose=True,
+                             verbose=False,
                              n_procs=28,
                              return_type="doc")
     """

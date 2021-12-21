@@ -143,7 +143,7 @@ def altmann_of_sent(tokens: List[cassis.typesystem.FeatureStructure]) -> float:
     sum_length_of_subconstructs = 0
     for token in tokens:
         sum_length_of_subconstructs += len(token.get_covered_text())
-    return sum_length_of_subconstructs / len(tokens)
+    return sum_length_of_subconstructs / len(tokens) if len(tokens) > 0 else 0.0
 
 
 def calc_dep_depth_of_dependency(cas: cassis.Cas,
@@ -247,11 +247,19 @@ def doc_based_measurements_for_cas(results: List[Tuple[int, int, int, float]]) -
         # (The effects of sentence length on dependency distance, dependency direction and the implications–Based on a parallel English–Chinese dependency treebank)
         weighted_mdd_sum += (results[i][3] * (results[i][0] - 1))
 
+    if (n_token - n_sents) > 0:
+        mdd = weighted_mdd_sum / (n_token - n_sents)
+    else:
+        mdd = 0
 
-    mdd = weighted_mdd_sum / (n_token - n_sents)
-    tok_per_sentence = n_token / n_sents
-    v_per_sentence = n_verbs / n_sents
-    avg_max_depth = sum_max_depth / n_sents
+    if n_sents > 0:
+        tok_per_sentence = n_token / n_sents
+        v_per_sentence = n_verbs / n_sents
+        avg_max_depth = sum_max_depth / n_sents
+    else:
+        tok_per_sentence = 0
+        v_per_sentence = 0
+        avg_max_depth = 0
 
     return n_token, n_verbs, n_sents, tok_per_sentence, v_per_sentence, mdd, avg_max_depth
 
