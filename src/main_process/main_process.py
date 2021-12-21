@@ -1,4 +1,7 @@
 import os
+import pathlib
+import pickle
+import shutil
 import sys
 from typing import Optional, Tuple, List, Dict, Union
 from multiprocessing import Pool
@@ -35,11 +38,11 @@ def process_dir_of_xmi(dir_path: str,
     """
     Paths to the Corporas:
 
-                            DTA:     - /vol/s5935481/eger_resources/DTA                         -- warogast
-                            COAH:    - /resources/corpora/COHA/texts_clean_xmi_ttlab            -- network
-                                     - /vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab  -- warogast
-                            BT:      - /resources/corpora/Bundestag/outT2W/                     -- network
-                            Hansard: - /resources/corpora/hansard_corpus/hansard_xmi_v2_ttlab   -- network
+                            DTA:     - /vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi     -- warogast
+                            COAH:    - /resources/corpora/COHA/texts_clean_xmi_ttlab                            -- network
+                                     - /vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab                  -- warogast
+                            BT:      - /resources/corpora/Bundestag/outT2W/                                     -- network
+                            Hansard: - /resources/corpora/hansard_corpus/hansard_xmi_v2_ttlab                   -- network
 
 
     return_type --> "sent" for sentence based calculations or "doc" for document based.
@@ -51,6 +54,14 @@ def process_dir_of_xmi(dir_path: str,
     :param verbose:
     :return:
     """
+
+    # ==== Creating Dir if not existing and adding result folder ====
+    data_dir = os.path.join(ROOT_DIR, "data", corpus_ident, "results")
+    try:
+        shutil.rmtree(data_dir)
+    except:
+        pass
+    pathlib.Path(data_dir).mkdir(parents=True, exist_ok=True)
 
     # ==== getting path of typesystem for loading the cas-objects from xmi files ====
     typesystem_path = os.path.join(ROOT_DIR, "TypeSystem.xml")
@@ -66,12 +77,12 @@ def process_dir_of_xmi(dir_path: str,
     if n_procs <= 1:
         buckets_result, buckets_paths = process_list_of_cas_paths(cas_paths=file_paths,
                                                                   typesystem=typesystem_path,
-                                                                  verbose=True,
+                                                                  verbose=verbose,
                                                                   corpus_ident=corpus_ident,
                                                                   return_type=return_type)
     else:
         # ==== Making path-chunks and pbars ====
-        path_chunks = list(chunks(file_paths, math.ceil(len(file_paths) / n_procs)))
+        path_chunks = list(chunks(file_paths, math.ceil(len(file_paths) / (n_procs * 10))))
         path_pos_chunks = []
         for i in range(0, len(path_chunks)):
             path_pos_chunks.append((path_chunks[i], i))
@@ -79,17 +90,21 @@ def process_dir_of_xmi(dir_path: str,
         # ==== Partial function for multiprocessing ====
         part_func = partial(process_list_of_cas_paths,
                             typesystem=typesystem_path,
-                            verbose=verbose,
+                            verbose=False,
                             corpus_ident=corpus_ident,
                             return_type=return_type)
 
         # ==== Declaring Pool and map processing function on to cas-obj ====
-        pool = Pool(n_procs)
+        with Pool(n_procs) as pool:
+            if verbose:
+                pbar = tqdm(desc=f"Processing Cas-Objects from {corpus_ident}", total=len(path_pos_chunks))
+                for _ in pool.imap_unordered(part_func, path_pos_chunks):
+                    pbar.update(1)
+            else:
+                pool.imap_unordered(part_func, path_pos_chunks)
 
-        result = pool.map(part_func, path_pos_chunks)
 
-        pool.close()
-        pool.join()
+        result = load_dicts(dir_path=data_dir, verbose=verbose)
 
         # ==== Combining results back to one result ====
         buckets_result, buckets_paths = combine_result_dicts(result)
@@ -109,7 +124,7 @@ def process_list_of_cas_paths(cas_paths: Union[List[str], Tuple[List[str], int]]
                               typesystem: str,
                               verbose: bool,
                               corpus_ident: str,
-                              return_type: str) -> Tuple[dict, dict]:
+                              return_type: str) -> Optional[Tuple[dict, dict]]:
     """
     Function takes in a list of cas-file-paths and processes them sent or doc based.
     :param cas_paths:
@@ -119,6 +134,9 @@ def process_list_of_cas_paths(cas_paths: Union[List[str], Tuple[List[str], int]]
     :param return_type:
     :return:
     """
+
+    # ==== Determine later (if input is tuple), if function is used for mp ====
+    used_by_mp = False
 
     # ==== loading typesystem ====
     typesystem = load_typesystem_from_path(typesystem)
@@ -133,12 +151,12 @@ def process_list_of_cas_paths(cas_paths: Union[List[str], Tuple[List[str], int]]
 
     # ==== Setting pbar and cas-paths, differs wether used for mp oder sp ====
     if type(cas_paths) == tuple:
+        used_by_mp = True
         pos = cas_paths[1]
         cas_paths = cas_paths[0]
-        if verbose:
-            pbar = tqdm(total=len(cas_paths), desc=f"Processing Cas-Object: PID: {pos}", leave=True, position=pos)
-        else:
-            pbar = tqdm(total=len(cas_paths), desc=f"Processing Cas-Object: PID: {pos}", leave=True, position=pos, disable=True)
+        filepath1 = os.path.join(ROOT_DIR, "data", corpus_ident, "results", f"res_{pos}.pickle")
+        filepath2 = os.path.join(ROOT_DIR, "data", corpus_ident, "results", f"path_{pos}.pickle")
+        verbose = False
     else:
         if verbose:
             pbar = tqdm(total=len(cas_paths), desc="Processing List of Cas", leave=True, position=0)
@@ -194,9 +212,17 @@ def process_list_of_cas_paths(cas_paths: Union[List[str], Tuple[List[str], int]]
             else:
                 buckets_paths[year] = [cas_paths[i]]
 
-        pbar.update(1)
+        if verbose:
+            pbar.update(1)
 
-    return buckets_result, buckets_paths
+    if used_by_mp:
+        with open(filepath1, "wb") as f:
+            pickle.dump(obj=buckets_result, file=f)
+        with open(filepath2, "wb") as f:
+            pickle.dump(obj=buckets_paths, file=f)
+        return
+    else:
+        return buckets_result, buckets_paths
 
 
 def combine_result_dicts(result: List[Tuple[dict, dict]]) -> Tuple[dict, dict]:
@@ -223,11 +249,66 @@ def combine_result_dicts(result: List[Tuple[dict, dict]]) -> Tuple[dict, dict]:
     return buckets_result, buckets_paths
 
 
+def load_dicts(dir_path: str,
+               verbose: bool) -> List[Tuple[dict, dict]]:
+    """
+    Function loads saved dicts.
+    :param verbose:
+    :param dir_path:
+    :return:
+    """
+
+    # ==== Finding all result-pickle filepaths in directory ====
+    filepaths = [os.path.join(dir_path, filename) for filename in os.listdir(dir_path)]
+
+    # ==== Sort them, so they can be easily loaded ====
+    filepaths.sort(key=lambda x: int(x.split("/")[-1].split("_")[-1].rstrip(".pickle")) if "res_" in x else int(x.split("/")[-1].split("_")[-1].rstrip(".pickle")) + 0.5)
+
+    # ==== Test if all are present ====
+    assert len(filepaths) % 2 == 0, "some result pickles are missing?!"
+
+    # ==== Loading them all ====
+    result_tuples = []
+    if verbose:
+        for i in tqdm(range(0, len(filepaths), 2), desc=f"loading dicts"):
+            with open(filepaths[i], "rb") as f:
+                res_buckets = pickle.load(f)
+            with open(filepaths[i+1], "rb") as f:
+                path_buckets = pickle.load(f)
+            result_tuples.append((res_buckets, path_buckets))
+    else:
+        for i in range(0, len(filepaths), 2):
+            with open(filepaths[i], "rb") as f:
+                res_buckets = pickle.load(f)
+            with open(filepaths[i+1], "rb") as f:
+                path_buckets = pickle.load(f)
+            result_tuples.append((res_buckets, path_buckets))
+
+    return result_tuples
+
 
 if __name__ == '__main__':
+    """
+    # COAH
     res = process_dir_of_xmi(dir_path="/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab",
                              corpus_ident="COAH",
-                             verbose=False,
+                             verbose=True,
+                             n_procs=28,
+                             return_type="doc")
+    """
+
+    """
+    # Hansard
+    res = process_dir_of_xmi(dir_path="/resources/corpora/hansard_corpus/hansard_xmi_v2_ttlab",
+                             corpus_ident="Hansard",
+                             verbose=True,
+                             n_procs=28,
+                             return_type="doc")
+    """
+    # DTA
+    res = process_dir_of_xmi(dir_path="/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi",
+                             corpus_ident="DTA",
+                             verbose=True,
                              n_procs=28,
                              return_type="doc")
     """
