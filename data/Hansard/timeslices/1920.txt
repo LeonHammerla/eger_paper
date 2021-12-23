@@ -1,0 +1,14 @@
+/resources/corpora/hansard_corpus/hansard_xmi_v2_ttlab/1920.xml_13.xmi.xmi.gz
+/resources/corpora/hansard_corpus/hansard_xmi_v2_ttlab/1920.xml_4.xmi.xmi.gz
+/resources/corpora/hansard_corpus/hansard_xmi_v2_ttlab/1920.xml_6.xmi.xmi.gz
+/resources/corpora/hansard_corpus/hansard_xmi_v2_ttlab/1920.xml_8.xmi.xmi.gz
+/resources/corpora/hansard_corpus/hansard_xmi_v2_ttlab/1920.xml_0.xmi.xmi.gz
+/resources/corpora/hansard_corpus/hansard_xmi_v2_ttlab/1920.xml_11.xmi.xmi.gz
+/resources/corpora/hansard_corpus/hansard_xmi_v2_ttlab/1920.xml_7.xmi.xmi.gz
+/resources/corpora/hansard_corpus/hansard_xmi_v2_ttlab/1920.xml_5.xmi.xmi.gz
+/resources/corpora/hansard_corpus/hansard_xmi_v2_ttlab/1920.xml_1.xmi.xmi.gz
+/resources/corpora/hansard_corpus/hansard_xmi_v2_ttlab/1920.xml_12.xmi.xmi.gz
+/resources/corpora/hansard_corpus/hansard_xmi_v2_ttlab/1920.xml_2.xmi.xmi.gz
+/resources/corpora/hansard_corpus/hansard_xmi_v2_ttlab/1920.xml_3.xmi.xmi.gz
+/resources/corpora/hansard_corpus/hansard_xmi_v2_ttlab/1920.xml_10.xmi.xmi.gz
+/resources/corpora/hansard_corpus/hansard_xmi_v2_ttlab/1920.xml_9.xmi.xmi.gz

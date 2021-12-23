@@ -1,0 +1,9 @@
+/resources/corpora/Bundestag/outT2W/16001.xml.xmi.gz
+/resources/corpora/Bundestag/outT2W/16008.xml.xmi.gz
+/resources/corpora/Bundestag/outT2W/16006.xml.xmi.gz
+/resources/corpora/Bundestag/outT2W/16009.xml.xmi.gz
+/resources/corpora/Bundestag/outT2W/16002.xml.xmi.gz
+/resources/corpora/Bundestag/outT2W/16004.xml.xmi.gz
+/resources/corpora/Bundestag/outT2W/16007.xml.xmi.gz
+/resources/corpora/Bundestag/outT2W/16005.xml.xmi.gz
+/resources/corpora/Bundestag/outT2W/16003.xml.xmi.gz
