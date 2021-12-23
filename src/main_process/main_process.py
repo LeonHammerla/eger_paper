@@ -287,6 +287,27 @@ def load_dicts(dir_path: str,
     return result_tuples
 
 
+def plot_pickle_result_dir(corpus_ident: str,
+                           verbose: bool,
+                           return_type: str = "sent") -> Tuple[dict, dict]:
+
+
+    # ==== Loading results from data-dir of given corpus ====
+    data_dir = os.path.join(ROOT_DIR, "data", corpus_ident, "results")
+    result = load_dicts(dir_path=data_dir, verbose=verbose)
+    buckets_result, buckets_paths = combine_result_dicts(result)
+
+    # ==== Plotting Results ====
+    plotting_results(result_bucket=buckets_result,
+                     paths_dict=buckets_paths,
+                     corpus_ident=corpus_ident,
+                     res_type=return_type,
+                     verbose=verbose)
+
+    return buckets_result, buckets_paths
+
+
+
 if __name__ == '__main__':
     """
     # COAH
@@ -297,14 +318,14 @@ if __name__ == '__main__':
                              return_type="doc")
     """
 
-    """
+
     # Hansard
     res = process_dir_of_xmi(dir_path="/resources/corpora/hansard_corpus/hansard_xmi_v2_ttlab",
                              corpus_ident="Hansard",
                              verbose=True,
                              n_procs=28,
                              return_type="doc")
-    """
+
 
     """
     # DTA
@@ -315,14 +336,28 @@ if __name__ == '__main__':
                              return_type="doc")
     """
 
+    """
     # Bundestag
     res = process_dir_of_xmi(dir_path="/resources/corpora/Bundestag/outT2W",
                              corpus_ident="Bundestag",
                              verbose=True,
                              n_procs=28,
                              return_type="doc")
+    """
+
+    # =======================
+    # ==== JUST PLOTTING ====
+    # =======================
 
     """
+    # Bundestag -- just plotting
+    res = plot_pickle_result_dir(corpus_ident="Bundestag",
+                                 verbose=True,
+                                 return_type="doc")
+    """
+
+    """
+    # print results
     doc_res_dict, _ = res
     for i in doc_res_dict:
         print(f"==================================={i}===================================")
