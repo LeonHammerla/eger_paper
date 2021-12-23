@@ -13,6 +13,8 @@ sys.path.append(os.path.realpath(os.path.join(os.path.dirname(__file__), '..', '
 
 
 ROOT_DIR = os.path.realpath(os.path.join(os.path.dirname(__file__), '..', '..'))
+FLIERPROBS = dict(marker='x', markersize=2,
+                      linestyle='none')
 
 
 def save_file_paths_time_slices(paths_dict: Dict[str, List[str]],
@@ -66,7 +68,7 @@ def box_plot_of_result_at_idx(result_tuple_index: int,
     # ==== Constructing pandas dataframe and plt figure, sorting by year ====
     data = {k: v for k, v in sorted(data.items(), key=lambda v: int(v[0]))}
     df = pd.DataFrame(data=data)
-    fig = df.plot(ylabel=mapping_type[res_type][result_tuple_index], kind="box").get_figure()
+    fig = df.plot(ylabel=mapping_type[res_type][result_tuple_index], kind="box", fontsize=4, flierprops=FLIERPROBS, showfliers=True, rot=90).get_figure()
     return fig
 
 
