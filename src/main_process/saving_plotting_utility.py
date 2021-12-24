@@ -13,7 +13,7 @@ sys.path.append(os.path.realpath(os.path.join(os.path.dirname(__file__), '..', '
 
 
 ROOT_DIR = os.path.realpath(os.path.join(os.path.dirname(__file__), '..', '..'))
-FLIERPROBS = dict(marker='x', markersize=2,
+FLIERPROBS = dict(marker='x', markersize=0.5,
                       linestyle='none')
 
 
@@ -39,9 +39,11 @@ def save_file_paths_time_slices(paths_dict: Dict[str, List[str]],
 
 def box_plot_of_result_at_idx(result_tuple_index: int,
                               result_dict: dict,
-                              res_type: str) -> matplotlib.figure.Figure:
+                              res_type: str,
+                              fontsize: float = 4) -> matplotlib.figure.Figure:
     """
     Function for getting
+    :param fontsize:
     :param res_type:
     :param result_tuple_index:
     :param result_dict:
@@ -68,7 +70,7 @@ def box_plot_of_result_at_idx(result_tuple_index: int,
     # ==== Constructing pandas dataframe and plt figure, sorting by year ====
     data = {k: v for k, v in sorted(data.items(), key=lambda v: int(v[0]))}
     df = pd.DataFrame(data=data)
-    fig = df.plot(ylabel=mapping_type[res_type][result_tuple_index], kind="box", fontsize=4, flierprops=FLIERPROBS, showfliers=True, rot=90).get_figure()
+    fig = df.plot(ylabel=mapping_type[res_type][result_tuple_index], kind="box", fontsize=fontsize, flierprops=FLIERPROBS, showfliers=True, rot=90).get_figure()
     return fig
 
 
@@ -76,9 +78,11 @@ def plotting_results(result_bucket: dict,
                      paths_dict: dict,
                      corpus_ident: str,
                      res_type: str,
-                     verbose: bool):
+                     verbose: bool,
+                     fontsize: float = 4):
     """
     Function for plotting all results"
+    :param fontsize:
     :param result_bucket:
     :param paths_dict:
     :param corpus_ident:
@@ -120,6 +124,7 @@ def plotting_results(result_bucket: dict,
         for i in range(0, tuple_length):
             fig = box_plot_of_result_at_idx(result_tuple_index=i,
                                             result_dict=result_bucket,
-                                            res_type=res_type)
+                                            res_type=res_type,
+                                            fontsize=fontsize)
             pdf.savefig(fig)
             pbar.update(1)
