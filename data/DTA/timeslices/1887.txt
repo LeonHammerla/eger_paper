@@ -1,0 +1,4 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/berlin_wortblindheit_1887.TEI-P5.xml/berlin_wortblindheit_1887.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/toennies_gemeinschaft_1887.TEI-P5.xml/toennies_gemeinschaft_1887.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/fiedler_kuenstlerische_1887.TEI-P5.xml/fiedler_kuenstlerische_1887.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/brunner_rechtsgeschichte01_1887.TEI-P5.xml/brunner_rechtsgeschichte01_1887.TEI-P5.xml#1.xmi.gz

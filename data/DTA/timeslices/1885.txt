@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/curtius_sprachforschung_1885.TEI-P5.xml/curtius_sprachforschung_1885.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/marx_kapital02_1885.TEI-P5.xml/marx_kapital02_1885.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/arent_dichtercharaktere_1885.TEI-P5.xml/arent_dichtercharaktere_1885.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/delbrueck_sprachforschung_1885.TEI-P5.xml/delbrueck_sprachforschung_1885.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bunge_vegetarianismus_1885.TEI-P5.xml/bunge_vegetarianismus_1885.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ebbinghaus_gedaechtnis_1885.TEI-P5.xml/ebbinghaus_gedaechtnis_1885.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schuchardt_lautgesetze_1885.TEI-P5.xml/schuchardt_lautgesetze_1885.TEI-P5.xml#1.xmi.gz

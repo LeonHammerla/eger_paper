@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/riemann_hypothesen_1867.TEI-P5.xml/riemann_hypothesen_1867.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/stein_verwaltungslehre04_1867.TEI-P5.xml/stein_verwaltungslehre04_1867.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/stein_verwaltungslehre03_1867.TEI-P5.xml/stein_verwaltungslehre03_1867.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/klostermann_eigenthum01_1867.TEI-P5.xml/klostermann_eigenthum01_1867.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/berg_ostasienzoologie02_1867.TEI-P5.xml/berg_ostasienzoologie02_1867.TEI-P5.xml#1.xmi.gz

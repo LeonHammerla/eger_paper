@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/rochow_versuch_1772.TEI-P5.xml/rochow_versuch_1772.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/heyne_einleitung_1772.TEI-P5.xml/heyne_einleitung_1772.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/herder_abhandlung_1772.TEI-P5.xml/herder_abhandlung_1772.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lessing_emilia_1772.TEI-P5.xml/lessing_emilia_1772.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/muenter_bekehren_1772.TEI-P5.xml/muenter_bekehren_1772.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/haigold_russland02_1772.TEI-P5.xml/haigold_russland02_1772.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schloezer_universalhistorie01_1772.TEI-P5.xml/schloezer_universalhistorie01_1772.TEI-P5.xml#1.xmi.gz

@@ -1,0 +1,9 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mommsen_roemische03_1856.TEI-P5.xml/mommsen_roemische03_1856.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/clausius_waermetheorie_1856.TEI-P5.xml/clausius_waermetheorie_1856.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ludwig_physiologie02_1856.TEI-P5.xml/ludwig_physiologie02_1856.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/keller_seldwyla_1856.TEI-P5.xml/keller_seldwyla_1856.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lange_schachspiel_1856.TEI-P5.xml/lange_schachspiel_1856.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/krane_reitpferd_1856.TEI-P5.xml/krane_reitpferd_1856.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/moerike_mozart_1856.TEI-P5.xml/moerike_mozart_1856.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/brunn_griechen0201_1856.TEI-P5.xml/brunn_griechen0201_1856.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ludwig_himmel_1856.TEI-P5.xml/ludwig_himmel_1856.TEI-P5.xml#1.xmi.gz

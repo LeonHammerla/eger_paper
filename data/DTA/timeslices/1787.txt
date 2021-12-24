@@ -1,0 +1,12 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/guenther_voelkerrecht01_1787.TEI-P5.xml/guenther_voelkerrecht01_1787.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ramdohr_mahlerei02_1787.TEI-P5.xml/ramdohr_mahlerei02_1787.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/goethe_iphigenie_1787.TEI-P5.xml/goethe_iphigenie_1787.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schiller_domkarlos_1787.TEI-P5.xml/schiller_domkarlos_1787.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ramdohr_mahlerei03_1787.TEI-P5.xml/ramdohr_mahlerei03_1787.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/pestalozzi_lienhard04_1787.TEI-P5.xml/pestalozzi_lienhard04_1787.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/heinse_ardinghello01_1787.TEI-P5.xml/heinse_ardinghello01_1787.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/heinse_ardinghello02_1787.TEI-P5.xml/heinse_ardinghello02_1787.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ramdohr_mahlerei01_1787.TEI-P5.xml/ramdohr_mahlerei01_1787.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/puetter_staatsverfassung03_1787.TEI-P5.xml/puetter_staatsverfassung03_1787.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/chladni_klang_1787.TEI-P5.xml/chladni_klang_1787.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/werner_gebirgsarten_1787.TEI-P5.xml/werner_gebirgsarten_1787.TEI-P5.xml#1.xmi.gz

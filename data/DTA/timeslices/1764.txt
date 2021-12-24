@@ -1,0 +1,11 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/zachariae_schriften03_1764.TEI-P5.xml/zachariae_schriften03_1764.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/karsch_gedichte_1764.TEI-P5.xml/karsch_gedichte_1764.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/zachariae_schriften05_1764.TEI-P5.xml/zachariae_schriften05_1764.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/winckelmann_kunstgeschichte01_1764.TEI-P5.xml/winckelmann_kunstgeschichte01_1764.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/zachariae_schriften04_1764.TEI-P5.xml/zachariae_schriften04_1764.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lambert_organon01_1764.TEI-P5.xml/lambert_organon01_1764.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lambert_organon02_1764.TEI-P5.xml/lambert_organon02_1764.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/zachariae_schriften06_1764.TEI-P5.xml/zachariae_schriften06_1764.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/winckelmann_kunstgeschichte02_1764.TEI-P5.xml/winckelmann_kunstgeschichte02_1764.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/thuemmel_wilhelmine_1764.TEI-P5.xml/thuemmel_wilhelmine_1764.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wolff_theorie_1764.TEI-P5.xml/wolff_theorie_1764.TEI-P5.xml#1.xmi.gz

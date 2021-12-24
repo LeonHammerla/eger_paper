@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hoffmannswaldau_gedichte04_1708.TEI-P5.xml/hoffmannswaldau_gedichte04_1708.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/arends_exter_1708.TEI-P5.xml/arends_exter_1708.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/scheuchzer_naturgeschichten03_1708.TEI-P5.xml/scheuchzer_naturgeschichten03_1708.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/niviandts_schwerd_1708.TEI-P5.xml/niviandts_schwerd_1708.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bossmann_gvinea_1708.TEI-P5.xml/bossmann_gvinea_1708.TEI-P5.xml#1.xmi.gz

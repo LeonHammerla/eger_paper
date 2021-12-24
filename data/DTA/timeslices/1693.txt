@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schoenberg_berginformation_1693.TEI-P5.xml/schoenberg_berginformation_1693.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/johannes_zigeuner_1693.TEI-P5.xml/johannes_zigeuner_1693.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/loeber_heuschrecken_1693.TEI-P5.xml/loeber_heuschrecken_1693.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/weise_redner_1693.TEI-P5.xml/weise_redner_1693.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/witzendorff_policey_1693.TEI-P5.xml/witzendorff_policey_1693.TEI-P5.xml#1.xmi.gz

@@ -1,0 +1,2 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/zinzendorf_christlichelehre_1725.TEI-P5.xml/zinzendorf_christlichelehre_1725.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schmid_justitzrad_1725.TEI-P5.xml/schmid_justitzrad_1725.TEI-P5.xml#1.xmi.gz

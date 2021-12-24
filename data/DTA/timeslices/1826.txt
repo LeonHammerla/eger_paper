@@ -1,0 +1,10 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/platen_gabel_1826.TEI-P5.xml/platen_gabel_1826.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/heine_reisebilder01_1826.TEI-P5.xml/heine_reisebilder01_1826.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/thuenen_staat_1826.TEI-P5.xml/thuenen_staat_1826.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/fouque_frauen_1826.TEI-P5.xml/fouque_frauen_1826.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mueller_gesichtserscheinungen_1826.TEI-P5.xml/mueller_gesichtserscheinungen_1826.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gessert_schulzucht_1826.TEI-P5.xml/gessert_schulzucht_1826.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/novalis_christenheit_1826.TEI-P5.xml/novalis_christenheit_1826.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kerner_gedichte_1826.TEI-P5.xml/kerner_gedichte_1826.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hoelderlin_gedichte_1826.TEI-P5.xml/hoelderlin_gedichte_1826.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/eichendorff_taugenichts_1826.TEI-P5.xml/eichendorff_taugenichts_1826.TEI-P5.xml#1.xmi.gz

@@ -1,0 +1,10 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/savigny_system03_1840.TEI-P5.xml/savigny_system03_1840.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/arnimb_guenderode02_1840.TEI-P5.xml/arnimb_guenderode02_1840.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/savigny_system02_1840.TEI-P5.xml/savigny_system02_1840.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/liebig_agricultur_1840.TEI-P5.xml/liebig_agricultur_1840.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schwab_sagen03_1840.TEI-P5.xml/schwab_sagen03_1840.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hoffmann_unpolitische01_1840.TEI-P5.xml/hoffmann_unpolitische01_1840.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ranke_reformation03_1840.TEI-P5.xml/ranke_reformation03_1840.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/savigny_system01_1840.TEI-P5.xml/savigny_system01_1840.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gauss_lehrsaetze_1840.TEI-P5.xml/gauss_lehrsaetze_1840.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/arnimb_guenderode01_1840.TEI-P5.xml/arnimb_guenderode01_1840.TEI-P5.xml#1.xmi.gz

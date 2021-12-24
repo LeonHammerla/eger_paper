@@ -1,0 +1,4 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nathusius_kammerjungfer_1851.TEI-P5.xml/nathusius_kammerjungfer_1851.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/fontane_gedichte_1851.TEI-P5.xml/fontane_gedichte_1851.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/vischer_aesthetik0301_1851.TEI-P5.xml/vischer_aesthetik0301_1851.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/humboldt_grenzen_1851.TEI-P5.xml/humboldt_grenzen_1851.TEI-P5.xml#1.xmi.gz

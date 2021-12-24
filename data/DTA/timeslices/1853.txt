@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/stifter_steine02_1853.TEI-P5.xml/stifter_steine02_1853.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/pflueger_rueckenmark_1853.TEI-P5.xml/pflueger_rueckenmark_1853.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/stifter_steine01_1853.TEI-P5.xml/stifter_steine01_1853.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/brunn_griechen01_1853.TEI-P5.xml/brunn_griechen01_1853.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/rosenkranz_aesthetik_1853.TEI-P5.xml/rosenkranz_aesthetik_1853.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ludwig_erbfoerster_1853.TEI-P5.xml/ludwig_erbfoerster_1853.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/vischer_aesthetik030202_1853.TEI-P5.xml/vischer_aesthetik030202_1853.TEI-P5.xml#1.xmi.gz

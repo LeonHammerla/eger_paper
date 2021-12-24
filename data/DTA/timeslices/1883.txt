@@ -1,0 +1,8 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/fontane_wuthenow_1883.TEI-P5.xml/fontane_wuthenow_1883.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nietzsche_zarathustra02_1883.TEI-P5.xml/nietzsche_zarathustra02_1883.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/dilthey_geisteswissenschaften_1883.TEI-P5.xml/dilthey_geisteswissenschaften_1883.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/liliencron_adjutantenritte_1883.TEI-P5.xml/liliencron_adjutantenritte_1883.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nietzsche_zarathustra01_1883.TEI-P5.xml/nietzsche_zarathustra01_1883.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mach_mechanik_1883.TEI-P5.xml/mach_mechanik_1883.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/silberer_traber_1883.TEI-P5.xml/silberer_traber_1883.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/braun_vagabundenfrage_1883.TEI-P5.xml/braun_vagabundenfrage_1883.TEI-P5.xml#1.xmi.gz

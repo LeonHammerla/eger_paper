@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/eckermann_goethe02_1836.TEI-P5.xml/eckermann_goethe02_1836.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/littrow_weltsystem03_1836.TEI-P5.xml/littrow_weltsystem03_1836.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ranke_paepste02_1836.TEI-P5.xml/ranke_paepste02_1836.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/diesterweg_universitaeten_1836.TEI-P5.xml/diesterweg_universitaeten_1836.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/eckermann_goethe01_1836.TEI-P5.xml/eckermann_goethe01_1836.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/rueckert_brahmane01_1836.TEI-P5.xml/rueckert_brahmane01_1836.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ranke_paepste03_1836.TEI-P5.xml/ranke_paepste03_1836.TEI-P5.xml#1.xmi.gz

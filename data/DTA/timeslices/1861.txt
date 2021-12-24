@@ -1,0 +1,8 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/spielhagen_problematische04_1861.TEI-P5.xml/spielhagen_problematische04_1861.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/spielhagen_problematische01_1861.TEI-P5.xml/spielhagen_problematische01_1861.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/semmelweis_kindbettfieber_1861.TEI-P5.xml/semmelweis_kindbettfieber_1861.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/pocci_komoedienbuechlein02_1861.TEI-P5.xml/pocci_komoedienbuechlein02_1861.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/koelliker_entwicklungs_1861.TEI-P5.xml/koelliker_entwicklungs_1861.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/spielhagen_problematische03_1861.TEI-P5.xml/spielhagen_problematische03_1861.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/spielhagen_problematische02_1861.TEI-P5.xml/spielhagen_problematische02_1861.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/berlepsch_alpen_1861.TEI-P5.xml/berlepsch_alpen_1861.TEI-P5.xml#1.xmi.gz

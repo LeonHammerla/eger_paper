@@ -1,0 +1,4 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/stieve_hoffceremoniel_1715.TEI-P5.xml/stieve_hoffceremoniel_1715.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/muralt_lustgarte_1715.TEI-P5.xml/muralt_lustgarte_1715.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/marperger_handelsdiener_1715.TEI-P5.xml/marperger_handelsdiener_1715.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/doyle_fechtkunst_1715.TEI-P5.xml/doyle_fechtkunst_1715.TEI-P5.xml#1.xmi.gz

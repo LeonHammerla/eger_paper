@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kraepelin_arzneimittel_1892.TEI-P5.xml/kraepelin_arzneimittel_1892.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/frege_sinn_1892.TEI-P5.xml/frege_sinn_1892.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hauptmann_weber_1892.TEI-P5.xml/hauptmann_weber_1892.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/may_kurdistan_1892.TEI-P5.xml/may_kurdistan_1892.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/weismann_keimplasma_1892.TEI-P5.xml/weismann_keimplasma_1892.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hauptmann_bahnwaerter_1892.TEI-P5.xml/hauptmann_bahnwaerter_1892.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/george_algabal_1892.TEI-P5.xml/george_algabal_1892.TEI-P5.xml#1.xmi.gz

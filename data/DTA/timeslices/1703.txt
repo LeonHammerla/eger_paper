@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hoffmannswaldau_gedichte03_1703.TEI-P5.xml/hoffmannswaldau_gedichte03_1703.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bohse_helicon01_1703.TEI-P5.xml/bohse_helicon01_1703.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/szentivanyi_ketzereylehren_1703.TEI-P5.xml/szentivanyi_ketzereylehren_1703.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/behrens_hercynia_1703.TEI-P5.xml/behrens_hercynia_1703.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gruber_examen_1703.TEI-P5.xml/gruber_examen_1703.TEI-P5.xml#1.xmi.gz

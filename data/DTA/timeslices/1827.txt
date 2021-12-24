@@ -1,0 +1,9 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/rumohr_forschungen02_1827.TEI-P5.xml/rumohr_forschungen02_1827.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/heine_reisebilder02_1827.TEI-P5.xml/heine_reisebilder02_1827.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/rumohr_forschungen01beygabe_1827.TEI-P5.xml/rumohr_forschungen01beygabe_1827.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/heine_lieder_1827.TEI-P5.xml/heine_lieder_1827.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/rumohr_forschungen01_1827.TEI-P5.xml/rumohr_forschungen01_1827.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hauff_phantasien_1827.TEI-P5.xml/hauff_phantasien_1827.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ohm_galvanische_1827.TEI-P5.xml/ohm_galvanische_1827.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/thiers_david_1827.TEI-P5.xml/thiers_david_1827.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/clauren_liebe_1827.TEI-P5.xml/clauren_liebe_1827.TEI-P5.xml#1.xmi.gz

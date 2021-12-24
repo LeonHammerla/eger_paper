@@ -1,0 +1,2 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/humboldt_kosmos03_1850.TEI-P5.xml/humboldt_kosmos03_1850.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wagner_zukunft_1850.TEI-P5.xml/wagner_zukunft_1850.TEI-P5.xml#1.xmi.gz

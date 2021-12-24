@@ -1,0 +1,8 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lasswitz_atom01_1890.TEI-P5.xml/lasswitz_atom01_1890.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/holz_selicke_1890.TEI-P5.xml/holz_selicke_1890.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hobrecht_strassenbau_1890.TEI-P5.xml/hobrecht_strassenbau_1890.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lasswitz_seife_1890.TEI-P5.xml/lasswitz_seife_1890.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/simmel_differenzierung_1890.TEI-P5.xml/simmel_differenzierung_1890.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/altmann_elementarorganismen_1890.TEI-P5.xml/altmann_elementarorganismen_1890.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/drude_pflanzengeographie_1890.TEI-P5.xml/drude_pflanzengeographie_1890.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/boeheim_waffenkunde_1890.TEI-P5.xml/boeheim_waffenkunde_1890.TEI-P5.xml#1.xmi.gz

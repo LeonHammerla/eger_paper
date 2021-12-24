@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/scriver_schaefflein_1672.TEI-P5.xml/scriver_schaefflein_1672.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/weise_ertznarren_1672.TEI-P5.xml/weise_ertznarren_1672.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/weigel_wasserkunst_1672.TEI-P5.xml/weigel_wasserkunst_1672.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ercker_aula01_1672.TEI-P5.xml/ercker_aula01_1672.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ercker_aula02_1672.TEI-P5.xml/ercker_aula02_1672.TEI-P5.xml#1.xmi.gz

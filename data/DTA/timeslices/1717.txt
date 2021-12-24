@@ -1,0 +1,2 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/marperger_banqven_1717.TEI-P5.xml/marperger_banqven_1717.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/seip_gesundbrunnen_1717.TEI-P5.xml/seip_gesundbrunnen_1717.TEI-P5.xml#1.xmi.gz

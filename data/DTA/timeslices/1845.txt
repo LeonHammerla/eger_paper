@@ -1,0 +1,4 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/humboldt_kosmos01_1845.TEI-P5.xml/humboldt_kosmos01_1845.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/stirner_einzige_1845.TEI-P5.xml/stirner_einzige_1845.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/griesinger_psychische_1845.TEI-P5.xml/griesinger_psychische_1845.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/dahlmann_geschichte_1845.TEI-P5.xml/dahlmann_geschichte_1845.TEI-P5.xml#1.xmi.gz

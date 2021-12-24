@@ -1,0 +1,4 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/buechner_werke_1879.TEI-P5.xml/buechner_werke_1879.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/zoeckler_lehre_1879.TEI-P5.xml/zoeckler_lehre_1879.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/vischer_auch01_1879.TEI-P5.xml/vischer_auch01_1879.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/vischer_auch02_1879.TEI-P5.xml/vischer_auch02_1879.TEI-P5.xml#1.xmi.gz

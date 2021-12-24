@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/sander_beschreibung02_1784.TEI-P5.xml/sander_beschreibung02_1784.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/luz_blitz_1784.TEI-P5.xml/luz_blitz_1784.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/knueppeln_rechte_1784.TEI-P5.xml/knueppeln_rechte_1784.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/herder_geschichte01_1784.TEI-P5.xml/herder_geschichte01_1784.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schiller_kabale_1784.TEI-P5.xml/schiller_kabale_1784.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kant_aufklaerung_1784.TEI-P5.xml/kant_aufklaerung_1784.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bruce_reisen_1784.TEI-P5.xml/bruce_reisen_1784.TEI-P5.xml#1.xmi.gz

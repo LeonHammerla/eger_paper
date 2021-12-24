@@ -1,0 +1,2 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/valentinus_natuerlichedinge_1603.TEI-P5.xml/valentinus_natuerlichedinge_1603.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/rollenhagen_reysen_1603.TEI-P5.xml/rollenhagen_reysen_1603.TEI-P5.xml#1.xmi.gz

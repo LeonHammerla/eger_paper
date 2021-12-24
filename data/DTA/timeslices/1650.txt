@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/glauber_furni06_1650.TEI-P5.xml/glauber_furni06_1650.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/august_gesindlein_1650.TEI-P5.xml/august_gesindlein_1650.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schirmer_rosengepuesche_1650.TEI-P5.xml/schirmer_rosengepuesche_1650.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wartmann_germania01_1650.TEI-P5.xml/wartmann_germania01_1650.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/harsdoerffer_trichter01_1650.TEI-P5.xml/harsdoerffer_trichter01_1650.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wartmann_germania0203_1650.TEI-P5.xml/wartmann_germania0203_1650.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gryphius_leoarmenius_1650.TEI-P5.xml/gryphius_leoarmenius_1650.TEI-P5.xml#1.xmi.gz

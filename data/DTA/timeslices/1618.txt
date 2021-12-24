@@ -1,0 +1,2 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/weigel_gnothi02_1618.TEI-P5.xml/weigel_gnothi02_1618.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/weckherlin_oden01_1618.TEI-P5.xml/weckherlin_oden01_1618.TEI-P5.xml#1.xmi.gz

@@ -1,0 +1,9 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nathusius_leporiden_1876.TEI-P5.xml/nathusius_leporiden_1876.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/leskien_declination_1876.TEI-P5.xml/leskien_declination_1876.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/meyer_jenatsch_1876.TEI-P5.xml/meyer_jenatsch_1876.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/roepell_polen_1876.TEI-P5.xml/roepell_polen_1876.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/berg_ostasienzoologie01_1876.TEI-P5.xml/berg_ostasienzoologie01_1876.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/krafft_landwirthschaft02_1876.TEI-P5.xml/krafft_landwirthschaft02_1876.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/haeckel_plastidule_1876.TEI-P5.xml/haeckel_plastidule_1876.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/darwin_pflanzen_1876.TEI-P5.xml/darwin_pflanzen_1876.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/krafft_landwirthschaft03_1876.TEI-P5.xml/krafft_landwirthschaft03_1876.TEI-P5.xml#1.xmi.gz

@@ -1,0 +1,4 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/arnima_invalide_1818.TEI-P5.xml/arnima_invalide_1818.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mayer_analysis01_1818.TEI-P5.xml/mayer_analysis01_1818.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mayer_analysis02_1818.TEI-P5.xml/mayer_analysis02_1818.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/treviranus_biologie05_1818.TEI-P5.xml/treviranus_biologie05_1818.TEI-P5.xml#1.xmi.gz

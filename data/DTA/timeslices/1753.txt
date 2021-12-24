@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/reichart_landschatz01_1753.TEI-P5.xml/reichart_landschatz01_1753.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/reichart_landschatz02_1753.TEI-P5.xml/reichart_landschatz02_1753.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/friedrich_publicum01_1753.TEI-P5.xml/friedrich_publicum01_1753.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/friedrich_publicum03_1753.TEI-P5.xml/friedrich_publicum03_1753.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/reichart_landschatz04_1753.TEI-P5.xml/reichart_landschatz04_1753.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/richardson_clarissa08_1753.TEI-P5.xml/richardson_clarissa08_1753.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/reichart_landschatz03_1753.TEI-P5.xml/reichart_landschatz03_1753.TEI-P5.xml#1.xmi.gz

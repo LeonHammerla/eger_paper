@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/pueckler_briefe03_1831.TEI-P5.xml/pueckler_briefe03_1831.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/brandes_naturlehre02_1831.TEI-P5.xml/brandes_naturlehre02_1831.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/pueckler_briefe04_1831.TEI-P5.xml/pueckler_briefe04_1831.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/grabbe_napoleon_1831.TEI-P5.xml/grabbe_napoleon_1831.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/rumohr_forschungen03_1831.TEI-P5.xml/rumohr_forschungen03_1831.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/heine_reisebilder04_1831.TEI-P5.xml/heine_reisebilder04_1831.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gauss_theoria_1831.TEI-P5.xml/gauss_theoria_1831.TEI-P5.xml#1.xmi.gz

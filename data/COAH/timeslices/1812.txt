@@ -1,0 +1,6 @@
+/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1810s_kso/fic_1812_8652.txt.xmi.gz
+/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1810s_kso/fic_1812_8872.txt.xmi.gz
+/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1810s_kso/fic_1812_8551.txt.xmi.gz
+/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1810s_kso/fic_1812_8649.txt.xmi.gz
+/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1810s_kso/fic_1812_8873.txt.xmi.gz
+/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1810s_kso/fic_1812_8987.txt.xmi.gz

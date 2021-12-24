@@ -1,0 +1,9 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/fessler_eleusinien02_1803.TEI-P5.xml/fessler_eleusinien02_1803.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/seume_syrakus_1803.TEI-P5.xml/seume_syrakus_1803.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hebel_gedichte_1803.TEI-P5.xml/hebel_gedichte_1803.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/paul_titan04_1803.TEI-P5.xml/paul_titan04_1803.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/treviranus_biologie02_1803.TEI-P5.xml/treviranus_biologie02_1803.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/raabe_postgeheimnisse_1803.TEI-P5.xml/raabe_postgeheimnisse_1803.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schelling_methode_1803.TEI-P5.xml/schelling_methode_1803.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/reil_curmethode_1803.TEI-P5.xml/reil_curmethode_1803.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kotzebue_kleinstaedter_1803.TEI-P5.xml/kotzebue_kleinstaedter_1803.TEI-P5.xml#1.xmi.gz

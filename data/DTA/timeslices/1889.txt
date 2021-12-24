@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lilienthal_vogelflug_1889.TEI-P5.xml/lilienthal_vogelflug_1889.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/raabe_odfeld_1889.TEI-P5.xml/raabe_odfeld_1889.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hauptmann_sonnenaufgang_1889.TEI-P5.xml/hauptmann_sonnenaufgang_1889.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/holz_hamlet_1889.TEI-P5.xml/holz_hamlet_1889.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/sanders_woerterbuchschreiber_1889.TEI-P5.xml/sanders_woerterbuchschreiber_1889.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/conradi_adam_1889.TEI-P5.xml/conradi_adam_1889.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wilamowitz_tragoedie_1889.TEI-P5.xml/wilamowitz_tragoedie_1889.TEI-P5.xml#1.xmi.gz

@@ -1,0 +1,10 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/daguerre_daguerrereotyp_1839.TEI-P5.xml/daguerre_daguerrereotyp_1839.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ranke_reformation01_1839.TEI-P5.xml/ranke_reformation01_1839.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/immermann_muenchhausen02_1839.TEI-P5.xml/immermann_muenchhausen02_1839.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/immermann_muenchhausen03_1839.TEI-P5.xml/immermann_muenchhausen03_1839.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/immermann_muenchhausen04_1839.TEI-P5.xml/immermann_muenchhausen04_1839.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schwab_sagen02_1839.TEI-P5.xml/schwab_sagen02_1839.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schwann_mikroskopische_1839.TEI-P5.xml/schwann_mikroskopische_1839.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/rueckert_brahmane05_1839.TEI-P5.xml/rueckert_brahmane05_1839.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ranke_reformation02_1839.TEI-P5.xml/ranke_reformation02_1839.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/rueckert_brahmane06_1839.TEI-P5.xml/rueckert_brahmane06_1839.TEI-P5.xml#1.xmi.gz

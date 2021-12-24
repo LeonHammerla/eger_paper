@@ -1,0 +1,4 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/raabe_stopfkuchen_1891.TEI-P5.xml/raabe_stopfkuchen_1891.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/frapan_bittersuess_1891.TEI-P5.xml/frapan_bittersuess_1891.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nietzsche_zarathustra04_1891.TEI-P5.xml/nietzsche_zarathustra04_1891.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wedekind_erwachen_1891.TEI-P5.xml/wedekind_erwachen_1891.TEI-P5.xml#1.xmi.gz

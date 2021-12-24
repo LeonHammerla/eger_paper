@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nimwegen_friede_1679.TEI-P5.xml/nimwegen_friede_1679.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hofmannswaldau_uebersetzungen_1679.TEI-P5.xml/hofmannswaldau_uebersetzungen_1679.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kunckel_glasmacher_1679.TEI-P5.xml/kunckel_glasmacher_1679.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/weise_machiavellus_1679.TEI-P5.xml/weise_machiavellus_1679.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/seyfried_medulla_1679.TEI-P5.xml/seyfried_medulla_1679.TEI-P5.xml#1.xmi.gz

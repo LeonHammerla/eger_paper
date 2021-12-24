@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/natorp_sozialpaedagogik_1899.TEI-P5.xml/natorp_sozialpaedagogik_1899.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/holz_phantasus02_1899.TEI-P5.xml/holz_phantasus02_1899.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hauptmann_henschel_1899.TEI-P5.xml/hauptmann_henschel_1899.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/chamberlain_grundlagen02_1899.TEI-P5.xml/chamberlain_grundlagen02_1899.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/fontane_stechlin_1899.TEI-P5.xml/fontane_stechlin_1899.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/haeckel_weltraethsel_1899.TEI-P5.xml/haeckel_weltraethsel_1899.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/chamberlain_grundlagen01_1899.TEI-P5.xml/chamberlain_grundlagen01_1899.TEI-P5.xml#1.xmi.gz

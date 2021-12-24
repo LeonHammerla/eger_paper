@@ -1,0 +1,6 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lassalle_steuer_1863.TEI-P5.xml/lassalle_steuer_1863.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/siebold_suesswasserfische_1863.TEI-P5.xml/siebold_suesswasserfische_1863.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/rossmaessler_wald_1863.TEI-P5.xml/rossmaessler_wald_1863.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schleicher_darwin_1863.TEI-P5.xml/schleicher_darwin_1863.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schleiden_menschengeschlecht_1863.TEI-P5.xml/schleiden_menschengeschlecht_1863.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/fontane_brandenburg02_1863.TEI-P5.xml/fontane_brandenburg02_1863.TEI-P5.xml#1.xmi.gz

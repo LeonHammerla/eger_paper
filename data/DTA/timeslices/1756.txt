@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lehmann_versuch_1756.TEI-P5.xml/lehmann_versuch_1756.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nn_lissabon2_1756.TEI-P5.xml/nn_lissabon2_1756.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/klopstock_messias02_1756.TEI-P5.xml/klopstock_messias02_1756.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/darjes_cameralwissenschaften_1756.TEI-P5.xml/darjes_cameralwissenschaften_1756.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gessner_idyllen_1756.TEI-P5.xml/gessner_idyllen_1756.TEI-P5.xml#1.xmi.gz

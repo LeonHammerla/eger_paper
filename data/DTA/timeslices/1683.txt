@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wuerttemberg_verordnung_1683.TEI-P5.xml/wuerttemberg_verordnung_1683.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/becher_psychosophia_1683.TEI-P5.xml/becher_psychosophia_1683.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/rudolstadt_weiber_1683.TEI-P5.xml/rudolstadt_weiber_1683.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/weise_theatrum_1683.TEI-P5.xml/weise_theatrum_1683.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/buchner_theoria02_1683.TEI-P5.xml/buchner_theoria02_1683.TEI-P5.xml#1.xmi.gz

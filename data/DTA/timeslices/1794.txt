@@ -1,0 +1,9 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/storch_petersburg01_1794.TEI-P5.xml/storch_petersburg01_1794.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/herder_humanitaet04_1794.TEI-P5.xml/herder_humanitaet04_1794.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/fichte_wissenschaftslehre_1794.TEI-P5.xml/fichte_wissenschaftslehre_1794.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hoche_lesesucht_1794.TEI-P5.xml/hoche_lesesucht_1794.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/storch_petersburg02_1794.TEI-P5.xml/storch_petersburg02_1794.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/forster_niederrhein03_1794.TEI-P5.xml/forster_niederrhein03_1794.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/thunberg_reisen02_1794.TEI-P5.xml/thunberg_reisen02_1794.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/goethe_reineke_1794.TEI-P5.xml/goethe_reineke_1794.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/herder_humanitaet03_1794.TEI-P5.xml/herder_humanitaet03_1794.TEI-P5.xml#1.xmi.gz

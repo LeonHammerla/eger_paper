@@ -1,0 +1,2 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/robert_sylphen_1806.TEI-P5.xml/robert_sylphen_1806.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/arnim_wunderhorn01_1806.TEI-P5.xml/arnim_wunderhorn01_1806.TEI-P5.xml#1.xmi.gz

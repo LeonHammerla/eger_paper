@@ -1,0 +1,10 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/sander_beschreibung01_1783.TEI-P5.xml/sander_beschreibung01_1783.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/campe_theophron02_1783.TEI-P5.xml/campe_theophron02_1783.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/pestalozzi_lienhard02_1783.TEI-P5.xml/pestalozzi_lienhard02_1783.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mendelssohn_jerusalem_1783.TEI-P5.xml/mendelssohn_jerusalem_1783.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/dohm_juden02_1783.TEI-P5.xml/dohm_juden02_1783.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/goetze_zeitvertreib01_1783.TEI-P5.xml/goetze_zeitvertreib01_1783.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hoelty_gedichte_1783.TEI-P5.xml/hoelty_gedichte_1783.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/campe_theophron01_1783.TEI-P5.xml/campe_theophron01_1783.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/goetze_zeitvertreib02_1783.TEI-P5.xml/goetze_zeitvertreib02_1783.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/staehlein_schneidergesell_1783.TEI-P5.xml/staehlein_schneidergesell_1783.TEI-P5.xml#1.xmi.gz

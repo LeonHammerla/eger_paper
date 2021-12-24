@@ -1,0 +1,9 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wieland_oberon_1780.TEI-P5.xml/wieland_oberon_1780.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/forster_reise02_1780.TEI-P5.xml/forster_reise02_1780.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/naumann_rossarzt_1780.TEI-P5.xml/naumann_rossarzt_1780.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lessing_menschengeschlecht_1780.TEI-P5.xml/lessing_menschengeschlecht_1780.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hirschfeld_gartenkunst3_1780.TEI-P5.xml/hirschfeld_gartenkunst3_1780.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hirschfeld_gartenkunst2_1780.TEI-P5.xml/hirschfeld_gartenkunst2_1780.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/friedrich_literatur_1780.TEI-P5.xml/friedrich_literatur_1780.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/sulzer_reise_1780.TEI-P5.xml/sulzer_reise_1780.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/campe_robinson02_1780.TEI-P5.xml/campe_robinson02_1780.TEI-P5.xml#1.xmi.gz

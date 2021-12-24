@@ -1,0 +1,8 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bastian_voelkergedanke_1881.TEI-P5.xml/bastian_voelkergedanke_1881.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/liszt_reichsstrafrecht_1881.TEI-P5.xml/liszt_reichsstrafrecht_1881.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/robert_griechische_1881.TEI-P5.xml/robert_griechische_1881.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mayer_kapitalismus_1881.TEI-P5.xml/mayer_kapitalismus_1881.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/rein_japan01_1881.TEI-P5.xml/rein_japan01_1881.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/roux_kampf_1881.TEI-P5.xml/roux_kampf_1881.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gabelentz_ostasiatische_1881.TEI-P5.xml/gabelentz_ostasiatische_1881.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/siemens_abhandlungen_1881.TEI-P5.xml/siemens_abhandlungen_1881.TEI-P5.xml#1.xmi.gz

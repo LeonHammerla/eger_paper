@@ -1,0 +1,4 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schiller_stuart_1801.TEI-P5.xml/schiller_stuart_1801.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/feuerbach_recht_1801.TEI-P5.xml/feuerbach_recht_1801.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/paul_titan02_1801.TEI-P5.xml/paul_titan02_1801.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/veitschlegel_florentin_1801.TEI-P5.xml/veitschlegel_florentin_1801.TEI-P5.xml#1.xmi.gz

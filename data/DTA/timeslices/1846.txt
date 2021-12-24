@@ -1,0 +1,9 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schoppe_prophet03_1846.TEI-P5.xml/schoppe_prophet03_1846.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/freiligrath_caira_1846.TEI-P5.xml/freiligrath_caira_1846.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/dronke_polizeigeschichten_1846.TEI-P5.xml/dronke_polizeigeschichten_1846.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/carus_psyche_1846.TEI-P5.xml/carus_psyche_1846.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schoppe_prophet02_1846.TEI-P5.xml/schoppe_prophet02_1846.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/laube_bernsteinhexe_1846.TEI-P5.xml/laube_bernsteinhexe_1846.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schoppe_prophet01_1846.TEI-P5.xml/schoppe_prophet01_1846.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wiegmann_perspektive_1846.TEI-P5.xml/wiegmann_perspektive_1846.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/vischer_aesthetik01_1846.TEI-P5.xml/vischer_aesthetik01_1846.TEI-P5.xml#1.xmi.gz

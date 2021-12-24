@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/waiblinger_phaeton02_1823.TEI-P5.xml/waiblinger_phaeton02_1823.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/scheffner_leben_1823.TEI-P5.xml/scheffner_leben_1823.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nettelbeck_lebensbeschreibung03_1823.TEI-P5.xml/nettelbeck_lebensbeschreibung03_1823.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/waiblinger_phaeton01_1823.TEI-P5.xml/waiblinger_phaeton01_1823.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hundtradowsky_judenschule03_1823.TEI-P5.xml/hundtradowsky_judenschule03_1823.TEI-P5.xml#1.xmi.gz

@@ -1,0 +1,9 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/heine_wintermaehrchen_1844.TEI-P5.xml/heine_wintermaehrchen_1844.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lesser_boerse_1844.TEI-P5.xml/lesser_boerse_1844.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nn_turnkunst02_1844.TEI-P5.xml/nn_turnkunst02_1844.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/heffter_voelkerrecht_1844.TEI-P5.xml/heffter_voelkerrecht_1844.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/stock_gesellenwesen_1844.TEI-P5.xml/stock_gesellenwesen_1844.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hebbel_magdalene_1844.TEI-P5.xml/hebbel_magdalene_1844.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/grassmann_ausdehnungslehre_1844.TEI-P5.xml/grassmann_ausdehnungslehre_1844.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/droste_gedichte_1844.TEI-P5.xml/droste_gedichte_1844.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nestroy_jux_1844.TEI-P5.xml/nestroy_jux_1844.TEI-P5.xml#1.xmi.gz

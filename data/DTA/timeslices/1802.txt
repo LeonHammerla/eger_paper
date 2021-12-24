@@ -1,0 +1,9 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kosegarten_poesieen03_1802.TEI-P5.xml/kosegarten_poesieen03_1802.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/chladni_akustik_1802.TEI-P5.xml/chladni_akustik_1802.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/laukhard_leben05_1802.TEI-P5.xml/laukhard_leben05_1802.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/paul_titan03_1802.TEI-P5.xml/paul_titan03_1802.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/fessler_eleusinien01_1802.TEI-P5.xml/fessler_eleusinien01_1802.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/treviranus_biologie01_1802.TEI-P5.xml/treviranus_biologie01_1802.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/novalis_ofterdingen_1802.TEI-P5.xml/novalis_ofterdingen_1802.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/fischer_maehrchen_1802.TEI-P5.xml/fischer_maehrchen_1802.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schelle_spatziergaenge_1802.TEI-P5.xml/schelle_spatziergaenge_1802.TEI-P5.xml#1.xmi.gz

@@ -1,0 +1,2 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schnabel_fata02_1737.TEI-P5.xml/schnabel_fata02_1737.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/modestinus_unterredungen_1737.TEI-P5.xml/modestinus_unterredungen_1737.TEI-P5.xml#1.xmi.gz

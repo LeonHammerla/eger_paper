@@ -1,0 +1,8 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/daumer_krone_1859.TEI-P5.xml/daumer_krone_1859.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/humboldt_aequinoktial03_1859.TEI-P5.xml/humboldt_aequinoktial03_1859.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mohl_staatswissenschaften_1859.TEI-P5.xml/mohl_staatswissenschaften_1859.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schelling_kunst_1859.TEI-P5.xml/schelling_kunst_1859.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/humboldt_aequinoktial02_1859.TEI-P5.xml/humboldt_aequinoktial02_1859.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/humboldt_aequinoktial04_1859.TEI-P5.xml/humboldt_aequinoktial04_1859.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/pocci_komoedienbuechlein01_1859.TEI-P5.xml/pocci_komoedienbuechlein01_1859.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/humboldt_aequinoktial01_1859.TEI-P5.xml/humboldt_aequinoktial01_1859.TEI-P5.xml#1.xmi.gz

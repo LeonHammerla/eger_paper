@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/goethe_faust01_1808.TEI-P5.xml/goethe_faust01_1808.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schubert_naturwissenschaft_1808.TEI-P5.xml/schubert_naturwissenschaft_1808.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/arnim_wunderhorn03_1808.TEI-P5.xml/arnim_wunderhorn03_1808.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schlegel_indier_1808.TEI-P5.xml/schlegel_indier_1808.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/arnim_wunderhorn02_1808.TEI-P5.xml/arnim_wunderhorn02_1808.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/niethammer_philantropinismus_1808.TEI-P5.xml/niethammer_philantropinismus_1808.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/fichte_reden_1808.TEI-P5.xml/fichte_reden_1808.TEI-P5.xml#1.xmi.gz

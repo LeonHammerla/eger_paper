@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/stifter_nachsommer02_1857.TEI-P5.xml/stifter_nachsommer02_1857.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/stifter_nachsommer03_1857.TEI-P5.xml/stifter_nachsommer03_1857.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/stifter_nachsommer01_1857.TEI-P5.xml/stifter_nachsommer01_1857.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/rossmaessler_suesswasseraquarium_1857.TEI-P5.xml/rossmaessler_suesswasseraquarium_1857.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/vischer_aesthetik030204_1857.TEI-P5.xml/vischer_aesthetik030204_1857.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/raabe_sperlingsgasse_1857.TEI-P5.xml/raabe_sperlingsgasse_1857.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/vischer_aesthetik030205_1857.TEI-P5.xml/vischer_aesthetik030205_1857.TEI-P5.xml#1.xmi.gz

@@ -1,0 +1,8 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bachstrom_schwimmen_1742.TEI-P5.xml/bachstrom_schwimmen_1742.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/sulzer_reise_1742.TEI-P5.xml/sulzer_reise_1742.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bodmer_sammlung06_1742.TEI-P5.xml/bodmer_sammlung06_1742.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bodmer_sammlung05_1742.TEI-P5.xml/bodmer_sammlung05_1742.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bodmer_sammlung03_1742.TEI-P5.xml/bodmer_sammlung03_1742.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bodmer_sammlung04_1742.TEI-P5.xml/bodmer_sammlung04_1742.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/rost_schaefererzaelungen_1742.TEI-P5.xml/rost_schaefererzaelungen_1742.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hagedorn_sammlung01_1742.TEI-P5.xml/hagedorn_sammlung01_1742.TEI-P5.xml#1.xmi.gz

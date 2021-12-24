@@ -1,0 +1,11 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/stolbergstolberg_gedichte_1779.TEI-P5.xml/stolbergstolberg_gedichte_1779.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kaempfer_japan02_1779.TEI-P5.xml/kaempfer_japan02_1779.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/garve_sammlung_1779.TEI-P5.xml/garve_sammlung_1779.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hippel_lebenslaeufe02_1779.TEI-P5.xml/hippel_lebenslaeufe02_1779.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/musaeus_reisen04_1779.TEI-P5.xml/musaeus_reisen04_1779.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/musaeus_reisen01_1779.TEI-P5.xml/musaeus_reisen01_1779.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hirschfeld_gartenkunst1_1779.TEI-P5.xml/hirschfeld_gartenkunst1_1779.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/campe_robinson01_1779.TEI-P5.xml/campe_robinson01_1779.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lessing_nathan_1779.TEI-P5.xml/lessing_nathan_1779.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/jungstilling_versuch_1779.TEI-P5.xml/jungstilling_versuch_1779.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/musaeus_reisen03_1779.TEI-P5.xml/musaeus_reisen03_1779.TEI-P5.xml#1.xmi.gz

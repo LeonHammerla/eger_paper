@@ -1,0 +1,9 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/zschokke_geister_1789.TEI-P5.xml/zschokke_geister_1789.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gerstner_baukunst_1789.TEI-P5.xml/gerstner_baukunst_1789.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gotter_erbschleicher_1789.TEI-P5.xml/gotter_erbschleicher_1789.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gleditsch_abhandlungen02_1789.TEI-P5.xml/gleditsch_abhandlungen02_1789.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gleditsch_abhandlungen01_1789.TEI-P5.xml/gleditsch_abhandlungen01_1789.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schiller_universalgeschichte_1789.TEI-P5.xml/schiller_universalgeschichte_1789.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/braeker_lebensgeschichte_1789.TEI-P5.xml/braeker_lebensgeschichte_1789.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gleditsch_abhandlungen03_1789.TEI-P5.xml/gleditsch_abhandlungen03_1789.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schiller_geisterseher_1789.TEI-P5.xml/schiller_geisterseher_1789.TEI-P5.xml#1.xmi.gz

@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/krafft_landwirthschaft01_1875.TEI-P5.xml/krafft_landwirthschaft01_1875.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/pocci_komoedienbuechlein05_1875.TEI-P5.xml/pocci_komoedienbuechlein05_1875.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/curtius_alterthum01_1875.TEI-P5.xml/curtius_alterthum01_1875.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/rosegger_waldschulmeister_1875.TEI-P5.xml/rosegger_waldschulmeister_1875.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bluntschli_staatslehre_1875.TEI-P5.xml/bluntschli_staatslehre_1875.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/sachs_botanik_1875.TEI-P5.xml/sachs_botanik_1875.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mohr_fachwerk02_1875.TEI-P5.xml/mohr_fachwerk02_1875.TEI-P5.xml#1.xmi.gz

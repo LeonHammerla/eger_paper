@@ -1,0 +1,4 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lessing_fabeln_1759.TEI-P5.xml/lessing_fabeln_1759.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bach_versuch01_1759.TEI-P5.xml/bach_versuch01_1759.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hamann_denkwuerdigkeiten_1759.TEI-P5.xml/hamann_denkwuerdigkeiten_1759.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/meyer_wiedergebohrne_1759.TEI-P5.xml/meyer_wiedergebohrne_1759.TEI-P5.xml#1.xmi.gz

@@ -1,0 +1,2 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nn_cartel_1678.TEI-P5.xml/nn_cartel_1678.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/dannhauer_catechismus11_1678.TEI-P5.xml/dannhauer_catechismus11_1678.TEI-P5.xml#1.xmi.gz

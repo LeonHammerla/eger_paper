@@ -1,0 +1,2 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/zesen_rosemund_1645.TEI-P5.xml/zesen_rosemund_1645.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/klaj_lobrede_1645.TEI-P5.xml/klaj_lobrede_1645.TEI-P5.xml#1.xmi.gz

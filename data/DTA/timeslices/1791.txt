@@ -1,0 +1,10 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gall_untersuchungen_1791.TEI-P5.xml/gall_untersuchungen_1791.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/forster_niederrhein02_1791.TEI-P5.xml/forster_niederrhein02_1791.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schaumann_psyche02_1791.TEI-P5.xml/schaumann_psyche02_1791.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/glueck_pandecten02_1791.TEI-P5.xml/glueck_pandecten02_1791.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kempelen_maschine_1791.TEI-P5.xml/kempelen_maschine_1791.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/forster_niederrhein01_1791.TEI-P5.xml/forster_niederrhein01_1791.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schaumann_psyche01_1791.TEI-P5.xml/schaumann_psyche01_1791.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/moritz_goetterlehre_1791.TEI-P5.xml/moritz_goetterlehre_1791.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/sailer_prediger_1791.TEI-P5.xml/sailer_prediger_1791.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/klinger_faust_1791.TEI-P5.xml/klinger_faust_1791.TEI-P5.xml#1.xmi.gz

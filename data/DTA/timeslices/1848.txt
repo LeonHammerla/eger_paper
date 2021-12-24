@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/savigny_system07_1848.TEI-P5.xml/savigny_system07_1848.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/eckermann_goethe03_1848.TEI-P5.xml/eckermann_goethe03_1848.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schleiden_pflanze_1848.TEI-P5.xml/schleiden_pflanze_1848.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/vischer_aesthetik0202_1848.TEI-P5.xml/vischer_aesthetik0202_1848.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nn_jaeger_1848.TEI-P5.xml/nn_jaeger_1848.TEI-P5.xml#1.xmi.gz

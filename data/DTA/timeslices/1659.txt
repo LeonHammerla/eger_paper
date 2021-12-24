@@ -1,0 +1,4 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/zeiller_centuria03_1659.TEI-P5.xml/zeiller_centuria03_1659.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/zeiller_centuria02_1659.TEI-P5.xml/zeiller_centuria02_1659.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gryphius_rechtsgelehrter_1659.TEI-P5.xml/gryphius_rechtsgelehrter_1659.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lavater_kriegsbuechlein_1659.TEI-P5.xml/lavater_kriegsbuechlein_1659.TEI-P5.xml#1.xmi.gz

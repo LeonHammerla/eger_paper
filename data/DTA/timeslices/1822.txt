@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hoffmann_floh_1822.TEI-P5.xml/hoffmann_floh_1822.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schopenhauer_eyck01_1822.TEI-P5.xml/schopenhauer_eyck01_1822.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kleist_fehrbellin_1822.TEI-P5.xml/kleist_fehrbellin_1822.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/treviranus_biologie06_1822.TEI-P5.xml/treviranus_biologie06_1822.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schopenhauer_eyck02_1822.TEI-P5.xml/schopenhauer_eyck02_1822.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hundtradowsky_judenschule01_1822.TEI-P5.xml/hundtradowsky_judenschule01_1822.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hundtradowsky_judenschule02_1822.TEI-P5.xml/hundtradowsky_judenschule02_1822.TEI-P5.xml#1.xmi.gz

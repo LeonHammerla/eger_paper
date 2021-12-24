@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/micraelius_pommernland01_1639.TEI-P5.xml/micraelius_pommernland01_1639.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/micraelius_pommernland02_1639.TEI-P5.xml/micraelius_pommernland02_1639.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/micraelius_pommernland03_1639.TEI-P5.xml/micraelius_pommernland03_1639.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/micraelius_pommernland05_1639.TEI-P5.xml/micraelius_pommernland05_1639.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/micraelius_pommernland07_1639.TEI-P5.xml/micraelius_pommernland07_1639.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/micraelius_pommernland06_1639.TEI-P5.xml/micraelius_pommernland06_1639.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/micraelius_pommernland04_1639.TEI-P5.xml/micraelius_pommernland04_1639.TEI-P5.xml#1.xmi.gz

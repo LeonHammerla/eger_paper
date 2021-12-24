@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kepler_messekunst_1616.TEI-P5.xml/kepler_messekunst_1616.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/oa_vierlinge_1616.TEI-P5.xml/oa_vierlinge_1616.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/valentin_hochzeit_1616.TEI-P5.xml/valentin_hochzeit_1616.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/thumbshirn_oeconomia_1616.TEI-P5.xml/thumbshirn_oeconomia_1616.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/jungelius_maulwurff_1616.TEI-P5.xml/jungelius_maulwurff_1616.TEI-P5.xml#1.xmi.gz

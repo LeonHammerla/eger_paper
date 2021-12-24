@@ -1,0 +1,6 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nettelbeck_lebensbeschreibung01_1821.TEI-P5.xml/nettelbeck_lebensbeschreibung01_1821.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nettelbeck_lebensbeschreibung02_1821.TEI-P5.xml/nettelbeck_lebensbeschreibung02_1821.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/klueber_voelkerrecht02_1821.TEI-P5.xml/klueber_voelkerrecht02_1821.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mueller_waldhornist_1821.TEI-P5.xml/mueller_waldhornist_1821.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/klueber_voelkerrecht01_1821.TEI-P5.xml/klueber_voelkerrecht01_1821.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schmidlin_kinderindustrie_1821.TEI-P5.xml/schmidlin_kinderindustrie_1821.TEI-P5.xml#1.xmi.gz

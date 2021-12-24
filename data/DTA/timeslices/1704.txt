@@ -1,0 +1,2 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/maennling_helicon_1704.TEI-P5.xml/maennling_helicon_1704.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/abschatz_gedichte_1704.TEI-P5.xml/abschatz_gedichte_1704.TEI-P5.xml#1.xmi.gz

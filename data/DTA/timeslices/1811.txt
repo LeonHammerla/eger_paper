@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kleist_krug_1811.TEI-P5.xml/kleist_krug_1811.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/goethe_leben01_1811.TEI-P5.xml/goethe_leben01_1811.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/soemmerring_telegraphen_1811.TEI-P5.xml/soemmerring_telegraphen_1811.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/huber_reisejournal_1811.TEI-P5.xml/huber_reisejournal_1811.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/grimm_meistergesang_1811.TEI-P5.xml/grimm_meistergesang_1811.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/niebuhr_roemische01_1811.TEI-P5.xml/niebuhr_roemische01_1811.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/fouque_undine_1811.TEI-P5.xml/fouque_undine_1811.TEI-P5.xml#1.xmi.gz

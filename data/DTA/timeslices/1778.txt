@@ -1,0 +1,8 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/musaeus_reisen02_1778.TEI-P5.xml/musaeus_reisen02_1778.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/herder_plastik_1778.TEI-P5.xml/herder_plastik_1778.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/moeser_phantasien03_1778.TEI-P5.xml/moeser_phantasien03_1778.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/buerger_gedichte_1778.TEI-P5.xml/buerger_gedichte_1778.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lavater_fragmente04_1778.TEI-P5.xml/lavater_fragmente04_1778.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/forster_reise01_1778.TEI-P5.xml/forster_reise01_1778.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/moser_grundlehren_1778.TEI-P5.xml/moser_grundlehren_1778.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hippel_lebenslaeufe01_1778.TEI-P5.xml/hippel_lebenslaeufe01_1778.TEI-P5.xml#1.xmi.gz

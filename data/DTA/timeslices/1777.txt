@@ -1,0 +1,4 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/poppe_charakteristik02_1777.TEI-P5.xml/poppe_charakteristik02_1777.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lavater_fragmente03_1777.TEI-P5.xml/lavater_fragmente03_1777.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kaempfer_japan01_1777.TEI-P5.xml/kaempfer_japan01_1777.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/beckmann_technologie_1777.TEI-P5.xml/beckmann_technologie_1777.TEI-P5.xml#1.xmi.gz

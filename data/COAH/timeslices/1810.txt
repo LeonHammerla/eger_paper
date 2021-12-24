@@ -1,0 +1,2 @@
+/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1810s_kso/fic_1810_8694.txt.xmi.gz
+/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1810s_kso/fic_1810_8641.txt.xmi.gz

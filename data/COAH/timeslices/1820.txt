@@ -1,0 +1,15 @@
+/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1820s_jsi/fic_1820_8902.txt.xmi.gz
+/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1820s_jsi/nf_1820_753470.txt.xmi.gz
+/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1820s_jsi/nf_1820_748073.txt.xmi.gz
+/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1820s_jsi/mag_1820_553218.txt.xmi.gz
+/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1820s_jsi/mag_1820_553305.txt.xmi.gz
+/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1820s_jsi/fic_1820_8260.txt.xmi.gz
+/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1820s_jsi/fic_1820_8901.txt.xmi.gz
+/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1820s_jsi/mag_1820_553302.txt.xmi.gz
+/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1820s_jsi/mag_1820_553238.txt.xmi.gz
+/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1820s_jsi/fic_1820_7562.txt.xmi.gz
+/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1820s_jsi/mag_1820_553223.txt.xmi.gz
+/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1820s_jsi/fic_1820_8735.txt.xmi.gz
+/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1820s_jsi/nf_1820_756262.txt.xmi.gz
+/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1820s_jsi/mag_1820_553220.txt.xmi.gz
+/vol/s5935481/eger_resources/COAH/texts_clean_xmi_ttlab/text_1820s_jsi/fic_1820_8900.txt.xmi.gz

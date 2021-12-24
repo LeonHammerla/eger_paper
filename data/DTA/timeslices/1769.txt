@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/herder_kritische01_1769.TEI-P5.xml/herder_kritische01_1769.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/klopstock_messias03_1769.TEI-P5.xml/klopstock_messias03_1769.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/herder_kritische02_1769.TEI-P5.xml/herder_kritische02_1769.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/herder_kritische03_1769.TEI-P5.xml/herder_kritische03_1769.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/reimarus_blitze_1769.TEI-P5.xml/reimarus_blitze_1769.TEI-P5.xml#1.xmi.gz

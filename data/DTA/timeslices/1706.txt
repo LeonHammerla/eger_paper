@@ -1,0 +1,4 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/scheuchzer_naturgeschichten01_1706.TEI-P5.xml/scheuchzer_naturgeschichten01_1706.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/naude_messkunst_1706.TEI-P5.xml/naude_messkunst_1706.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/sperander_negotiant_1706.TEI-P5.xml/sperander_negotiant_1706.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/scheuchzer_naturgeschichten02_1706.TEI-P5.xml/scheuchzer_naturgeschichten02_1706.TEI-P5.xml#1.xmi.gz

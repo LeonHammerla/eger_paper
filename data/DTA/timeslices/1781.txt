@@ -1,0 +1,8 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schiller_raeuber_1781.TEI-P5.xml/schiller_raeuber_1781.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hippel_lebenslaeufe0301_1781.TEI-P5.xml/hippel_lebenslaeufe0301_1781.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/voss_oduessee_1781.TEI-P5.xml/voss_oduessee_1781.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hippel_lebenslaeufe0302_1781.TEI-P5.xml/hippel_lebenslaeufe0302_1781.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/roessig_oekonomie01_1781.TEI-P5.xml/roessig_oekonomie01_1781.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/pestalozzi_lienhard01_1781.TEI-P5.xml/pestalozzi_lienhard01_1781.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kant_rvernunft_1781.TEI-P5.xml/kant_rvernunft_1781.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mesmer_magnetismus_1781.TEI-P5.xml/mesmer_magnetismus_1781.TEI-P5.xml#1.xmi.gz

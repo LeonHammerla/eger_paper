@@ -1,0 +1,4 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/stieler_venus_1660.TEI-P5.xml/stieler_venus_1660.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/pasch_voltesiren_1660.TEI-P5.xml/pasch_voltesiren_1660.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kippenheim_dieberey_1660.TEI-P5.xml/kippenheim_dieberey_1660.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/zeiller_centuria04_1660.TEI-P5.xml/zeiller_centuria04_1660.TEI-P5.xml#1.xmi.gz

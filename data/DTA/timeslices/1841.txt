@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/savigny_system05_1841.TEI-P5.xml/savigny_system05_1841.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/jacoby_fragen_1841.TEI-P5.xml/jacoby_fragen_1841.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hoffmann_unpolitische02_1841.TEI-P5.xml/hoffmann_unpolitische02_1841.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/feuerbach_christentum_1841.TEI-P5.xml/feuerbach_christentum_1841.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/moltke_zustaende_1841.TEI-P5.xml/moltke_zustaende_1841.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/savigny_system04_1841.TEI-P5.xml/savigny_system04_1841.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/herwegh_gedichte01_1841.TEI-P5.xml/herwegh_gedichte01_1841.TEI-P5.xml#1.xmi.gz

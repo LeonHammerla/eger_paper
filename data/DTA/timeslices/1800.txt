@@ -1,0 +1,8 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/rhode_schall_1800.TEI-P5.xml/rhode_schall_1800.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/glueck_pandecten02verbesserungen_1800.TEI-P5.xml/glueck_pandecten02verbesserungen_1800.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schlegel_athenaeum_1800.TEI-P5.xml/schlegel_athenaeum_1800.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/eytelwein_faschinenwerke_1800.TEI-P5.xml/eytelwein_faschinenwerke_1800.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wallenrodt_fritz01_1800.TEI-P5.xml/wallenrodt_fritz01_1800.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/burdach_propaedeutik_1800.TEI-P5.xml/burdach_propaedeutik_1800.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/paul_titan01_1800.TEI-P5.xml/paul_titan01_1800.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wallenrodt_fritz02_1800.TEI-P5.xml/wallenrodt_fritz02_1800.TEI-P5.xml#1.xmi.gz

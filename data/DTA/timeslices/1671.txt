@@ -1,0 +1,2 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/sagittarius_carlstuart_1671.TEI-P5.xml/sagittarius_carlstuart_1671.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/czepko_siebengestirne_1671.TEI-P5.xml/czepko_siebengestirne_1671.TEI-P5.xml#1.xmi.gz

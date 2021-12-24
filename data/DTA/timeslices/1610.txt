@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/faulhaber_instrument_1610.TEI-P5.xml/faulhaber_instrument_1610.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/arndt_christentum03_1610.TEI-P5.xml/arndt_christentum03_1610.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/arndt_christentum01_1610.TEI-P5.xml/arndt_christentum01_1610.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/arndt_christentum04_1610.TEI-P5.xml/arndt_christentum04_1610.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/arndt_christentum02_1610.TEI-P5.xml/arndt_christentum02_1610.TEI-P5.xml#1.xmi.gz

@@ -1,0 +1,8 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/goethe_farbenlehre02_1810.TEI-P5.xml/goethe_farbenlehre02_1810.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/jahn_volksthum_1810.TEI-P5.xml/jahn_volksthum_1810.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kleist_kaethchen_1810.TEI-P5.xml/kleist_kaethchen_1810.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/voss_ini_1810.TEI-P5.xml/voss_ini_1810.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/goethe_farbenlehre01_1810.TEI-P5.xml/goethe_farbenlehre01_1810.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hahnemann_organon_1810.TEI-P5.xml/hahnemann_organon_1810.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/thaer_landwirthschaft03_1810.TEI-P5.xml/thaer_landwirthschaft03_1810.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/thaer_landwirthschaft02_1810.TEI-P5.xml/thaer_landwirthschaft02_1810.TEI-P5.xml#1.xmi.gz

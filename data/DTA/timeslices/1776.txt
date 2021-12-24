@@ -1,0 +1,15 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/moeser_phantasien02_1776.TEI-P5.xml/moeser_phantasien02_1776.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/swedenborg_schriften01_1776.TEI-P5.xml/swedenborg_schriften01_1776.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/swedenborg_schriften03_1776.TEI-P5.xml/swedenborg_schriften03_1776.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/miller_siegwart02_1776.TEI-P5.xml/miller_siegwart02_1776.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/swedenborg_schriften02_1776.TEI-P5.xml/swedenborg_schriften02_1776.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/miller_siegwart01_1776.TEI-P5.xml/miller_siegwart01_1776.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wezel_belphegor01_1776.TEI-P5.xml/wezel_belphegor01_1776.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wezel_belphegor02_1776.TEI-P5.xml/wezel_belphegor02_1776.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/swedenborg_schriften04_1776.TEI-P5.xml/swedenborg_schriften04_1776.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lavater_fragmente02_1776.TEI-P5.xml/lavater_fragmente02_1776.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wagner_kindermoerderin_1776.TEI-P5.xml/wagner_kindermoerderin_1776.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/poppe_charakteristik01_1776.TEI-P5.xml/poppe_charakteristik01_1776.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lenz_soldaten_1776.TEI-P5.xml/lenz_soldaten_1776.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nicolai_nothanker03_1776.TEI-P5.xml/nicolai_nothanker03_1776.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/leisewitz_julius_1776.TEI-P5.xml/leisewitz_julius_1776.TEI-P5.xml#1.xmi.gz

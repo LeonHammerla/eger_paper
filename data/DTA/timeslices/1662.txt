@@ -1,0 +1,2 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/pascha_kriegsbaukunst_1662.TEI-P5.xml/pascha_kriegsbaukunst_1662.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hoffmannswaldau_grabschriften_1662.TEI-P5.xml/hoffmannswaldau_grabschriften_1662.TEI-P5.xml#1.xmi.gz

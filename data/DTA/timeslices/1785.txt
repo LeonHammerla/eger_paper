@@ -1,0 +1,8 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/herder_geschichte02_1785.TEI-P5.xml/herder_geschichte02_1785.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/salzmann_suenden_1785.TEI-P5.xml/salzmann_suenden_1785.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/retif_mensch_1785.TEI-P5.xml/retif_mensch_1785.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/iffland_jaeger_1785.TEI-P5.xml/iffland_jaeger_1785.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hirschfeld_gartenkunst5_1785.TEI-P5.xml/hirschfeld_gartenkunst5_1785.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/pestalozzi_lienhard03_1785.TEI-P5.xml/pestalozzi_lienhard03_1785.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/moritz_reiser01_1785.TEI-P5.xml/moritz_reiser01_1785.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/sailer_selbstmord_1785.TEI-P5.xml/sailer_selbstmord_1785.TEI-P5.xml#1.xmi.gz

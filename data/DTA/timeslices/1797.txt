@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/laukhard_leben0401_1797.TEI-P5.xml/laukhard_leben0401_1797.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/laukhard_leben0402_1797.TEI-P5.xml/laukhard_leben0402_1797.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hufeland_leben_1797.TEI-P5.xml/hufeland_leben_1797.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schulz_italien_1797.TEI-P5.xml/schulz_italien_1797.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wackenroder_herzensergiessungen_1797.TEI-P5.xml/wackenroder_herzensergiessungen_1797.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/herder_humanitaet09_1797.TEI-P5.xml/herder_humanitaet09_1797.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/herder_humanitaet10_1797.TEI-P5.xml/herder_humanitaet10_1797.TEI-P5.xml#1.xmi.gz

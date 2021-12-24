@@ -1,0 +1,6 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bauer_buehnenleben_1871.TEI-P5.xml/bauer_buehnenleben_1871.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/pocci_komoedienbuechlein04_1871.TEI-P5.xml/pocci_komoedienbuechlein04_1871.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/francois_reckenburgerin02_1871.TEI-P5.xml/francois_reckenburgerin02_1871.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/frauenfeld_vogelschutzgesetz_1871.TEI-P5.xml/frauenfeld_vogelschutzgesetz_1871.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/francois_reckenburgerin01_1871.TEI-P5.xml/francois_reckenburgerin01_1871.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/menger_volkswirtschaftslehre_1871.TEI-P5.xml/menger_volkswirtschaftslehre_1871.TEI-P5.xml#1.xmi.gz

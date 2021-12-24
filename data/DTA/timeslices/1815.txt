@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/thaer_moeglin_1815.TEI-P5.xml/thaer_moeglin_1815.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hoffmann_elixiere01_1815.TEI-P5.xml/hoffmann_elixiere01_1815.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/grimm_maerchen02_1815.TEI-P5.xml/grimm_maerchen02_1815.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/uhland_gedichte_1815.TEI-P5.xml/uhland_gedichte_1815.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/eichendorff_ahnung_1815.TEI-P5.xml/eichendorff_ahnung_1815.TEI-P5.xml#1.xmi.gz

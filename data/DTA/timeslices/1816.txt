@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hegel_logik02_1816.TEI-P5.xml/hegel_logik02_1816.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lachmann_nibelungen_1816.TEI-P5.xml/lachmann_nibelungen_1816.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hoffmann_elixiere02_1816.TEI-P5.xml/hoffmann_elixiere02_1816.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/tieck_phantasus03_1816.TEI-P5.xml/tieck_phantasus03_1816.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/jahn_turnkunst_1816.TEI-P5.xml/jahn_turnkunst_1816.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mueller_geld_1816.TEI-P5.xml/mueller_geld_1816.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/perthes_buchhandel_1816.TEI-P5.xml/perthes_buchhandel_1816.TEI-P5.xml#1.xmi.gz

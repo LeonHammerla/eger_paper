@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/harsdoerffer_trichter02_1648.TEI-P5.xml/harsdoerffer_trichter02_1648.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/glauber_furni03_1648.TEI-P5.xml/glauber_furni03_1648.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nn_friedensschluss_1648.TEI-P5.xml/nn_friedensschluss_1648.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/royer_beschreibung_1648.TEI-P5.xml/royer_beschreibung_1648.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/cundisius_predigten_1648.TEI-P5.xml/cundisius_predigten_1648.TEI-P5.xml#1.xmi.gz

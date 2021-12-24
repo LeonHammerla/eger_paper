@@ -1,0 +1,4 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/beier_buchhandel_1690.TEI-P5.xml/beier_buchhandel_1690.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/thomasius_discours_1690.TEI-P5.xml/thomasius_discours_1690.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/siegemund_unterricht_1690.TEI-P5.xml/siegemund_unterricht_1690.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lohenstein_feldherr03_1690.TEI-P5.xml/lohenstein_feldherr03_1690.TEI-P5.xml#1.xmi.gz

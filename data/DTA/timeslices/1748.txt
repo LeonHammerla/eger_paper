@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/benner_herrnhuterey04_1748.TEI-P5.xml/benner_herrnhuterey04_1748.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/richardson_clarissa02_1748.TEI-P5.xml/richardson_clarissa02_1748.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/richardson_clarissa01_1748.TEI-P5.xml/richardson_clarissa01_1748.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gellert_leben02_1748.TEI-P5.xml/gellert_leben02_1748.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/benner_herrnhuterey03_1748.TEI-P5.xml/benner_herrnhuterey03_1748.TEI-P5.xml#1.xmi.gz

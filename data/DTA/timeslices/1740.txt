@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/euler_rechenkunst02_1740.TEI-P5.xml/euler_rechenkunst02_1740.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/sarganeck_unzucht_1740.TEI-P5.xml/sarganeck_unzucht_1740.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schnabel_fata01_1740.TEI-P5.xml/schnabel_fata01_1740.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gessner_buchdruckerkunst02_1740.TEI-P5.xml/gessner_buchdruckerkunst02_1740.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/brockes_vergnuegen06_1740.TEI-P5.xml/brockes_vergnuegen06_1740.TEI-P5.xml#1.xmi.gz

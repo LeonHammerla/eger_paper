@@ -1,0 +1,17 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schiller_naive02_1795.TEI-P5.xml/schiller_naive02_1795.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/paul_hesperus02_1795.TEI-P5.xml/paul_hesperus02_1795.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/paul_hesperus01_1795.TEI-P5.xml/paul_hesperus01_1795.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/voss_luise_1795.TEI-P5.xml/voss_luise_1795.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schulz_reise0102_1795.TEI-P5.xml/schulz_reise0102_1795.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schulz_reise0202_1795.TEI-P5.xml/schulz_reise0202_1795.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/paul_hesperus03_1795.TEI-P5.xml/paul_hesperus03_1795.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schulz_reise03_1795.TEI-P5.xml/schulz_reise03_1795.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/goethe_lehrjahre02_1795.TEI-P5.xml/goethe_lehrjahre02_1795.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/goethe_lehrjahre03_1795.TEI-P5.xml/goethe_lehrjahre03_1795.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schulz_reise0201_1795.TEI-P5.xml/schulz_reise0201_1795.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/herder_humanitaet06_1795.TEI-P5.xml/herder_humanitaet06_1795.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/tieck_lovell01_1795.TEI-P5.xml/tieck_lovell01_1795.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/herder_humanitaet05_1795.TEI-P5.xml/herder_humanitaet05_1795.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schiller_naive01_1795.TEI-P5.xml/schiller_naive01_1795.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schulz_reise0101_1795.TEI-P5.xml/schulz_reise0101_1795.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/goethe_lehrjahre01_1795.TEI-P5.xml/goethe_lehrjahre01_1795.TEI-P5.xml#1.xmi.gz

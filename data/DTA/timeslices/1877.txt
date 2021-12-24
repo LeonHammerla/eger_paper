@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hoff_atome_1877.TEI-P5.xml/hoff_atome_1877.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wanderley_bauconstructionslehre01_1877.TEI-P5.xml/wanderley_bauconstructionslehre01_1877.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/saar_novellen_1877.TEI-P5.xml/saar_novellen_1877.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/unknown_civilprozessordnung_1877.TEI-P5.xml/unknown_civilprozessordnung_1877.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/storm_aquis_1877.TEI-P5.xml/storm_aquis_1877.TEI-P5.xml#1.xmi.gz

@@ -1,0 +1,6 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/levezow_iphigenia_1805.TEI-P5.xml/levezow_iphigenia_1805.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/paul_flegeljahre04_1805.TEI-P5.xml/paul_flegeljahre04_1805.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/blumenbach_anatomie_1805.TEI-P5.xml/blumenbach_anatomie_1805.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/oken_biologie_1805.TEI-P5.xml/oken_biologie_1805.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/klingemann_nachtwachen_1805.TEI-P5.xml/klingemann_nachtwachen_1805.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/treviranus_biologie03_1805.TEI-P5.xml/treviranus_biologie03_1805.TEI-P5.xml#1.xmi.gz

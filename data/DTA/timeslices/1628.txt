@@ -1,0 +1,2 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/anhaltkoethen_fruchtbringende_1628.TEI-P5.xml/anhaltkoethen_fruchtbringende_1628.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/oa_policeij_1628.TEI-P5.xml/oa_policeij_1628.TEI-P5.xml#1.xmi.gz

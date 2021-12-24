@@ -1,0 +1,8 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/stein_verwaltungslehre06_1868.TEI-P5.xml/stein_verwaltungslehre06_1868.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bluntschli_voelkerrecht_1868.TEI-P5.xml/bluntschli_voelkerrecht_1868.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/stein_verwaltungslehre07_1868.TEI-P5.xml/stein_verwaltungslehre07_1868.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mohr_eisenkonstruktionen_1868.TEI-P5.xml/mohr_eisenkonstruktionen_1868.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/stein_verwaltungslehre05_1868.TEI-P5.xml/stein_verwaltungslehre05_1868.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/haeckel_schoepfungsgeschichte_1868.TEI-P5.xml/haeckel_schoepfungsgeschichte_1868.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hartmann_posten_1868.TEI-P5.xml/hartmann_posten_1868.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/droysen_historik_1868.TEI-P5.xml/droysen_historik_1868.TEI-P5.xml#1.xmi.gz

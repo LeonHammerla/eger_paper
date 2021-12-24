@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gessner_buchdruckerkunst04_1745.TEI-P5.xml/gessner_buchdruckerkunst04_1745.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gleim_versuch02_1745.TEI-P5.xml/gleim_versuch02_1745.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/spindler_jugendfruechte_1745.TEI-P5.xml/spindler_jugendfruechte_1745.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/jacobi_betrachtungen02_1745.TEI-P5.xml/jacobi_betrachtungen02_1745.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/robins_artillerie_1745.TEI-P5.xml/robins_artillerie_1745.TEI-P5.xml#1.xmi.gz

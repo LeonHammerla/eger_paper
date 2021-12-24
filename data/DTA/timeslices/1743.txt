@@ -1,0 +1,9 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bodmer_sammlung09_1743.TEI-P5.xml/bodmer_sammlung09_1743.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/brockes_vergnuegen07_1743.TEI-P5.xml/brockes_vergnuegen07_1743.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/krueger_geistliche_1743.TEI-P5.xml/krueger_geistliche_1743.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/philippi_reimschmiedekunst_1743.TEI-P5.xml/philippi_reimschmiedekunst_1743.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bodmer_sammlung07_1743.TEI-P5.xml/bodmer_sammlung07_1743.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schnabel_fata04_1743.TEI-P5.xml/schnabel_fata04_1743.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bodmer_sammlung10_1743.TEI-P5.xml/bodmer_sammlung10_1743.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bodmer_sammlung08_1743.TEI-P5.xml/bodmer_sammlung08_1743.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bodmer_sammlung11_1743.TEI-P5.xml/bodmer_sammlung11_1743.TEI-P5.xml#1.xmi.gz

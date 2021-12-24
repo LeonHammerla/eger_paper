@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nn_verbesserungen_1744.TEI-P5.xml/nn_verbesserungen_1744.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hagedorn_sammlung02_1744.TEI-P5.xml/hagedorn_sammlung02_1744.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bodmer_sammlung12_1744.TEI-P5.xml/bodmer_sammlung12_1744.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/frentzel_schauplatz_1744.TEI-P5.xml/frentzel_schauplatz_1744.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/winkler_gedanken_1744.TEI-P5.xml/winkler_gedanken_1744.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bose_electricitaet_1744.TEI-P5.xml/bose_electricitaet_1744.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gleim_versuch01_1744.TEI-P5.xml/gleim_versuch01_1744.TEI-P5.xml#1.xmi.gz

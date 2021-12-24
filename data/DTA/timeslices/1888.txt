@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/justi_velazquez02_1888.TEI-P5.xml/justi_velazquez02_1888.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/fontane_irrungen_1888.TEI-P5.xml/fontane_irrungen_1888.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/justi_velazquez01_1888.TEI-P5.xml/justi_velazquez01_1888.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/storm_schimmelreiter_1888.TEI-P5.xml/storm_schimmelreiter_1888.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kretzer_timpe_1888.TEI-P5.xml/kretzer_timpe_1888.TEI-P5.xml#1.xmi.gz

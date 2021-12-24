@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/michelet_loesung_1849.TEI-P5.xml/michelet_loesung_1849.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/weierstrass_integrale_1849.TEI-P5.xml/weierstrass_integrale_1849.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/pfizer_einheit_1849.TEI-P5.xml/pfizer_einheit_1849.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/savigny_system08_1849.TEI-P5.xml/savigny_system08_1849.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/davidis_kochbuch_1849.TEI-P5.xml/davidis_kochbuch_1849.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/otto_bauernsohn_1849.TEI-P5.xml/otto_bauernsohn_1849.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/devrient_nationaltheater_1849.TEI-P5.xml/devrient_nationaltheater_1849.TEI-P5.xml#1.xmi.gz

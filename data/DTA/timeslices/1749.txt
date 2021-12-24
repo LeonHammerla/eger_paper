@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/suppius_oden_1749.TEI-P5.xml/suppius_oden_1749.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/klopstock_messias_1749.TEI-P5.xml/klopstock_messias_1749.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/achenwall_staatswissenschaft_1749.TEI-P5.xml/achenwall_staatswissenschaft_1749.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/spalding_bestimmung_1749.TEI-P5.xml/spalding_bestimmung_1749.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/richardson_clarissa03_1749.TEI-P5.xml/richardson_clarissa03_1749.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kleist_fruehling_1749.TEI-P5.xml/kleist_fruehling_1749.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/richardson_clarissa04_1749.TEI-P5.xml/richardson_clarissa04_1749.TEI-P5.xml#1.xmi.gz

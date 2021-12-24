@@ -1,0 +1,4 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/sverige_zigeuner_1698.TEI-P5.xml/sverige_zigeuner_1698.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/august_zigeuner_1698.TEI-P5.xml/august_zigeuner_1698.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/heidegger_mythoscopia_1698.TEI-P5.xml/heidegger_mythoscopia_1698.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/friderich_umstreiner_1698.TEI-P5.xml/friderich_umstreiner_1698.TEI-P5.xml#1.xmi.gz

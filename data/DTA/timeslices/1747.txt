@@ -1,0 +1,8 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ebeling_betrachtungen04_1747.TEI-P5.xml/ebeling_betrachtungen04_1747.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/benner_herrnhuterey02_1747.TEI-P5.xml/benner_herrnhuterey02_1747.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lucius_warnung_1747.TEI-P5.xml/lucius_warnung_1747.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ebeling_betrachtungen01_1747.TEI-P5.xml/ebeling_betrachtungen01_1747.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gellert_leben01_1747.TEI-P5.xml/gellert_leben01_1747.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ebeling_betrachtungen02_1747.TEI-P5.xml/ebeling_betrachtungen02_1747.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lettus_chronik01_1747.TEI-P5.xml/lettus_chronik01_1747.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ebeling_betrachtungen03_1747.TEI-P5.xml/ebeling_betrachtungen03_1747.TEI-P5.xml#1.xmi.gz

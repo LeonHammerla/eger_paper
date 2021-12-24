@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kant_naturgeschichte_1755.TEI-P5.xml/kant_naturgeschichte_1755.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nn_lissabon_1755.TEI-P5.xml/nn_lissabon_1755.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/rabener_sammlung04_1755.TEI-P5.xml/rabener_sammlung04_1755.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/reichart_landschatz06_1755.TEI-P5.xml/reichart_landschatz06_1755.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/uz_gedichte_1755.TEI-P5.xml/uz_gedichte_1755.TEI-P5.xml#1.xmi.gz

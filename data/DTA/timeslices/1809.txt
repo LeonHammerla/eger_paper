@@ -1,0 +1,9 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/goethe_wahlverw02_1809.TEI-P5.xml/goethe_wahlverw02_1809.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mueller_staatskunst01_1809.TEI-P5.xml/mueller_staatskunst01_1809.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mueller_staatskunst02_1809.TEI-P5.xml/mueller_staatskunst02_1809.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/goethe_wahlverw01_1809.TEI-P5.xml/goethe_wahlverw01_1809.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/heeren_staatensystem_1809.TEI-P5.xml/heeren_staatensystem_1809.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/thaer_landwirthschaft01_1809.TEI-P5.xml/thaer_landwirthschaft01_1809.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/paul_katzenberger01_1809.TEI-P5.xml/paul_katzenberger01_1809.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/christ_pomologie01_1809.TEI-P5.xml/christ_pomologie01_1809.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/paul_katzenberger02_1809.TEI-P5.xml/paul_katzenberger02_1809.TEI-P5.xml#1.xmi.gz

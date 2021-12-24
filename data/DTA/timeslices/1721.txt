@@ -1,0 +1,4 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wolff_gesellschaftlichesleben_1721.TEI-P5.xml/wolff_gesellschaftlichesleben_1721.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/posos_krinkekesmes_1721.TEI-P5.xml/posos_krinkekesmes_1721.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/rost_thaten_1721.TEI-P5.xml/rost_thaten_1721.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/pertsch_recht_1721.TEI-P5.xml/pertsch_recht_1721.TEI-P5.xml#1.xmi.gz

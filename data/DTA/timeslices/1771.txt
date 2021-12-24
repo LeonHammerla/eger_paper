@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lambert_architectonic01_1771.TEI-P5.xml/lambert_architectonic01_1771.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/klopstock_oden_1771.TEI-P5.xml/klopstock_oden_1771.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/laroche_geschichte02_1771.TEI-P5.xml/laroche_geschichte02_1771.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/scheffner_gedichte_1771.TEI-P5.xml/scheffner_gedichte_1771.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lambert_architectonic02_1771.TEI-P5.xml/lambert_architectonic02_1771.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/laroche_geschichte01_1771.TEI-P5.xml/laroche_geschichte01_1771.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/justi_geschichte_1771.TEI-P5.xml/justi_geschichte_1771.TEI-P5.xml#1.xmi.gz

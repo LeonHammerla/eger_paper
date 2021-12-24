@@ -1,0 +1,11 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gutzkow_wally_1835.TEI-P5.xml/gutzkow_wally_1835.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/arnimb_goethe01_1835.TEI-P5.xml/arnimb_goethe01_1835.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/strauss_jesus01_1835.TEI-P5.xml/strauss_jesus01_1835.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/littrow_weltsystem02_1835.TEI-P5.xml/littrow_weltsystem02_1835.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/dahlmann_politik_1835.TEI-P5.xml/dahlmann_politik_1835.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/arnimb_goethe03_1835.TEI-P5.xml/arnimb_goethe03_1835.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/jung_lebensgeschichte_1835.TEI-P5.xml/jung_lebensgeschichte_1835.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/arnimb_goethe02_1835.TEI-P5.xml/arnimb_goethe02_1835.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nestroy_lumpacivagabundus_1835.TEI-P5.xml/nestroy_lumpacivagabundus_1835.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/buechner_danton_1835.TEI-P5.xml/buechner_danton_1835.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gutzkow_charaktere_1835.TEI-P5.xml/gutzkow_charaktere_1835.TEI-P5.xml#1.xmi.gz

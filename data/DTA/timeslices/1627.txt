@@ -1,0 +1,2 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/calvi_beutelschneider02_1627.TEI-P5.xml/calvi_beutelschneider02_1627.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/calvi_beutelschneider01_1627.TEI-P5.xml/calvi_beutelschneider01_1627.TEI-P5.xml#1.xmi.gz

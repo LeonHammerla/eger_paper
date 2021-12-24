@@ -1,0 +1,2 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hunold_gedichte_1702.TEI-P5.xml/hunold_gedichte_1702.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wesenigk_polysigma_1702.TEI-P5.xml/wesenigk_polysigma_1702.TEI-P5.xml#1.xmi.gz

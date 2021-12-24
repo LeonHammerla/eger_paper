@@ -1,0 +1,9 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mommsen_roemische02_1855.TEI-P5.xml/mommsen_roemische02_1855.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/scheffel_ekkehard_1855.TEI-P5.xml/scheffel_ekkehard_1855.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mangoldt_unternehmergewinn_1855.TEI-P5.xml/mangoldt_unternehmergewinn_1855.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/heyse_novellen_1855.TEI-P5.xml/heyse_novellen_1855.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/steinthal_grammatik_1855.TEI-P5.xml/steinthal_grammatik_1855.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kurz_sonnenwirth_1855.TEI-P5.xml/kurz_sonnenwirth_1855.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kuernberger_amerikamuede_1855.TEI-P5.xml/kuernberger_amerikamuede_1855.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/keller_heinrich04_1855.TEI-P5.xml/keller_heinrich04_1855.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/buechner_kraft_1855.TEI-P5.xml/buechner_kraft_1855.TEI-P5.xml#1.xmi.gz

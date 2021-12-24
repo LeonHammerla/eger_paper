@@ -1,0 +1,8 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/riemann_teichbau_1798.TEI-P5.xml/riemann_teichbau_1798.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/tieck_sternbald02_1798.TEI-P5.xml/tieck_sternbald02_1798.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schlegel_athenaeum_1798.TEI-P5.xml/schlegel_athenaeum_1798.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kosegarten_poesieen01_1798.TEI-P5.xml/kosegarten_poesieen01_1798.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kosegarten_poesieen02_1798.TEI-P5.xml/kosegarten_poesieen02_1798.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/tieck_sternbald01_1798.TEI-P5.xml/tieck_sternbald01_1798.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/glueck_pandecten01verbesserungen_1798.TEI-P5.xml/glueck_pandecten01verbesserungen_1798.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/blumenbach_menschengeschlecht_1798.TEI-P5.xml/blumenbach_menschengeschlecht_1798.TEI-P5.xml#1.xmi.gz

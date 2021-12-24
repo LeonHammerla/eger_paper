@@ -1,0 +1,10 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schaumann_crimipsyche_1792.TEI-P5.xml/schaumann_crimipsyche_1792.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/buesch_handlung02_1792.TEI-P5.xml/buesch_handlung02_1792.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/karsch_gedichte_1792.TEI-P5.xml/karsch_gedichte_1792.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/thunberg_reisen01_1792.TEI-P5.xml/thunberg_reisen01_1792.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/guenther_voelkerrecht02_1792.TEI-P5.xml/guenther_voelkerrecht02_1792.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/jacobi_allwill_1792.TEI-P5.xml/jacobi_allwill_1792.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/laukhard_leben02_1792.TEI-P5.xml/laukhard_leben02_1792.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/laukhard_leben01_1792.TEI-P5.xml/laukhard_leben01_1792.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/buesch_handlung01_1792.TEI-P5.xml/buesch_handlung01_1792.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hippel_weiber_1792.TEI-P5.xml/hippel_weiber_1792.TEI-P5.xml#1.xmi.gz

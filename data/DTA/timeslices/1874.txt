@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/peschel_voelkerkunde_1874.TEI-P5.xml/peschel_voelkerkunde_1874.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mohr_fachwerk01_1874.TEI-P5.xml/mohr_fachwerk01_1874.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/genee_fledermaus_1874.TEI-P5.xml/genee_fledermaus_1874.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schliemann_trojanische_1874.TEI-P5.xml/schliemann_trojanische_1874.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wernicke_symptomencomplex_1874.TEI-P5.xml/wernicke_symptomencomplex_1874.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/anzengruber_gwissenswurm_1874.TEI-P5.xml/anzengruber_gwissenswurm_1874.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/pfleiderer_kosmopolitismus_1874.TEI-P5.xml/pfleiderer_kosmopolitismus_1874.TEI-P5.xml#1.xmi.gz

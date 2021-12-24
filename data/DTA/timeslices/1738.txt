@@ -1,0 +1,2 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/euler_rechenkunst01_1738.TEI-P5.xml/euler_rechenkunst01_1738.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bernd_lebensbeschreibung_1738.TEI-P5.xml/bernd_lebensbeschreibung_1738.TEI-P5.xml#1.xmi.gz

@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/pueckler_briefe02_1830.TEI-P5.xml/pueckler_briefe02_1830.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/heine_reisebilder03_1830.TEI-P5.xml/heine_reisebilder03_1830.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/pueckler_briefe01_1830.TEI-P5.xml/pueckler_briefe01_1830.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/brandes_naturlehre01_1830.TEI-P5.xml/brandes_naturlehre01_1830.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/grillparzer_diener_1830.TEI-P5.xml/grillparzer_diener_1830.TEI-P5.xml#1.xmi.gz

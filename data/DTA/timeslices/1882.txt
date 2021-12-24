@@ -1,0 +1,4 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/meyer_gedichte_1882.TEI-P5.xml/meyer_gedichte_1882.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/keller_sinngedicht_1882.TEI-P5.xml/keller_sinngedicht_1882.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/fontane_brandenburg04_1882.TEI-P5.xml/fontane_brandenburg04_1882.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/laband_staatsrecht0302_1882.TEI-P5.xml/laband_staatsrecht0302_1882.TEI-P5.xml#1.xmi.gz

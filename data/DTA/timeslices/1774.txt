@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/goethe_werther02_1774.TEI-P5.xml/goethe_werther02_1774.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/herder_philosophie_1774.TEI-P5.xml/herder_philosophie_1774.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/klopstock_gelehrtenrepublik_1774.TEI-P5.xml/klopstock_gelehrtenrepublik_1774.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/goethe_werther01_1774.TEI-P5.xml/goethe_werther01_1774.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lenz_anmerkungen_1774.TEI-P5.xml/lenz_anmerkungen_1774.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/basedow_philanthropinum_1774.TEI-P5.xml/basedow_philanthropinum_1774.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/blum_spatziergaenge01_1774.TEI-P5.xml/blum_spatziergaenge01_1774.TEI-P5.xml#1.xmi.gz

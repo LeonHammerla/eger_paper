@@ -1,0 +1,8 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wanderley_bauconstructionslehre02_1878.TEI-P5.xml/wanderley_bauconstructionslehre02_1878.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hobrecht_polytechnikum_1878.TEI-P5.xml/hobrecht_polytechnikum_1878.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/koch_wundinfektionskrankheiten_1878.TEI-P5.xml/koch_wundinfektionskrankheiten_1878.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hering_lichtsinn_1878.TEI-P5.xml/hering_lichtsinn_1878.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/strouhal_tonerregung_1878.TEI-P5.xml/strouhal_tonerregung_1878.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schweiger_armenien_1878.TEI-P5.xml/schweiger_armenien_1878.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/laband_staatsrecht02_1878.TEI-P5.xml/laband_staatsrecht02_1878.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/liebknecht_frage_1878.TEI-P5.xml/liebknecht_frage_1878.TEI-P5.xml#1.xmi.gz

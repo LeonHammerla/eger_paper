@@ -1,0 +1,8 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/moritz_reiser04_1790.TEI-P5.xml/moritz_reiser04_1790.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kotzebue_menschenhass_1790.TEI-P5.xml/kotzebue_menschenhass_1790.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/glueck_pandecten01_1790.TEI-P5.xml/glueck_pandecten01_1790.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/goethe_torquato_1790.TEI-P5.xml/goethe_torquato_1790.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kant_urtheilskraft_1790.TEI-P5.xml/kant_urtheilskraft_1790.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/goethe_faustfragment_1790.TEI-P5.xml/goethe_faustfragment_1790.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hugo_rechtsgeschichte_1790.TEI-P5.xml/hugo_rechtsgeschichte_1790.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/goethe_metamorphose_1790.TEI-P5.xml/goethe_metamorphose_1790.TEI-P5.xml#1.xmi.gz

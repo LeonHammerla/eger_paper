@@ -1,0 +1,4 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/moser_beleuchtung_1731.TEI-P5.xml/moser_beleuchtung_1731.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nn_corsica_1731.TEI-P5.xml/nn_corsica_1731.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hanssen_grundfragen_1731.TEI-P5.xml/hanssen_grundfragen_1731.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lucius_canaan_1731.TEI-P5.xml/lucius_canaan_1731.TEI-P5.xml#1.xmi.gz

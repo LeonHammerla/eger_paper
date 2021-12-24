@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/savigny_gesetzgebung_1814.TEI-P5.xml/savigny_gesetzgebung_1814.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/fouque_geselligkeit_1814.TEI-P5.xml/fouque_geselligkeit_1814.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/treviranus_biologie04_1814.TEI-P5.xml/treviranus_biologie04_1814.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/goethe_leben03_1814.TEI-P5.xml/goethe_leben03_1814.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/chamisso_schlemihl_1814.TEI-P5.xml/chamisso_schlemihl_1814.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/koerner_leyer_1814.TEI-P5.xml/koerner_leyer_1814.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schubert_symbolik_1814.TEI-P5.xml/schubert_symbolik_1814.TEI-P5.xml#1.xmi.gz

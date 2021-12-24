@@ -1,0 +1,3 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/westphalus_gedancken_1734.TEI-P5.xml/westphalus_gedancken_1734.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/monti_brieffe_1734.TEI-P5.xml/monti_brieffe_1734.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nn_engellaender_1734.TEI-P5.xml/nn_engellaender_1734.TEI-P5.xml#1.xmi.gz

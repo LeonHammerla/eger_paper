@@ -1,0 +1,2 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/franckenberg_conclusiones_1646.TEI-P5.xml/franckenberg_conclusiones_1646.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/glauber_furni01_1646.TEI-P5.xml/glauber_furni01_1646.TEI-P5.xml#1.xmi.gz

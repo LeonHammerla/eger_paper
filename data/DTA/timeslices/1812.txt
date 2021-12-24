@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hegel_logik0101_1812.TEI-P5.xml/hegel_logik0101_1812.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/tieck_phantasus02_1812.TEI-P5.xml/tieck_phantasus02_1812.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/grimm_maerchen01_1812.TEI-P5.xml/grimm_maerchen01_1812.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/niebuhr_roemische02_1812.TEI-P5.xml/niebuhr_roemische02_1812.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/tieck_phantasus01_1812.TEI-P5.xml/tieck_phantasus01_1812.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/thaer_landwirthschaft04_1812.TEI-P5.xml/thaer_landwirthschaft04_1812.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/goethe_leben02_1812.TEI-P5.xml/goethe_leben02_1812.TEI-P5.xml#1.xmi.gz

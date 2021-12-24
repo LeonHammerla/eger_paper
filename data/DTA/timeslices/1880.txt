@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/raschdorff_hochbau_1880.TEI-P5.xml/raschdorff_hochbau_1880.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/spyri_heidi_1880.TEI-P5.xml/spyri_heidi_1880.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/werner_seeleben_1880.TEI-P5.xml/werner_seeleben_1880.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/laband_staatsrecht0301_1880.TEI-P5.xml/laband_staatsrecht0301_1880.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mommsen_judenthum_1880.TEI-P5.xml/mommsen_judenthum_1880.TEI-P5.xml#1.xmi.gz

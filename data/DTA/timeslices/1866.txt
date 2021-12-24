@@ -1,0 +1,6 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mendel_pflanzenhybriden_1866.TEI-P5.xml/mendel_pflanzenhybriden_1866.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/siemens_telegraphie_1866.TEI-P5.xml/siemens_telegraphie_1866.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/berg_ostasien02_1866.TEI-P5.xml/berg_ostasien02_1866.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kerl_metallurgische_1866.TEI-P5.xml/kerl_metallurgische_1866.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/berg_ostasienbotanik_1866.TEI-P5.xml/berg_ostasienbotanik_1866.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/stein_verwaltungslehre02_1866.TEI-P5.xml/stein_verwaltungslehre02_1866.TEI-P5.xml#1.xmi.gz

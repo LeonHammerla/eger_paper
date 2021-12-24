@@ -1,0 +1,8 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wirth_nationalfest01_1832.TEI-P5.xml/wirth_nationalfest01_1832.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/boerne_paris01_1832.TEI-P5.xml/boerne_paris01_1832.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/brandes_naturlehre03_1832.TEI-P5.xml/brandes_naturlehre03_1832.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/moerike_nolten01_1832.TEI-P5.xml/moerike_nolten01_1832.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wirth_nationalfest02_1832.TEI-P5.xml/wirth_nationalfest02_1832.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/moerike_nolten02_1832.TEI-P5.xml/moerike_nolten02_1832.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/boerne_paris02_1832.TEI-P5.xml/boerne_paris02_1832.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lenau_gedichte_1832.TEI-P5.xml/lenau_gedichte_1832.TEI-P5.xml#1.xmi.gz

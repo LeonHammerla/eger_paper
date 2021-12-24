@@ -1,0 +1,4 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/thomasius_einleitungsittenlehre_1692.TEI-P5.xml/thomasius_einleitungsittenlehre_1692.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/martzi_klugen_1692.TEI-P5.xml/martzi_klugen_1692.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/buerger_candidatus_1692.TEI-P5.xml/buerger_candidatus_1692.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/santa_judas03_1692.TEI-P5.xml/santa_judas03_1692.TEI-P5.xml#1.xmi.gz

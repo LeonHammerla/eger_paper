@@ -1,0 +1,4 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gerber_staatsrecht_1865.TEI-P5.xml/gerber_staatsrecht_1865.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/busch_max_1865.TEI-P5.xml/busch_max_1865.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/fuhlrott_neanderthaler_1865.TEI-P5.xml/fuhlrott_neanderthaler_1865.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/jhering_recht03_1865.TEI-P5.xml/jhering_recht03_1865.TEI-P5.xml#1.xmi.gz

@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/august_ziegeuner_1669.TEI-P5.xml/august_ziegeuner_1669.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/grimmelshausen_continuatio_1669.TEI-P5.xml/grimmelshausen_continuatio_1669.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/august_verboht_1669.TEI-P5.xml/august_verboht_1669.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/grimmelshausen_simplicissimus_1669.TEI-P5.xml/grimmelshausen_simplicissimus_1669.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/fritsch_tractatus_1669.TEI-P5.xml/fritsch_tractatus_1669.TEI-P5.xml#1.xmi.gz

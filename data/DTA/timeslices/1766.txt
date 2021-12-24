@@ -1,0 +1,3 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/woellner_aufhebung_1766.TEI-P5.xml/woellner_aufhebung_1766.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/jacobi_betrachtungen04_1766.TEI-P5.xml/jacobi_betrachtungen04_1766.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wieland_agathon01_1766.TEI-P5.xml/wieland_agathon01_1766.TEI-P5.xml#1.xmi.gz

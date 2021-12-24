@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/august_uhrkunde_1685.TEI-P5.xml/august_uhrkunde_1685.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/buchner_theoria03_1685.TEI-P5.xml/buchner_theoria03_1685.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wuerttemberg_zigeuner_1685.TEI-P5.xml/wuerttemberg_zigeuner_1685.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/beer_nero_1685.TEI-P5.xml/beer_nero_1685.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/august_zigeuner_1685.TEI-P5.xml/august_zigeuner_1685.TEI-P5.xml#1.xmi.gz

@@ -1,0 +1,11 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/littrow_weltsystem01_1834.TEI-P5.xml/littrow_weltsystem01_1834.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ranke_paepste01_1834.TEI-P5.xml/ranke_paepste01_1834.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/boerne_paris06_1834.TEI-P5.xml/boerne_paris06_1834.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/varnhagen_rahel03_1834.TEI-P5.xml/varnhagen_rahel03_1834.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/eichendorff_dichter_1834.TEI-P5.xml/eichendorff_dichter_1834.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wienbarg_feldzuege_1834.TEI-P5.xml/wienbarg_feldzuege_1834.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/boerne_paris05_1834.TEI-P5.xml/boerne_paris05_1834.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/clausewitz_krieg03_1834.TEI-P5.xml/clausewitz_krieg03_1834.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/varnhagen_rahel01_1834.TEI-P5.xml/varnhagen_rahel01_1834.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kerner_besessene_1834.TEI-P5.xml/kerner_besessene_1834.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/varnhagen_rahel02_1834.TEI-P5.xml/varnhagen_rahel02_1834.TEI-P5.xml#1.xmi.gz

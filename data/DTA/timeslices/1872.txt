@@ -1,0 +1,4 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/klein_geometrische_1872.TEI-P5.xml/klein_geometrische_1872.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nietzsche_tragoedie_1872.TEI-P5.xml/nietzsche_tragoedie_1872.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/keller_legenden_1872.TEI-P5.xml/keller_legenden_1872.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/dubois_naturerkennen_1872.TEI-P5.xml/dubois_naturerkennen_1872.TEI-P5.xml#1.xmi.gz

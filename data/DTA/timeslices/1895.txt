@@ -1,0 +1,4 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/rapsilber_reichstagsgebaeude_1895.TEI-P5.xml/rapsilber_reichstagsgebaeude_1895.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mayer_verwaltungsrecht01_1895.TEI-P5.xml/mayer_verwaltungsrecht01_1895.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/polenz_buettnerbauer_1895.TEI-P5.xml/polenz_buettnerbauer_1895.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wedekind_erdgeist_1895.TEI-P5.xml/wedekind_erdgeist_1895.TEI-P5.xml#1.xmi.gz

@@ -1,0 +1,10 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wilamowitz_aristoteles01_1893.TEI-P5.xml/wilamowitz_aristoteles01_1893.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hauptmann_biberpelz_1893.TEI-P5.xml/hauptmann_biberpelz_1893.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/huber_verkehr_1893.TEI-P5.xml/huber_verkehr_1893.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hobrecht_verkehrsverhaeltnisse_1893.TEI-P5.xml/hobrecht_verkehrsverhaeltnisse_1893.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schmoller_volkswirtschaftslehre_1893.TEI-P5.xml/schmoller_volkswirtschaftslehre_1893.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/riegl_stilfragen_1893.TEI-P5.xml/riegl_stilfragen_1893.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wilamowitz_aristoteles02_1893.TEI-P5.xml/wilamowitz_aristoteles02_1893.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schnitzler_anatol_1893.TEI-P5.xml/schnitzler_anatol_1893.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/weismann_naturzuechtung_1893.TEI-P5.xml/weismann_naturzuechtung_1893.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/buecher_volkswirtschaft_1893.TEI-P5.xml/buecher_volkswirtschaft_1893.TEI-P5.xml#1.xmi.gz

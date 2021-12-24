@@ -1,0 +1,2 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nn_heydelberg_1689.TEI-P5.xml/nn_heydelberg_1689.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kliphausen_helikon_1689.TEI-P5.xml/kliphausen_helikon_1689.TEI-P5.xml#1.xmi.gz

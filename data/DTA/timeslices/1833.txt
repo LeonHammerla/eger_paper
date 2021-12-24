@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/laube_europa0102_1833.TEI-P5.xml/laube_europa0102_1833.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/boerne_paris04_1833.TEI-P5.xml/boerne_paris04_1833.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/laube_europa0101_1833.TEI-P5.xml/laube_europa0101_1833.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/droysen_alexander_1833.TEI-P5.xml/droysen_alexander_1833.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/boerne_paris03_1833.TEI-P5.xml/boerne_paris03_1833.TEI-P5.xml#1.xmi.gz

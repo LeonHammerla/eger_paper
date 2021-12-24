@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/benner_herrnhuterey01_1746.TEI-P5.xml/benner_herrnhuterey01_1746.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/brockes_vergnuegen08_1746.TEI-P5.xml/brockes_vergnuegen08_1746.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/unzer_gedanken_1746.TEI-P5.xml/unzer_gedanken_1746.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schlegel_canut_1746.TEI-P5.xml/schlegel_canut_1746.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/scheyb_theresiade02_1746.TEI-P5.xml/scheyb_theresiade02_1746.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/krueger_weltweisheit_1746.TEI-P5.xml/krueger_weltweisheit_1746.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/scheyb_theresiade01_1746.TEI-P5.xml/scheyb_theresiade01_1746.TEI-P5.xml#1.xmi.gz

@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/jhering_recht0202_1858.TEI-P5.xml/jhering_recht0202_1858.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/avelallemant_gaunerthum01_1858.TEI-P5.xml/avelallemant_gaunerthum01_1858.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/virchow_cellularpathologie_1858.TEI-P5.xml/virchow_cellularpathologie_1858.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/humboldt_kosmos04_1858.TEI-P5.xml/humboldt_kosmos04_1858.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schreber_kallipaedie_1858.TEI-P5.xml/schreber_kallipaedie_1858.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/falke_trachten02_1858.TEI-P5.xml/falke_trachten02_1858.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/falke_trachten01_1858.TEI-P5.xml/falke_trachten01_1858.TEI-P5.xml#1.xmi.gz

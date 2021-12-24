@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/jacobi_betrachtungen01_1741.TEI-P5.xml/jacobi_betrachtungen01_1741.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bodmer_sammlung01_1741.TEI-P5.xml/bodmer_sammlung01_1741.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bodmer_sammlung02_1741.TEI-P5.xml/bodmer_sammlung02_1741.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/suessmilch_ordnung_1741.TEI-P5.xml/suessmilch_ordnung_1741.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gessner_buchdruckerkunst03_1741.TEI-P5.xml/gessner_buchdruckerkunst03_1741.TEI-P5.xml#1.xmi.gz

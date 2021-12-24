@@ -1,0 +1,10 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/boltzmann_gastheorie02_1898.TEI-P5.xml/boltzmann_gastheorie02_1898.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bismarck_erinnerungen01_1898.TEI-P5.xml/bismarck_erinnerungen01_1898.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/munzinger_japaner_1898.TEI-P5.xml/munzinger_japaner_1898.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wrangel_luxusfuhrwerk_1898.TEI-P5.xml/wrangel_luxusfuhrwerk_1898.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/gercke_torpedowaffe_1898.TEI-P5.xml/gercke_torpedowaffe_1898.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/andreas_fenitschka_1898.TEI-P5.xml/andreas_fenitschka_1898.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/boelsche_liebesleben01_1898.TEI-P5.xml/boelsche_liebesleben01_1898.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/holz_phantasus01_1898.TEI-P5.xml/holz_phantasus01_1898.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bismarck_erinnerungen02_1898.TEI-P5.xml/bismarck_erinnerungen02_1898.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/liszt_voelkerrecht_1898.TEI-P5.xml/liszt_voelkerrecht_1898.TEI-P5.xml#1.xmi.gz

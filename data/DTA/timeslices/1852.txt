@@ -1,0 +1,15 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/holtei_vagabunden04_1852.TEI-P5.xml/holtei_vagabunden04_1852.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/alexis_ruhe02_1852.TEI-P5.xml/alexis_ruhe02_1852.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/storm_gedichte_1852.TEI-P5.xml/storm_gedichte_1852.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/alexis_ruhe05_1852.TEI-P5.xml/alexis_ruhe05_1852.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/alexis_ruhe04_1852.TEI-P5.xml/alexis_ruhe04_1852.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/vischer_aesthetik030201_1852.TEI-P5.xml/vischer_aesthetik030201_1852.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ludwig_physiologie01_1852.TEI-P5.xml/ludwig_physiologie01_1852.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/alexis_ruhe03_1852.TEI-P5.xml/alexis_ruhe03_1852.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/holtei_vagabunden01_1852.TEI-P5.xml/holtei_vagabunden01_1852.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/holtei_vagabunden03_1852.TEI-P5.xml/holtei_vagabunden03_1852.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nn_anarchie_1852.TEI-P5.xml/nn_anarchie_1852.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/jhering_recht01_1852.TEI-P5.xml/jhering_recht01_1852.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/holtei_vagabunden02_1852.TEI-P5.xml/holtei_vagabunden02_1852.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/storm_immensee_1852.TEI-P5.xml/storm_immensee_1852.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/alexis_ruhe01_1852.TEI-P5.xml/alexis_ruhe01_1852.TEI-P5.xml#1.xmi.gz

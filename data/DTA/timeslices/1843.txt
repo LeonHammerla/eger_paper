@@ -1,0 +1,8 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/herwegh_gedichte02_1843.TEI-P5.xml/herwegh_gedichte02_1843.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/beseler_volksrecht_1843.TEI-P5.xml/beseler_volksrecht_1843.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ranke_reformation05_1843.TEI-P5.xml/ranke_reformation05_1843.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lewald_jenny02_1843.TEI-P5.xml/lewald_jenny02_1843.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lewald_jenny01_1843.TEI-P5.xml/lewald_jenny01_1843.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/nn_turnkunst01_1843.TEI-P5.xml/nn_turnkunst01_1843.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/meinhold_bernsteinhexe_1843.TEI-P5.xml/meinhold_bernsteinhexe_1843.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ranke_reformation04_1843.TEI-P5.xml/ranke_reformation04_1843.TEI-P5.xml#1.xmi.gz

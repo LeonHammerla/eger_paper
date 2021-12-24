@@ -1,0 +1,11 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/cancrin_beschreibung_1767.TEI-P5.xml/cancrin_beschreibung_1767.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/herder_litteratur01_1767.TEI-P5.xml/herder_litteratur01_1767.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lessing_minna_1767.TEI-P5.xml/lessing_minna_1767.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lessing_dramaturgie02_1767.TEI-P5.xml/lessing_dramaturgie02_1767.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lessing_dramaturgie01_1767.TEI-P5.xml/lessing_dramaturgie01_1767.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/haigold_russland01_1767.TEI-P5.xml/haigold_russland01_1767.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/herder_litteratur03_1767.TEI-P5.xml/herder_litteratur03_1767.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ramler_oden_1767.TEI-P5.xml/ramler_oden_1767.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/weisse_lieder_1767.TEI-P5.xml/weisse_lieder_1767.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wieland_agathon02_1767.TEI-P5.xml/wieland_agathon02_1767.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/herder_litteratur02_1767.TEI-P5.xml/herder_litteratur02_1767.TEI-P5.xml#1.xmi.gz

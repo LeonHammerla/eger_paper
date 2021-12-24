@@ -1,0 +1,7 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/helmholtz_erhaltung_1847.TEI-P5.xml/helmholtz_erhaltung_1847.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/menzel_maurer_1847.TEI-P5.xml/menzel_maurer_1847.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/savigny_system06_1847.TEI-P5.xml/savigny_system06_1847.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hartwig_erziehung_1847.TEI-P5.xml/hartwig_erziehung_1847.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/humboldt_kosmos02_1847.TEI-P5.xml/humboldt_kosmos02_1847.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/vischer_aesthetik0201_1847.TEI-P5.xml/vischer_aesthetik0201_1847.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/ideler_wahnsinn_1847.TEI-P5.xml/ideler_wahnsinn_1847.TEI-P5.xml#1.xmi.gz

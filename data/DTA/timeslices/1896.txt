@@ -1,0 +1,8 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wundt_grundriss_1896.TEI-P5.xml/wundt_grundriss_1896.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mayer_verwaltungsrecht02_1896.TEI-P5.xml/mayer_verwaltungsrecht02_1896.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/schnitzler_liebelei_1896.TEI-P5.xml/schnitzler_liebelei_1896.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mehring_kunst_1896.TEI-P5.xml/mehring_kunst_1896.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/fontane_briest_1896.TEI-P5.xml/fontane_briest_1896.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/roentgen_strahlen_1896.TEI-P5.xml/roentgen_strahlen_1896.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/raabe_akten_1896.TEI-P5.xml/raabe_akten_1896.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/boltzmann_gastheorie01_1896.TEI-P5.xml/boltzmann_gastheorie01_1896.TEI-P5.xml#1.xmi.gz

@@ -1,0 +1,6 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/diefenbach_reformation_1897.TEI-P5.xml/diefenbach_reformation_1897.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lasswitz_planeten02_1897.TEI-P5.xml/lasswitz_planeten02_1897.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/bierbaum_stilpe_1897.TEI-P5.xml/bierbaum_stilpe_1897.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/george_seele_1897.TEI-P5.xml/george_seele_1897.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/poersch_gewerkschaftsbewegung_1897.TEI-P5.xml/poersch_gewerkschaftsbewegung_1897.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/lasswitz_planeten01_1897.TEI-P5.xml/lasswitz_planeten01_1897.TEI-P5.xml#1.xmi.gz

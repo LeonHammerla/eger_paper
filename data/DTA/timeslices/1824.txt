@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/duras_urika_1824.TEI-P5.xml/duras_urika_1824.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/herbart_psychologie01_1824.TEI-P5.xml/herbart_psychologie01_1824.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mueller_hellenische02_1824.TEI-P5.xml/mueller_hellenische02_1824.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/mueller_hellenische03_1824.TEI-P5.xml/mueller_hellenische03_1824.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/wolff_ausverkauf_1824.TEI-P5.xml/wolff_ausverkauf_1824.TEI-P5.xml#1.xmi.gz

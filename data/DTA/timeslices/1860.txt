@@ -1,0 +1,4 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/droste_letzte_1860.TEI-P5.xml/droste_letzte_1860.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/helmholtz_luftschwingungen_1860.TEI-P5.xml/helmholtz_luftschwingungen_1860.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/becker_arbeiter_1860.TEI-P5.xml/becker_arbeiter_1860.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/burckhardt_renaissance_1860.TEI-P5.xml/burckhardt_renaissance_1860.TEI-P5.xml#1.xmi.gz

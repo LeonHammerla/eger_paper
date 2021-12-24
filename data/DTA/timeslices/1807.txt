@@ -1,0 +1,5 @@
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/goerres_volksbuecher_1807.TEI-P5.xml/goerres_volksbuecher_1807.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/hegel_phaenomenologie_1807.TEI-P5.xml/hegel_phaenomenologie_1807.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/rudolphi_erziehung01_1807.TEI-P5.xml/rudolphi_erziehung01_1807.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/rudolphi_erziehung02_1807.TEI-P5.xml/rudolphi_erziehung02_1807.TEI-P5.xml#1.xmi.gz
+/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/kleist_amphytrion_1807.TEI-P5.xml/kleist_amphytrion_1807.TEI-P5.xml#1.xmi.gz
