@@ -91,13 +91,13 @@ def plotting_results(result_bucket: dict,
     :return:
     """
     # ==== Removing dir if already exists to make a new clean one
-    data_dir = os.path.join(ROOT_DIR, "data", corpus_ident)
+    data_dir = os.path.join(ROOT_DIR, "data", corpus_ident, res_type)
     try:
-        shutil.rmtree(os.path.join(ROOT_DIR, "data", corpus_ident, "timeslices"))
+        shutil.rmtree(os.path.join(ROOT_DIR, "data", corpus_ident, res_type, "timeslices"))
     except:
         pass
     try:
-        os.remove(os.path.join(ROOT_DIR, "data", corpus_ident, "box_plots.pdf"))
+        os.remove(os.path.join(ROOT_DIR, "data", corpus_ident, res_type, "box_plots.pdf"))
     except:
         pass
 
