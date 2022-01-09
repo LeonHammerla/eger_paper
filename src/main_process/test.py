@@ -6,11 +6,95 @@ from matplotlib.backends.backend_pdf import PdfPages
 from multiprocessing import Pool
 from tqdm import tqdm
 import random
+from treelib import Tree, Node
+import math
+from collections import Counter
+
 
 ROOT_DIR = os.path.realpath(os.path.join(os.path.dirname(__file__), '..', '..'))
 data_dir = os.path.join(ROOT_DIR, "data", "test")
 
 
+tree = Tree()
+tree.create_node("Harry", "harry")  # root node
+tree.create_node("Jane", "jane", parent="harry")
+tree.create_node("Bill", "bill", parent="harry")
+tree.create_node("Diane", "diane", parent="jane")
+tree.create_node("Mary", "mary", parent="diane")
+tree.create_node("Mark", "mark", parent="jane")
+tree.create_node("Leon", 0, parent="bill")
+
+
+tree.show()
+"""print(type(tree.leaves()[0]))
+print(type(tree))
+print(tree.parent("jane"))
+print(tree.is_branch("mark"))
+#print(tree.link_past_node("jane"))
+print(tree.paths_to_leaves())
+print(tree.ancestor("diane"))
+print(tree.level("harry"))
+print(tree.level("mark"))
+print(tree.is_ancestor("bill", "mark"))
+print(tree.is_ancestor("bill", 0))
+print(tree.to_dict())
+print(tree.all_nodes())
+
+"""
+
+def dist(node1, node2, tree):
+    name1 = node1.identifier
+    name2 = node2.identifier
+    if tree.is_ancestor(name1, name2):
+        return tree.level(name2) - tree.level(name1)
+    elif tree.is_ancestor(name2, name1):
+        # return tree.level(name1) - tree.level(name2)
+        return math.inf
+    else:
+        return math.inf
+
+"""print(dist(tree.get_node("bill"), tree.get_node("mark"), tree))
+
+print(dist(tree.get_node("harry"), tree.get_node("mark"), tree))
+print(dist(tree.get_node("harry"), tree.get_node("mark"), tree))
+
+print(dist(tree.get_node("bill"), tree.get_node(0), tree))
+print(dist(tree.get_node("mark"), tree.get_node(0), tree))
+
+print(dist(tree.get_node("jane"), tree.get_node("mark"), tree))
+print(dist(tree.get_node("mark"), tree.get_node("jane"), tree))
+
+"""
+dist_dict = {}
+all_nodes = tree.all_nodes()
+for i in all_nodes:
+    a = []
+    for j in all_nodes:
+        a.append((dist(i, j, tree), j))
+    b = dict()
+    for j in a:
+        if j[0] in b:
+            b[j[0]].append(j[-1])
+        else:
+            b[j[0]] = [j[-1]]
+    dist_dict[i] = b
+
+for item in dist_dict.items():
+    print(item[0])
+    print(item[1])
+    print("===================================================================")
+
+def degree(node, dist_dict):
+    print(node)
+    try:
+        return len(dist_dict[node][1])
+    except:
+        return 0
+
+
+for i in all_nodes:
+    print(degree(i, dist_dict))
+"""
 dir_path = os.path.join(data_dir, "COAH", "timeslices")
 #filepaths = [os.path.join(dir_path, filename) for filename in os.listdir(dir_path)]
 filepaths = ["hooboo/hbjkbuhk/ozunbou/res_929.pickle",
@@ -61,7 +145,7 @@ with PdfPages(os.path.join(data_dir, 'foo.pdf')) as pdf:
     #plt.xticks(rotation=90)
     pdf.savefig(fig)
 
-
+"""
 
 """
 plt.semilogy()
