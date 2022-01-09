@@ -1,9 +1,10 @@
+import math
 import os
 import sys
 from collections import Counter
 from copy import copy
-from typing import Optional, Tuple, List, Dict
-
+from typing import Optional, Tuple, List, Dict, Union, Any, Callable
+from treelib import Tree, Node
 from tqdm import tqdm
 
 sys.path.append("/home/stud_homes/s5935481/uima_cassis/src")
@@ -14,6 +15,23 @@ from cassis_utility.loading_utility import load_typesystem_from_path, load_cas_f
 
 ROOT_DIR = os.path.realpath(os.path.join(os.path.dirname(__file__), '..', '..'))
 VERB_TAGS = ["VAPP", "VAPS", "VMFIN", "VMIMP", "VMINF", "VMPP", "VMPS", "VVFIN", "VVIMP", "VVINF", "VVPP", "VVPS"]
+
+
+def compare_tokens(token1: cassis.typesystem.FeatureStructure,
+                   token2: cassis.typesystem.FeatureStructure):
+    """
+    Function compares two tokens.
+    :param token1:
+    :param token2:
+    :return:
+    """
+    syntacticFunction = token1["syntacticFunction"] == token2["syntacticFunction"]
+    id = token1["id"] == token2["id"]
+    order = token1["order"] == token2["order"]
+    begin = token1["begin"] == token2["begin"]
+    end = token1["end"] == token2["end"]
+
+    return syntacticFunction and id and order and begin and end
 
 
 def select_sentences_from_cas(cas: cassis.Cas) -> List[cassis.typesystem.FeatureStructure]:
@@ -36,6 +54,19 @@ def select_dependencies_from_sentence(cas: cassis.Cas,
     """
     dependencies = cas.select_covered("de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency", sentence)
     return dependencies
+
+
+def select_dependency_root_from_sentence(cas: cassis.Cas,
+                                         sentence: cassis.typesystem.FeatureStructure) -> cassis.typesystem.FeatureStructure:
+    """
+    Function returns the dependency-root of a sentence.
+    :param cas:
+    :param sentence:
+    :return:
+    """
+    root_dependency = cas.select_covered("de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.ROOT", sentence)[0]
+    return root_dependency
+
 
 def select_tokens_of_sentence_from_cas(cas: cassis.Cas,
                                        sentence: cassis.typesystem.FeatureStructure) -> List[cassis.typesystem.FeatureStructure]:
@@ -184,6 +215,151 @@ def calc_max_dep_depth_of_sentence_and_depthmap(cas: cassis.Cas,
     return max_depth, dict(Counter(depth_list))
 
 
+def node_path_dist(node1: Node,
+                   node2: Node,
+                   tree: Tree) -> Union[int, float]:
+    """
+    Function calculates the geodesic distance for two nodes in a
+    given dependency tree. If nodes are not connected in the tree, distance
+    becomes +inf.
+    :param node1:
+    :param node2:
+    :param tree:
+    :return:
+    """
+    name1 = node1.identifier
+    name2 = node2.identifier
+    if tree.is_ancestor(name1, name2):
+        return tree.level(name2) - tree.level(name1)
+    elif tree.is_ancestor(name2, name1):
+        # return tree.level(name1) - tree.level(name2)
+        return math.inf
+    else:
+        return math.inf
+
+
+def make_dist_dict(_Vs: List[Node],
+                   dep_tree: Tree) ->  Dict[Node, Dict[Union[int, float], List[Node]]]:
+    """
+    Function for creating a dict containing every path distances for all vertices
+    to all other vertices.
+    :param _Vs:
+    :param dep_tree:
+    :return:
+    """
+    dist_dict = {}
+    for i in _Vs:
+        a = []
+        for j in _Vs:
+            a.append((node_path_dist(i, j, dep_tree), j))
+        b = dict()
+        for j in a:
+            if j[0] in b:
+                b[j[0]].append(j[-1])
+            else:
+                b[j[0]] = [j[-1]]
+        dist_dict[i] = b
+    return dist_dict
+
+def out_degree(node: Node, dist_dict: Dict[Node, Dict[Union[int, float], List[Node]]]):
+    """
+    Function returns the out-degree of a given node in a dependency-tree.
+    :param node:
+    :param dist_dict:
+    :return:
+    """
+    try:
+        return len(dist_dict[node][1])
+    except:
+        return 0
+
+
+def create_dependency_tree(tokens: List[cassis.typesystem.FeatureStructure],
+                           dependencies: List[cassis.typesystem.FeatureStructure]) -> Tuple[Tree,
+                                                                                            Tuple[Any, Dict[str, List[Any]], Callable[[Any], Any], Callable[[Any], Any], Any],
+                                                                                            Tuple[Any, Callable[[Node, Node, Tree], Union[int, float]], Dict[Node, Dict[Union[int, float], List[Node]]],
+                                                                                                  Callable[[Node, Dict[Node, Dict[Union[int, float], List[Node]]]], int]]]:
+    """
+    Function creates dependency tree for given Sentence.
+    :param tokens:
+    :param dependencies:
+    :return:
+    """
+
+    # ==== Sentence S consists of Tuple: S = (w0, w1, ... , wn) for n token w ====
+    _S, _S_index = tokens, [token["begin"] for token in tokens]
+
+    # ==== Creating Dependency-Tree ====
+    arcs = {"edges": [], "labels": []}
+    dep_tree = Tree()
+    # --> Collecting Edges and their labels
+    for dep in dependencies:
+        governor, dependant = dep["Governor"], dep["Dependent"]
+        label = dep["DependencyType"]
+        edge = (indexOf(_S_index, governor["begin"]), indexOf(_S_index, dependant["begin"]))
+        arcs["edges"].append(edge)
+        arcs["labels"].append(label)
+    # --> Finding edge and removing it, because it should not be present in tree
+    for i in range(0, len(arcs["labels"])):
+        if (arcs["labels"][i] == "--") or (arcs["labels"][i].lower() == "root"):
+            root_index = arcs["edges"][i][-1]
+            del arcs["edges"][i]
+            del arcs["labels"][i]
+            break
+    # --> Adding root to tree-object
+    dep_tree.create_node(_S[root_index].get_covered_text(), root_index, data=_S[root_index])
+    # --> adding all remaining nodes to tree with while-loop
+    cur_idx = [root_index]
+    while True:
+        cur_childs = []
+        idx = cur_idx[0]
+        for i in range(0, len(arcs["edges"])):
+            if idx == arcs["edges"][i][0]:
+                cur_childs.append(arcs["edges"][i])
+        if not cur_childs:
+            cur_idx = cur_idx[1:]
+            if not cur_idx:
+                break
+            else:
+                pass
+        else:
+            for j in cur_childs:
+                cur_idx.append(j[-1])
+                dep_tree.create_node(_S[j[-1]].get_covered_text(), j[-1], parent=j[0], data=_S[j[-1]])
+            cur_idx = cur_idx[1:]
+    # dep_tree.show()
+
+    # ==== Tree consists of Tuple: T(S) = (Vs, As, ls, js, rs) ====
+    # --> Vs : Vertices
+    _Vs = dep_tree.all_nodes()
+    # --> rs : root of dependency-tree
+    _rs = dep_tree.get_node(dep_tree.root)
+    # --> As : Edges of dependency-tree
+    _As = arcs
+    # --> js : projection function for pos of token in sentence is: js(wi) = i
+    _js = lambda x : x.identifier
+    # --> ls : arc labeling function for as element of As: ls(as) = arc(as)
+    _ls = lambda x : _As["labels"][indexOf(_As["edges"], x)]
+
+    # ==== complete tree-components: ====
+    dep_tree_approx = (_Vs, _As, _js, _ls, _rs)
+
+    # ==== Additional tree-components ====
+    # --> Leaves
+    _L = dep_tree.leaves()
+    # --> geodesic distance for two nodes in dep-tree
+    _d = node_path_dist
+    # --> sets with all vertices and their distance
+    _dist_dict = make_dist_dict(_Vs, dep_tree)
+    # --> function to determine out-degree of a vertex
+    _degree = out_degree
+
+    # ==== complete additional tree-components ====
+    dep_tree_approx_add = (_L, _d, _dist_dict, _degree)
+
+    return dep_tree, dep_tree_approx, dep_tree_approx_add
+
+
 def sent_based_measurements_for_cas(cas: cassis.Cas,
                                     verbose: bool = False) -> List[Tuple[int, int, int, float]]:
     """
@@ -264,13 +440,47 @@ def doc_based_measurements_for_cas(results: List[Tuple[int, int, int, float]]) -
     return n_token, n_verbs, n_sents, tok_per_sentence, v_per_sentence, mdd, avg_max_depth
 
 
+
+def testf(cas: cassis.Cas,
+          verbose: bool = False):
+    """
+    Function for calculating all measurements for a given cas-object, sentence
+    by sentence and returning result-tuple for each sentence in a list.
+    :param verbose:
+    :param cas:
+    :return:
+    """
+
+    results = []
+
+    # ==== Going for each sentence in cas ====
+    sentences = select_sentences_from_cas(cas)
+
+    if verbose:
+        pbar = tqdm(total=len(sentences), desc="Calculating_sent_based", leave=True, disable=False, position=0)
+    else:
+        pbar = tqdm(total=len(sentences), desc="Calculating_sent_based", leave=True, disable=True, position=0)
+
+    for sentence in sentences:
+        tokens = select_tokens_of_sentence_from_cas(cas, sentence)
+        dependencies = select_dependencies_from_sentence(cas, sentence)
+
+        # ==== Calculating measurements ====
+        #results.append(select_dependency_root_from_sentence(cas, sentence)["DependencyType"])
+        if len(tokens) > 1:
+            results.append(create_dependency_tree(tokens, dependencies))
+        pbar.update(1)
+
+    return results
+
+
 if __name__ == '__main__':
     typesystem_path = os.path.join(ROOT_DIR, "TypeSystem.xml")
     typesystem = load_typesystem_from_path(typesystem_path)
     c = load_cas_from_path(filepath="/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/humboldt_kosmos03_1850.TEI-P5.xml/humboldt_kosmos03_1850.TEI-P5.xml#1.xmi.gz", typesystem=typesystem)
     #c = load_cas_from_path(filepath="/resources/corpora/paraliamentary_german/xmi_ttlab/LL2/10_1/272.txt.xmi.gz", typesystem=typesystem)
-    res = sent_based_measurements_for_cas(c, verbose=True)
+    res = testf(c, verbose=True)
     for i in res:
-        print(i)
-    res2 = doc_based_measurements_for_cas(res)
-    print(res2)
+        i[0].show()
+    #res2 = doc_based_measurements_for_cas(res)
+    #print(res2)
