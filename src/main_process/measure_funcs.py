@@ -276,9 +276,10 @@ def out_degree(node: Node, dist_dict: Dict[Node, Dict[Union[int, float], List[No
 
 def create_dependency_tree(tokens: List[cassis.typesystem.FeatureStructure],
                            dependencies: List[cassis.typesystem.FeatureStructure]) -> Tuple[Tree,
-                                                                                            Tuple[Any, Dict[str, List[Any]], Callable[[Any], Any], Callable[[Any], Any], Any],
-                                                                                            Tuple[Any, Callable[[Node, Node, Tree], Union[int, float]], Dict[Node, Dict[Union[int, float], List[Node]]],
-                                                                                                  Callable[[Node, Dict[Node, Dict[Union[int, float], List[Node]]]], int]]]:
+                                                                                            Dict[str, Union[Union[Callable[[Any], Any], Dict[str, List[Any]], Callable[[Any], Any]], Any]],
+                                                                                            Dict[str, Union[Union[Dict[Node, Dict[Union[int, float], List[Node]]], Callable[[Node, Dict[Node, Dict[Union[int, float], List[Node]]]], int],
+                                                                                                                  Callable[[Node, Node, Tree], Union[int, float]]],
+                                                                                                            Any]]]:
     """
     Function creates dependency tree for given Sentence.
     :param tokens:
@@ -342,7 +343,7 @@ def create_dependency_tree(tokens: List[cassis.typesystem.FeatureStructure],
     _ls = lambda x : _As["labels"][indexOf(_As["edges"], x)]
 
     # ==== complete tree-components: ====
-    dep_tree_approx = (_Vs, _As, _js, _ls, _rs)
+    dep_tree_approx = {"Vs": _Vs, "As": _As, "js": _js, "ls": _ls, "rs": _rs}
 
     # ==== Additional tree-components ====
     # --> Leaves
@@ -355,7 +356,7 @@ def create_dependency_tree(tokens: List[cassis.typesystem.FeatureStructure],
     _degree = out_degree
 
     # ==== complete additional tree-components ====
-    dep_tree_approx_add = (_L, _d, _dist_dict, _degree)
+    dep_tree_approx_add = {"L": _L, "d": _d, "dist_dict": _dist_dict, "degree": _degree}
 
     return dep_tree, dep_tree_approx, dep_tree_approx_add
 
@@ -481,6 +482,6 @@ if __name__ == '__main__':
     #c = load_cas_from_path(filepath="/resources/corpora/paraliamentary_german/xmi_ttlab/LL2/10_1/272.txt.xmi.gz", typesystem=typesystem)
     res = testf(c, verbose=True)
     for i in res:
-        i[0].show()
+       pass
     #res2 = doc_based_measurements_for_cas(res)
     #print(res2)
