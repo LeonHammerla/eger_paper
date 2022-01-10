@@ -243,6 +243,8 @@ def make_dist_dict(_Vs: List[Node],
     """
     Function for creating a dict containing every path distances for all vertices
     to all other vertices.
+    Dict keys are Nodes, and values are dicts. For these dicts keys are int or float and value
+    list of nodes.
     :param _Vs:
     :param dep_tree:
     :return:
@@ -261,7 +263,7 @@ def make_dist_dict(_Vs: List[Node],
         dist_dict[i] = b
     return dist_dict
 
-def out_degree(node: Node, dist_dict: Dict[Node, Dict[Union[int, float], List[Node]]]):
+def out_degree(node: Node, dist_dict: Dict[Node, Dict[Union[int, float], List[Node]]]) -> int:
     """
     Function returns the out-degree of a given node in a dependency-tree.
     :param node:
@@ -274,12 +276,118 @@ def out_degree(node: Node, dist_dict: Dict[Node, Dict[Union[int, float], List[No
         return 0
 
 
+def get_absolute_prestige(dist_dict: Dict[Node, Dict[Union[int, float], List[Node]]]):
+    """
+    Function for calculating the absolute prestige:
+    https://www.researchgate.net/publication/200110853_Structural_analysis_of_hypertexts_Identifying_hierarchies_and_useful_
+    Prestige for node is status - contrastatus. Absolute Prestige is sum of abs(node-prestige).
+    :param dist_dict:
+    :return:
+    """
+    node_prestiges = []
+    for node in dist_dict:
+        status = 0
+        for dist in dist_dict[node]:
+            if 0 < dist < math.inf:
+                status += (dist * len(dist_dict[node][dist]))
+        contra_status = 0
+        for node2 in dist_dict:
+            for dist2 in dist_dict[node2]:
+                if node in dist_dict[node2][dist2]:
+                    if 0 < dist2 < math.inf:
+                        contra_status += dist2
+                    break
+        prestige_of_node = status - contra_status
+        node_prestiges.append(abs(prestige_of_node))
+    absolute_prestige = sum(node_prestiges)
+    return absolute_prestige
+
+
+def make_ssl(dist_dict: Dict[Node, Dict[Union[int, float], List[Node]]],
+             root_node: Node,
+             _L: List[Node]) -> Dict[Union[int, float], List[Node]]:
+    """
+    Function for getting the set of subset of leaves ordered by their distance to
+    the root node of the tree.
+    :param dist_dict:
+    :param root_node:
+    :param _L:
+    :return:
+    """
+    ssl = dict()
+    for dist in dist_dict[root_node]:
+        leaves = []
+        for leave in _L:
+            if leave in dist_dict[root_node][dist]:
+                leaves.append(leave)
+        if leaves:
+            ssl[dist] = leaves
+    return ssl
+
+
+def get_lde(ssl: Dict[Union[int, float], List[Node]],
+            _L: List[Node]) -> float:
+    """
+    Function for calculating LDE (Leaf Depth/Distance Entropy)
+    :param ssl:
+    :param _L:
+    :return:
+    """
+    total_number_of_subsets = len(ssl.keys())
+    if total_number_of_subsets > 1:
+        lde_sum = 0
+        for dist in ssl:
+            pi = len(ssl[dist]) / len(_L)
+            lde_sum += (pi * math.log2(pi))
+        lde_sum *= -1
+        lde = lde_sum / math.log2(total_number_of_subsets)
+        return lde
+    else:
+        return 0.0
+
+
+def make_sse(tokens: List[cassis.typesystem.FeatureStructure],
+            arcs: Dict[str, list],
+            _js: Callable[[Node], int],
+            dep_tree: Tree) ->  Dict[int, List[Tuple[int, int]]]:
+    sse = dict()
+    for i in range(0, len(tokens) + 1):
+        edges = []
+        for edge in arcs["edges"]:
+            if _js(dep_tree.get_node(edge[0])) - _js(dep_tree.get_node(edge[1])) == i:
+                edges.append(edge)
+        if edges:
+            sse[i] = edges
+    return sse
+
+
+def get_dde(sse:  Dict[int, List[Tuple[int, int]]],
+            arcs: Dict[str, list]) -> float:
+    """
+    Function for calculating DDE (dependency distance entropy).
+    :param sse:
+    :param arcs:
+    :return:
+    """
+    total_number_of_subsets = len(sse.keys())
+    total_number_of_arcs = len(arcs["edges"])
+    if total_number_of_subsets > 1:
+        dde_sum = 0
+        for dist in sse:
+            pi = len(sse[dist]) / total_number_of_arcs
+            dde_sum += (pi * math.log2(pi))
+        dde_sum *= -1
+        dde = dde_sum / math.log2(total_number_of_subsets)
+        return dde
+    else:
+        return 0.0
+
 def create_dependency_tree(tokens: List[cassis.typesystem.FeatureStructure],
                            dependencies: List[cassis.typesystem.FeatureStructure]) -> Tuple[Tree,
-                                                                                            Dict[str, Union[Union[Callable[[Any], Any], Dict[str, List[Any]], Callable[[Any], Any]], Any]],
-                                                                                            Dict[str, Union[Union[Dict[Node, Dict[Union[int, float], List[Node]]], Callable[[Node, Dict[Node, Dict[Union[int, float], List[Node]]]], int],
-                                                                                                                  Callable[[Node, Node, Tree], Union[int, float]]],
-                                                                                                            Any]]]:
+                                                                                            Dict[str, Union[Union[Callable[[Node], int], Dict[str, List[Any]], Callable[[Tuple[int, int]], str]], Any]],
+                                                                                            Dict[str, Union[Union[Dict[Node, Dict[Union[int, float], List[Node]]], Callable[
+                                                                                                [Node, Dict[Node, Dict[Union[int, float], List[Node]]]], int], Callable[
+                                                                                                [Node, Node, Tree], Union[int, float]]], Any]]]:
     """
     Function creates dependency tree for given Sentence.
     :param tokens:
@@ -338,9 +446,9 @@ def create_dependency_tree(tokens: List[cassis.typesystem.FeatureStructure],
     # --> As : Edges of dependency-tree
     _As = arcs
     # --> js : projection function for pos of token in sentence is: js(wi) = i
-    _js = lambda x : x.identifier
+    _js: Callable[[Node], int] = lambda x : x.identifier
     # --> ls : arc labeling function for as element of As: ls(as) = arc(as)
-    _ls = lambda x : _As["labels"][indexOf(_As["edges"], x)]
+    _ls: Callable[[Tuple[int, int]], str] = lambda x : _As["labels"][indexOf(_As["edges"], x)]
 
     # ==== complete tree-components: ====
     dep_tree_approx = {"Vs": _Vs, "As": _As, "js": _js, "ls": _ls, "rs": _rs}
@@ -360,6 +468,143 @@ def create_dependency_tree(tokens: List[cassis.typesystem.FeatureStructure],
 
     return dep_tree, dep_tree_approx, dep_tree_approx_add
 
+
+def complexity_analysis(dist_dict: Dict[Node, Dict[Union[int, float], List[Node]]],
+                        root_node: Node) -> Tuple[float, int, int]:
+    """
+    Function returns different measurements regarding the complexity:
+    (r=root, A=edges, V=Vertices, w=elem of V)
+    - complexity ratio: |{w | (r, w) elem of A}| / |V|
+    - absolute complexity: |{w | (r, w) elem of A}|
+    - order of tree:
+    :param dist_dict:
+    :param dep_tree:
+    :return:
+    """
+    # ==== Calculating different measurements for complexity ====
+    root_degree = out_degree(root_node, dist_dict)
+    # --> complexity ratio:
+    complexity_ratio = root_degree / len(list(dist_dict.keys()))
+    # --> absolute complexity:
+    absolute_complexity = root_degree
+    # --> order of tree:
+    order_T = len(list(dist_dict.keys()))
+
+    return complexity_ratio, absolute_complexity, order_T
+
+
+def dependency_analysis(dep_tree: Tree,
+                        _Vs: List[Node],
+                        root_node: Node,
+                        dist_dict: Dict[Node, Dict[Union[int, float], List[Node]]]) -> Tuple[float, float]:
+    """
+    Function for dependency analysis.
+    - dependency index
+    - stratum of tree
+    :param dep_tree:
+    :param _Vs:
+    :param root_node:
+    :param dist_dict:
+    :return:
+    """
+    # ==== Calculating different measurements related to dependency ====
+    order_T = len(_Vs)
+
+    # --> dependency index (altmann index):
+    dependency_index_sum = 0
+    for i in range(1, dep_tree.depth() + 1):
+        try:
+            dependency_index_sum += (i * len(dist_dict[root_node][i-1]))
+        except:
+            pass
+    dependency_index =  (2 * dependency_index_sum) / (order_T * (order_T + 1))
+    # --> stratum of tree (absolute-prestige/LAP):
+    lap = (order_T ** 3) / 4 if order_T % 2 == 0 else (order_T ** 3 - order_T) / 4
+    stratum_of_tree = get_absolute_prestige(dist_dict) / lap
+
+    return dependency_index, stratum_of_tree
+
+
+def depth_analysis(dep_tree: Tree,
+                   _Vs: List[Node],
+                   root_node: Node,
+                   dist_dict: Dict[Node, Dict[Union[int, float], List[Node]]],
+                   _L: List[Node]) -> Tuple[int, float, float, float]:
+    """
+    Function for calculating different depth related measurements:
+    - depth of tree
+    - ratio of vertices on longest path starting from root
+    - leaf distance entropy
+    - ratio of leafs at distance one to root
+    :param dep_tree:
+    :param _Vs:
+    :param root_node:
+    :param dist_dict:
+    :param _L:
+    :return:
+    """
+    # ==== Depth related measurements of tree ====
+    order_T = len(_Vs)
+
+    # --> depth of tree:
+    depth_T = dep_tree.depth()
+    # --> ratio of vertices on longest path starting from root:
+    _T_T = depth_T / order_T
+    # --> leaf distance entropy (ssl = set of subset of leaves):
+    ssl = make_ssl(dist_dict, root_node, _L)
+    lde = get_lde(ssl, _L)
+    # --> ratio of leafs at distance one to root:
+    try:
+        _L1 = len(ssl[1]) / max(1, order_T)
+    except:
+        _L1 = 0.0
+
+    return depth_T, _T_T, lde, _L1
+
+
+def distance_analysis(dep_tree: Tree,
+                      _Vs: List[Node],
+                      tokens: List[cassis.typesystem.FeatureStructure],
+                      dependencies: List[cassis.typesystem.FeatureStructure],
+                      _js: Callable[[Node], int],
+                      arcs: Dict[str, list]) -> Tuple[float, float, float, float]:
+    """
+    Function for calculating different dependency distance related measurements:
+    - mean dependency distance
+    - dependency distance entropy (sse = set of subsets entropy)
+    - ratio of arcs between adjacent tokens
+    - ratio of arcs manifesting distances occurring once
+    :param dep_tree:
+    :param _Vs:
+    :param tokens:
+    :param dependencies:
+    :param _js:
+    :param arcs:
+    :return:
+    """
+    # ==== Calculate some distance related measurements ====
+    # --> mean dependency distance:
+    mdd = mdd_of_sent(tokens, dependencies)
+    # --> dependency distance entropy (sse = set of subsets entropy):
+    sse = make_sse(tokens, arcs, _js, dep_tree)
+    dde = get_dde(sse, arcs)
+    # --> ratio of arcs between adjacent tokens:
+    try:
+        _D1 = len(sse[1]) / max(1, len(arcs["edges"]))
+    except:
+        _D1 = 0.0
+    # --> ratio of arcs manifesting distances occurring once:
+    arcs_manifesting_distances_occurring_once = 0
+    for dist in sse:
+        if len(sse[dist]) == 1:
+            arcs_manifesting_distances_occurring_once += 1
+    _D_sets_1 = arcs_manifesting_distances_occurring_once / max(1, len(arcs["edges"])) if arcs_manifesting_distances_occurring_once > 0 else 0.0
+
+    return mdd, dde, _D1, _D_sets_1
+
+
+def imbalance_analysis():
+    pass
 
 def sent_based_measurements_for_cas(cas: cassis.Cas,
                                     verbose: bool = False) -> List[Tuple[int, int, int, float]]:
