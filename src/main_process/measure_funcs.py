@@ -382,6 +382,52 @@ def get_dde(sse:  Dict[int, List[Tuple[int, int]]],
     else:
         return 0.0
 
+
+def get_highest_level_predecessor(node1: Node, node2: Node, dep_tree: Tree) -> Node:
+    """
+    Function for finding highest level predecessor for two
+    given nodes in their tree.
+    :param node1:
+    :param node2:
+    :param dep_tree:
+    :return:
+    """
+    tree_id = dep_tree.identifier
+    predecessors_node1 = []
+    if node1.is_root(tree_id) or node2.is_root(tree_id):
+        return dep_tree.get_node(dep_tree.root)
+    else:
+        while True:
+            predecessor = node1.predecessor(tree_id)
+            if predecessor is None:
+                break
+            else:
+                predecessors_node1.append(predecessor)
+                node1 = dep_tree.get_node(predecessor)
+
+        predecessors_both = []
+        while True:
+            predecessor = node2.predecessor(tree_id)
+            if predecessor is None:
+                break
+            else:
+                if predecessor in predecessors_node1:
+                    predecessors_both.append(predecessor)
+                node2 = dep_tree.get_node(predecessor)
+
+        final_predecessor = ("", -1)
+        for predecessor in predecessors_both:
+            depth = dep_tree.depth(predecessor)
+            if depth > final_predecessor[-1]:
+                final_predecessor = (predecessor, depth)
+
+        return dep_tree.get_node(final_predecessor[0])
+
+
+def get_all_leave_pairs(_L):
+    leave_pairs = [(a.identifier, b.identifier) for idx, a in enumerate(_L) for b in _L[idx + 1:]]
+    return leave_pairs
+
 def create_dependency_tree(tokens: List[cassis.typesystem.FeatureStructure],
                            dependencies: List[cassis.typesystem.FeatureStructure]) -> Tuple[Tree,
                                                                                             Dict[str, Union[Union[Callable[[Node], int], Dict[str, List[Any]], Callable[[Tuple[int, int]], str]], Any]],
