@@ -424,9 +424,106 @@ def get_highest_level_predecessor(node1: Node, node2: Node, dep_tree: Tree) -> N
         return dep_tree.get_node(final_predecessor[0])
 
 
-def get_all_leave_pairs(_L):
-    leave_pairs = [(a.identifier, b.identifier) for idx, a in enumerate(_L) for b in _L[idx + 1:]]
+def get_all_leave_pairs(_L: List[Node]) -> List[Tuple[Node, Node]]:
+    """
+    This Function returns every possible leave pair.
+    :param _L:
+    :return:
+    """
+    leave_pairs = [(a, b) for idx, a in enumerate(_L) for b in _L[idx + 1:]]
     return leave_pairs
+
+
+def get_tci_and_l(_L: List[Node],
+                  all_leave_pairs: List[Tuple[Node, Node]],
+                  dist_dict: Dict[Node, Dict[Union[int, float], List[Node]]],
+                  dep_tree: Tree) -> Tuple[int, int]:
+    """
+    Function for getting the Total Cophenetic Index for calculating later the
+    imbalance of tree.
+    :param _L:
+    :param all_leave_pairs:
+    :param dist_dict:
+    :param dep_tree:
+    :return:
+    """
+    # ==== Calculation of tci (Total Cophenetic Index) ====
+    # --> Calculating k:
+    k = 0
+    for node in dist_dict:
+        k += out_degree(node, dist_dict)
+    # --> Calculating expected_number_of_leaves_in_caterpillar_graph:
+    expected_number_of_leaves_in_caterpillar_graph = len(_L) + k
+    # --> Calculation of TCI:
+    tci_sum = 0
+    if expected_number_of_leaves_in_caterpillar_graph > 3:
+        for pair in all_leave_pairs:
+            tci_sum += dep_tree.depth(get_highest_level_predecessor(pair[0], pair[-1], dep_tree))
+        return tci_sum, expected_number_of_leaves_in_caterpillar_graph
+    else:
+        return 0, expected_number_of_leaves_in_caterpillar_graph
+
+
+def get_imbalance(tci: int, l: int) -> float:
+    """
+    Function for calculating imbalance index of tree.
+    :param tci:
+    :param l:
+    :return:
+    """
+    if l > 3:
+        return tci / math.comb(l, 3)
+    else:
+        return 0.0
+
+
+def get_hirsch_index(dist_dict: Dict[Node, Dict[Union[int, float], List[Node]]],
+                     dep_tree: Tree,
+                     root_node: Node) -> int:
+    """
+    Function for calculating the hirsch index.
+    :param dist_dict:
+    :param dep_tree:
+    :param root_node:
+    :return:
+    """
+    dist_to_width_from_root = dict()
+    for dist in dist_dict[root_node]:
+        dist_to_width_from_root[dist] = len(dist_dict[root_node][dist])
+
+    possible_indices = [0]
+    for i in range(1, dep_tree.depth() + 1):
+        is_true = True
+        for j in range(1, i + 1):
+            if dist_to_width_from_root[j] - 1 >= j:
+                pass
+            else:
+                is_true = False
+                break
+        if is_true:
+            possible_indices.append(i)
+
+    return max(possible_indices)
+
+
+def get_ratio_hirsch_index(hirsch_index: int,
+                           root_node: Node,
+                           dist_dict: Dict[Node, Dict[Union[int, float], List[Node]]],
+                           _Vs: List[Node]) -> float:
+    """
+    Function for calculating ratio of vertices contributing to h-index.
+    :param hirsch_index:
+    :param dep_tree:
+    :param root_node:
+    :param dist_dict:
+    :param _Vs:
+    :return:
+    """
+    node_sum = 1 # for root
+    for dist in range(1, hirsch_index + 1):
+        node_sum += len(dist_dict[root_node][dist])
+
+    return node_sum / len(_Vs)
 
 def create_dependency_tree(tokens: List[cassis.typesystem.FeatureStructure],
                            dependencies: List[cassis.typesystem.FeatureStructure]) -> Tuple[Tree,
@@ -581,7 +678,7 @@ def depth_analysis(dep_tree: Tree,
     - depth of tree
     - ratio of vertices on longest path starting from root
     - leaf distance entropy
-    - ratio of leafs at distance one to root
+    - ratio of leaves at distance one to root
     :param dep_tree:
     :param _Vs:
     :param root_node:
@@ -599,7 +696,7 @@ def depth_analysis(dep_tree: Tree,
     # --> leaf distance entropy (ssl = set of subset of leaves):
     ssl = make_ssl(dist_dict, root_node, _L)
     lde = get_lde(ssl, _L)
-    # --> ratio of leafs at distance one to root:
+    # --> ratio of leaves at distance one to root:
     try:
         _L1 = len(ssl[1]) / max(1, order_T)
     except:
@@ -649,8 +746,240 @@ def distance_analysis(dep_tree: Tree,
     return mdd, dde, _D1, _D_sets_1
 
 
-def imbalance_analysis():
-    pass
+def imbalance_analysis(_L: List[Node],
+                       dist_dict: Dict[Node, Dict[Union[int, float], List[Node]]],
+                       dep_tree: Tree) -> float:
+    """
+    Function for gettling imbalance related measurements:
+    - imbalance index
+    :param _L:
+    :param dist_dict:
+    :param dep_tree:
+    :return:
+    """
+    # ==== Different Imbalance related Measurements ====
+    # --> Total Cophenetic Index:
+    leave_pairs = get_all_leave_pairs(_L)
+    tci, l = get_tci_and_l(_L, leave_pairs, dist_dict, dep_tree)
+    # --> imbalance Index of tree:
+    imbalance_index = get_imbalance(tci, l)
+
+    return imbalance_index
+
+
+def length_analysis(_L: List[Node],
+                    _Vs: List[Node]) -> Tuple[float, int]:
+    """
+    Function returns two leaf based measurements:
+    - ratio of leaves
+    - number of leaves
+    :param _L:
+    :param _Vs:
+    :return:
+    """
+    # ==== Length related measurements ====
+    # --> number of leaves:
+    number_of_leaves = len(_L)
+    # --> ratio of leaves:
+    ratio_of_leaves = number_of_leaves / len(_Vs)
+
+    return ratio_of_leaves, number_of_leaves
+
+
+def functional_analysis(arcs: Dict[str, list]) -> Tuple[List[float], List[float]]:
+    """
+    Functional analysis.
+    - ratio of arcs of type X
+    - number of arcs of type X
+
+    MATE-Parser Labels used:
+    CJ - (conjunct),
+    CP - (complementizer),
+    DA - (dative),
+    HD - (head),
+    MO - (modifier),
+    NK - (negation),
+    OA - (accusative object),
+    OA2- (second accusative object),
+    OC - (clausal object),
+    PD - (predicate),
+    RC - (relative clause),
+    SB - (subject).
+    :param arcs:
+    :return:
+    """
+    dep_labels = ["CJ", "CP", "DA", "HD", "MO", "NK", "OA", "OA2", "OC", "PD", "RC", "SB"]
+    # ==== Some measurements for a functional dependency analysis ====
+    # --> ratio of arcs of type X and number of arcs of type X:
+    total_number_of_arcs = max(1, len(arcs["edges"]))
+    scores_ratio = []
+    scores_total_number = []
+    for dep_label in dep_labels:
+        label_count = 0
+        for label in arcs["labels"]:
+            if label == dep_label:
+                label_count += 1
+        scores_ratio.append(label_count / total_number_of_arcs)
+        scores_total_number.append(label_count)
+    return scores_ratio, scores_total_number
+
+
+def width_analysis(dist_dict: Dict[Node, Dict[Union[int, float], List[Node]]],
+                   root_node: Node,
+                   dep_tree: Tree,
+                   _Vs: List[Node]):
+    """
+    Function for the width analysis. Containing the following measurements:
+    - width of tree
+    - the lowest level of maximum width
+    - ratio of vertices belonging to the latter level
+    - Hirsch index by level (h-index)
+    - ratio of vertices contributing to h-index
+    - relative h-index
+    :param dist_dict:
+    :param root_node:
+    :param dep_tree:
+    :param _Vs:
+    :return:
+    """
+    # ==== Analysis of the width structure of the tree ====
+    width_max = [0, 0]
+    for dist in dist_dict[root_node]:
+        if len(dist_dict[root_node][dist]) == width_max[0]:
+            width_max[1] = min(width_max[1], dist)
+        elif len(dist_dict[root_node][dist]) > width_max[0]:
+            width_max[0] = len(dist_dict[root_node][dist])
+            width_max[1] = dist
+        else:
+            pass
+    # --> width of tree:
+    width = width_max[0]
+    # --> lowest level of maximum width:
+    lowest_level_of_max_width = width_max[1]
+    # --> ratio of vertices belonging to the latter level:
+    ratio_of_v_at_level = len(dist_dict[root_node][lowest_level_of_max_width])
+    # --> Hirsch index by level:
+    hirsch_index = get_hirsch_index(dist_dict, dep_tree, root_node)
+    # --> ratio of vertices contributing to h-index:
+    ratio_of_hirsch_index = get_ratio_hirsch_index(hirsch_index, root_node, dist_dict, _Vs)
+    # --> relative h-index
+    relative_h_index = hirsch_index / dep_tree.depth()
+
+    return width, lowest_level_of_max_width, ratio_of_v_at_level, hirsch_index, ratio_of_hirsch_index, relative_h_index
+
+
+def combine_all_measurements(cas: cassis.Cas,
+                             sentence: cassis.typesystem.FeatureStructure) -> tuple:
+    """
+    Function collects all available measurements for one sentence.
+    :param cas:
+    :param sentence:
+    :return:
+    """
+
+    tokens = select_tokens_of_sentence_from_cas(cas, sentence)
+    dependencies = select_dependencies_from_sentence(cas, sentence)
+
+    # ==== Making Dependency Tree with all desired features ====
+    # --> components --> {"Vs": _Vs, "As": _As, "js": _js, "ls": _ls, "rs": _rs}
+    # --> additional_components --> {"L": _L, "d": _d, "dist_dict": _dist_dict, "degree": _degree}
+    dep_tree, components, additional_components = create_dependency_tree(tokens, dependencies)
+
+    # ==== Getting all Measurements ====
+    all_measurements = []
+    # --> n_verbs 0)
+    n_verbs = n_verbs_in_sentence(cas, tokens)
+    all_measurements.append(n_verbs)
+    # ==== Complexity Analysis ====
+    complexity_results = complexity_analysis(dist_dict=additional_components["dist_dict"],
+                                             root_node=components["rs"])
+    # --> Complexity ratio 1):
+    all_measurements.append(complexity_results[0])
+    # --> absolute Complexity 2):
+    all_measurements.append(complexity_results[1])
+    # --> order of tree 3):
+    all_measurements.append(complexity_results[2])
+    # ==== Dependency Analysis ====
+    dependency_results = dependency_analysis(dep_tree=dep_tree,
+                                             _Vs=components["Vs"],
+                                             root_node=components["rs"],
+                                             dist_dict=additional_components["dist_dict"])
+    # --> altmann index (dependency index) 4):
+    all_measurements.append(dependency_results[0])
+    # --> stratum of tree 5):
+    all_measurements.append(dependency_results[1])
+    # ==== Depth Analysis ====
+    depth_results = depth_analysis(dep_tree=dep_tree,
+                                   _Vs=components["Vs"],
+                                   root_node=components["rs"],
+                                   dist_dict=additional_components["dist_dict"],
+                                   _L=additional_components["L"])
+    # --> depth of tree 6):
+    all_measurements.append(depth_results[0])
+    # --> ratio of vertices on longest path starting from root 7):
+    all_measurements.append(depth_results[1])
+    # --> leaf distance entropy 8):
+    all_measurements.append(depth_results[2])
+    # --> ratio of leaves at distance one to root 9):
+    all_measurements.append(depth_results[3])
+    # ==== Distance Analysis ====
+    distance_results = distance_analysis(dep_tree=dep_tree,
+                                         _Vs=components["Vs"],
+                                         tokens=tokens,
+                                         dependencies=dependencies,
+                                         _js=components["js"],
+                                         arcs=components["As"])
+    # --> mean dependency distance 10)
+    all_measurements.append(distance_results[0])
+    # --> dependency distance entropy 11):
+    all_measurements.append(distance_results[1])
+    # --> ratio of arcs between adjacent tokens 12):
+    all_measurements.append(distance_results[2])
+    # --> ratio of arcs manifesting distances occurring once 13):
+    all_measurements.append(distance_results[3])
+    # ==== Imbalance Analysis ====
+    imbalance_results = imbalance_analysis(_L=additional_components["L"],
+                                           dist_dict=additional_components["dist_dict"],
+                                           dep_tree=dep_tree)
+    # --> Imbalance Index 14):
+    all_measurements.append(imbalance_results)
+    # ==== Length Analysis ====
+    length_results = length_analysis(_L=additional_components["L"],
+                                     _Vs=components["Vs"])
+    # --> ratio of leaves 15):
+    all_measurements.append(length_results[0])
+    # --> number of leaves 16):
+    all_measurements.append(length_results[1])
+    # ==== Function Analysis ====
+    function_results = functional_analysis(arcs=components["As"])
+    # --> ratio of arcs of type X 17):
+    for x in function_results[0]:
+        all_measurements.append(x)
+    # --> number of arcs of type X 18):
+    for x in function_results[1]:
+        all_measurements.append(x)
+    # ==== Width Analysis ====
+    width_results = width_analysis(dist_dict=additional_components["dist_dict"],
+                                   root_node=components["rs"],
+                                   dep_tree=dep_tree,
+                                   _Vs=components["Vs"])
+    # --> width of tree 19):
+    all_measurements.append(width_results[0])
+    # --> the lowest level of maximum width 20):
+    all_measurements.append(width_results[1])
+    # --> ratio of vertices belonging to the latter level 21):
+    all_measurements.append(width_results[2])
+    # --> Hirsch index by level (h-index) 22):
+    all_measurements.append(width_results[3])
+    # --> ratio of vertices contributing to h-index 23):
+    all_measurements.append(width_results[4])
+    # --> relative h-index 24):
+    all_measurements.append(width_results[5])
+
+    return tuple(all_measurements)
+
+
+
 
 def sent_based_measurements_for_cas(cas: cassis.Cas,
                                     verbose: bool = False) -> List[Tuple[int, int, int, float]]:
@@ -755,12 +1084,11 @@ def testf(cas: cassis.Cas,
 
     for sentence in sentences:
         tokens = select_tokens_of_sentence_from_cas(cas, sentence)
-        dependencies = select_dependencies_from_sentence(cas, sentence)
 
         # ==== Calculating measurements ====
         #results.append(select_dependency_root_from_sentence(cas, sentence)["DependencyType"])
         if len(tokens) > 1:
-            results.append(create_dependency_tree(tokens, dependencies))
+            results.append(combine_all_measurements(cas, sentence))
         pbar.update(1)
 
     return results
@@ -773,6 +1101,6 @@ if __name__ == '__main__':
     #c = load_cas_from_path(filepath="/resources/corpora/paraliamentary_german/xmi_ttlab/LL2/10_1/272.txt.xmi.gz", typesystem=typesystem)
     res = testf(c, verbose=True)
     for i in res:
-       pass
+       print(i)
     #res2 = doc_based_measurements_for_cas(res)
     #print(res2)
