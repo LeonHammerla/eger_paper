@@ -18,23 +18,41 @@ FLIERPROBS = dict(marker='x', markersize=0.5,
 
 
 def save_file_paths_time_slices(paths_dict: Dict[str, List[str]],
-                                corpus_ident: str):
+                                data_dir: str):
     """
     Function Saves Time-Slices as a .txt file containing every filepath to a cas-object
     belonging to that time slice.
+    :param data_dir:
     :param paths_dict:
-    :param corpus_ident:
     :return:
     """
-    # ==== Creating Path if not exists ====
-    data_dir = os.path.join(ROOT_DIR, "data", corpus_ident, "timeslices")
-    pathlib.Path(data_dir).mkdir(parents=True, exist_ok=True)
 
     # ==== Writing content of each time slice to its own .txt file ====
     for time_bucket in paths_dict:
         with open(os.path.join(data_dir, f"{time_bucket}.txt"), "w") as f:
             for path in paths_dict[time_bucket]:
                 f.write(path + "\n")
+
+
+def make_timeslices_txts(paths_dict: dict,
+                         corpus_ident: str):
+    """
+    Function for making folder containing all texts for each timeslice.
+    :param paths_dict:
+    :param corpus_ident:
+    :return:
+    """
+    # ==== Removing dir if already exists to make a new clean one
+    data_dir = os.path.join(ROOT_DIR, "data", corpus_ident, "timeslices")
+    try:
+        shutil.rmtree(data_dir)
+    except:
+        pass
+    pathlib.Path(data_dir).mkdir(parents=True, exist_ok=True)
+
+    # ==== Saving time slices -> filepaths ====
+    save_file_paths_time_slices(paths_dict=paths_dict,
+                                data_dir=data_dir)
 
 
 def box_plot_of_result_at_idx(result_tuple_index: int,
@@ -88,13 +106,13 @@ def box_plot_of_result_at_idx(result_tuple_index: int,
 
 
 def plotting_results(result_bucket: dict,
-                     paths_dict: dict,
-                     corpus_ident: str,
                      res_type: str,
                      verbose: bool,
+                     data_dir: str,
                      fontsize: float = 4):
     """
     Function for plotting all results"
+    :param data_dir:
     :param fontsize:
     :param result_bucket:
     :param paths_dict:
@@ -103,20 +121,12 @@ def plotting_results(result_bucket: dict,
     :param verbose:
     :return:
     """
-    # ==== Removing dir if already exists to make a new clean one
-    data_dir = os.path.join(ROOT_DIR, "data", corpus_ident, res_type)
-    try:
-        shutil.rmtree(os.path.join(ROOT_DIR, "data", corpus_ident, res_type, "timeslices"))
-    except:
-        pass
-    try:
-        os.remove(os.path.join(ROOT_DIR, "data", corpus_ident, res_type, "box_plots.pdf"))
-    except:
-        pass
 
-    # ==== Saving time slices -> filepaths ====
-    save_file_paths_time_slices(paths_dict=paths_dict,
-                                corpus_ident=corpus_ident)
+    # ==== Removing dir if already exists to make a new clean one ====
+    try:
+        os.remove(os.path.join("/".join(data_dir.split("/")[:-1]), "box_plots.pdf"))
+    except:
+        pass
 
     # ==== Finding Tuple-Length ====
     tuple_length = 0
@@ -128,12 +138,12 @@ def plotting_results(result_bucket: dict,
 
     # ==== Creating pbar ====
     if verbose:
-        pbar = tqdm(total=tuple_length, desc="Saving Plots", leave=True, disable=False)
+        pbar = tqdm(total=tuple_length, desc=f"Saving Plots: {data_dir}", leave=True, disable=False)
     else:
-        pbar = tqdm(total=tuple_length, desc="Saving Plots", leave=True, disable=True)
+        pbar = tqdm(total=tuple_length, desc=f"Saving Plots: {data_dir}", leave=True, disable=True)
 
     # ==== Plotting all different Results ====
-    with PdfPages(os.path.join(data_dir, 'box_plots.pdf')) as pdf:
+    with PdfPages(os.path.join("/".join(data_dir.split("/")[:-1]), "box_plots.pdf")) as pdf:
         for i in range(0, tuple_length):
             fig = box_plot_of_result_at_idx(result_tuple_index=i,
                                             result_dict=result_bucket,
