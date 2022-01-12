@@ -18,6 +18,7 @@ from src.main_process.bucket_funcs import bucket_hansard, \
     bucket_dta, \
     bucket_bundestag, \
     bucket_coah
+from src.main_process.saving_plotting_utility import make_timeslices_txts
 from src.main_process.measure_funcs import sent_based_measurements_for_cas, doc_based_measurements_for_cas
 from src.main_process.saving_plotting_utility import plotting_results
 import cassis
@@ -33,7 +34,7 @@ ROOT_DIR = os.path.realpath(os.path.join(os.path.dirname(__file__), '..', '..'))
 def process_dir_of_xmi(dir_path: str,
                        corpus_ident: str,
                        verbose: bool,
-                       n_procs: int) -> Tuple[Tuple[Union[dict, Any], Union[dict, Any]], Union[dict, Any]]:
+                       n_procs: int) -> Tuple[Tuple[List[dict], List[dict]], dict]:
     """
     Paths to the Corporas:
 
@@ -54,15 +55,55 @@ def process_dir_of_xmi(dir_path: str,
     """
 
     # ==== Creating Dir if not existing and adding result folder ====
-    data_dir_doc = os.path.join(ROOT_DIR, "data", corpus_ident, "doc", "results")
-    data_dir_sent = os.path.join(ROOT_DIR, "data", corpus_ident, "sent", "results")
+    # --> doc-based:
+    data_dir_doc_10 = os.path.join(ROOT_DIR, "data", corpus_ident, "doc", "sent_length_02-09", "results")
+    data_dir_doc_20 = os.path.join(ROOT_DIR, "data", corpus_ident, "doc", "sent_length_10-19", "results")
+    data_dir_doc_30 = os.path.join(ROOT_DIR, "data", corpus_ident, "doc", "sent_length_20-29", "results")
+    data_dir_doc_40 = os.path.join(ROOT_DIR, "data", corpus_ident, "doc", "sent_length_30-39", "results")
+    data_dir_doc_xx = os.path.join(ROOT_DIR, "data", corpus_ident, "doc", "sent_length_40+", "results")
+    # --> sent-based:
+    data_dir_sent_10 = os.path.join(ROOT_DIR, "data", corpus_ident, "sent", "sent_length_02-09", "results")
+    data_dir_sent_20 = os.path.join(ROOT_DIR, "data", corpus_ident, "sent", "sent_length_10-19", "results")
+    data_dir_sent_30 = os.path.join(ROOT_DIR, "data", corpus_ident, "sent", "sent_length_20-29", "results")
+    data_dir_sent_40 = os.path.join(ROOT_DIR, "data", corpus_ident, "sent", "sent_length_30-39", "results")
+    data_dir_sent_xx = os.path.join(ROOT_DIR, "data", corpus_ident, "sent", "sent_length_40+", "results")
+    # --> timeslices_safe:
+    time_slices_safe = os.path.join(ROOT_DIR, "data", corpus_ident, "timeslices_safe")
+    # --> data_dirs:
+    data_dir_dict = {"sent": [data_dir_sent_10, data_dir_sent_20, data_dir_sent_30, data_dir_sent_40, data_dir_sent_xx],
+                     "doc": [data_dir_doc_10, data_dir_doc_20, data_dir_doc_30, data_dir_doc_40, data_dir_doc_xx]}
+
     try:
-        shutil.rmtree(data_dir_doc)
-        shutil.rmtree(data_dir_sent)
+        # --> doc-based:
+        shutil.rmtree(data_dir_doc_10)
+        shutil.rmtree(data_dir_doc_20)
+        shutil.rmtree(data_dir_doc_30)
+        shutil.rmtree(data_dir_doc_40)
+        shutil.rmtree(data_dir_doc_xx)
+        # --> sent-based:
+        shutil.rmtree(data_dir_sent_10)
+        shutil.rmtree(data_dir_sent_20)
+        shutil.rmtree(data_dir_sent_30)
+        shutil.rmtree(data_dir_sent_40)
+        shutil.rmtree(data_dir_sent_xx)
+        # --> timeslices_safe:
+        shutil.rmtree(time_slices_safe)
     except:
         pass
-    pathlib.Path(data_dir_doc).mkdir(parents=True, exist_ok=True)
-    pathlib.Path(data_dir_sent).mkdir(parents=True, exist_ok=True)
+    # --> doc-based:
+    pathlib.Path(data_dir_doc_10).mkdir(parents=True, exist_ok=True)
+    pathlib.Path(data_dir_doc_20).mkdir(parents=True, exist_ok=True)
+    pathlib.Path(data_dir_doc_30).mkdir(parents=True, exist_ok=True)
+    pathlib.Path(data_dir_doc_40).mkdir(parents=True, exist_ok=True)
+    pathlib.Path(data_dir_doc_xx).mkdir(parents=True, exist_ok=True)
+    # --> sent-based:
+    pathlib.Path(data_dir_sent_10).mkdir(parents=True, exist_ok=True)
+    pathlib.Path(data_dir_sent_20).mkdir(parents=True, exist_ok=True)
+    pathlib.Path(data_dir_sent_30).mkdir(parents=True, exist_ok=True)
+    pathlib.Path(data_dir_sent_40).mkdir(parents=True, exist_ok=True)
+    pathlib.Path(data_dir_sent_xx).mkdir(parents=True, exist_ok=True)
+    # --> timeslices_safe:
+    pathlib.Path(time_slices_safe).mkdir(parents=True, exist_ok=True)
 
     # ==== getting path of typesystem for loading the cas-objects from xmi files ====
     typesystem_path = os.path.join(ROOT_DIR, "TypeSystem.xml")
@@ -72,15 +113,13 @@ def process_dir_of_xmi(dir_path: str,
     if typesystem_path_new is not None:
         typesystem_path = typesystem_path_new
 
-
-
     # ==== Processing cas-objects (single or multi process) ====
     if n_procs <= 1:
-        buckets_result, buckets_paths = process_list_of_cas_paths(cas_paths=file_paths,
+        buckets_result, final_paths_result = process_list_of_cas_paths(cas_paths=file_paths,
                                                                   typesystem=typesystem_path,
                                                                   verbose=verbose,
                                                                   corpus_ident=corpus_ident)
-        buckets_result_sent, buckets_result_doc = buckets_result
+        sent_based_combined_results, doc_based_combined_results = buckets_result
     else:
         # ==== Making path-chunks and pbars ====
         path_chunks = list(chunks(file_paths, math.ceil(len(file_paths) / (n_procs * 10))))
@@ -92,7 +131,8 @@ def process_dir_of_xmi(dir_path: str,
         part_func = partial(process_list_of_cas_paths,
                             typesystem=typesystem_path,
                             verbose=False,
-                            corpus_ident=corpus_ident)
+                            corpus_ident=corpus_ident,
+                            data_dirs=data_dir_dict)
 
         # ==== Declaring Pool and map processing function on to cas-obj ====
         with Pool(n_procs) as pool:
@@ -104,37 +144,67 @@ def process_dir_of_xmi(dir_path: str,
                 pool.imap_unordered(part_func, path_pos_chunks)
 
         # ==== Loading results for sent and doc based calculations ====
-        result_sent = load_dicts(dir_path=data_dir_sent, verbose=verbose)
-        result_doc = load_dicts(dir_path=data_dir_doc, verbose=verbose)
+        n_dicts = len(path_pos_chunks)
+        # --> sent-based:
+        result_sent_10 = load_dicts(dir_path=data_dir_sent_10, verbose=verbose, n_dicts=n_dicts)
+        result_sent_20 = load_dicts(dir_path=data_dir_sent_20, verbose=verbose, n_dicts=n_dicts)
+        result_sent_30 = load_dicts(dir_path=data_dir_sent_30, verbose=verbose, n_dicts=n_dicts)
+        result_sent_40 = load_dicts(dir_path=data_dir_sent_40, verbose=verbose, n_dicts=n_dicts)
+        result_sent_xx = load_dicts(dir_path=data_dir_sent_xx, verbose=verbose, n_dicts=n_dicts)
+        # --> doc-based:
+        result_doc_10 = load_dicts(dir_path=data_dir_doc_10, verbose=verbose, n_dicts=n_dicts)
+        result_doc_20 = load_dicts(dir_path=data_dir_doc_20, verbose=verbose, n_dicts=n_dicts)
+        result_doc_30 = load_dicts(dir_path=data_dir_doc_30, verbose=verbose, n_dicts=n_dicts)
+        result_doc_40 = load_dicts(dir_path=data_dir_doc_40, verbose=verbose, n_dicts=n_dicts)
+        result_doc_xx = load_dicts(dir_path=data_dir_doc_xx, verbose=verbose, n_dicts=n_dicts)
+        # --> paths:
+        paths_result = load_dicts(dir_path=time_slices_safe, verbose=verbose, n_dicts=n_dicts)
+
+        results_sents = [result_sent_10, result_sent_20, result_sent_30, result_sent_40, result_sent_xx]
+        results_docs = [result_doc_10, result_doc_20, result_doc_30, result_doc_40, result_doc_xx]
 
         # ==== Combining results back to one result ====
-        buckets_result_sent, _ = combine_result_dicts(result_sent)
-        buckets_result_doc, buckets_paths = combine_result_dicts(result_doc)
-        assert _ == buckets_paths, "something went wrong with declaring buckets for sent and doc based calcs"
+        # --> sent-based:
+        sent_based_combined_results = []
+        for res_sent in results_sents:
+            buckets_result_sent = combine_result_dicts(res_sent)
+            sent_based_combined_results.append(buckets_result_sent)
+        # --> doc-based:
+        doc_based_combined_results = []
+        for res_doc in results_docs:
+            buckets_result_doc = combine_result_dicts(res_doc)
+            doc_based_combined_results.append(buckets_result_doc)
+        # --> paths:
+        final_paths_result = combine_result_dicts(paths_result)
 
     # ==== Plotting results ====
+    # --> paths:
+    make_timeslices_txts(paths_dict=final_paths_result,
+                         corpus_ident=corpus_ident)
     # -> sent-based
-    plotting_results(result_bucket=buckets_result_sent,
-                     paths_dict=buckets_paths,
-                     corpus_ident=corpus_ident,
-                     res_type="sent",
-                     verbose=verbose)
+    for idx in range(0, 5):
+        plotting_results(result_bucket=sent_based_combined_results[idx],
+                         res_type="sent",
+                         verbose=verbose,
+                         data_dir=data_dir_dict["sent"][idx])
     # -> doc-based
-    plotting_results(result_bucket=buckets_result_doc,
-                     paths_dict=buckets_paths,
-                     corpus_ident=corpus_ident,
-                     res_type="doc",
-                     verbose=verbose)
+    for idx in range(0, 5):
+        plotting_results(result_bucket=doc_based_combined_results[idx],
+                         res_type="doc",
+                         verbose=verbose,
+                         data_dir=data_dir_dict["doc"][idx])
 
-    return (buckets_result_sent, buckets_result_doc), buckets_paths
+    return (sent_based_combined_results, doc_based_combined_results), final_paths_result
 
 
 def process_list_of_cas_paths(cas_paths: Union[List[str], Tuple[List[str], int]],
                               typesystem: str,
                               verbose: bool,
-                              corpus_ident: str) -> Optional[Tuple[Tuple[Dict[str, List[tuple]], Dict[str, List[tuple]]], Dict[str, List[str]]]]:
+                              corpus_ident: str,
+                              data_dirs: Optional[Dict[str, List[str]]] = None) -> Optional[Tuple[Tuple[List[Dict[Any, Any]], List[Dict[Any, Any]]], Dict[str, List[str]]]]:
     """
     Function takes in a list of cas-file-paths and processes them sent or doc based.
+    :param data_dirs:
     :param cas_paths:
     :param typesystem:
     :param verbose:
@@ -161,10 +231,12 @@ def process_list_of_cas_paths(cas_paths: Union[List[str], Tuple[List[str], int]]
         used_by_mp = True
         pos = cas_paths[1]
         cas_paths = cas_paths[0]
-        filepath1_sent = os.path.join(ROOT_DIR, "data", corpus_ident, "sent", "results", f"res_{pos}.pickle")
-        filepath2_sent = os.path.join(ROOT_DIR, "data", corpus_ident, "sent", "results", f"path_{pos}.pickle")
-        filepath1_doc = os.path.join(ROOT_DIR, "data", corpus_ident, "doc", "results", f"res_{pos}.pickle")
-        filepath2_doc = os.path.join(ROOT_DIR, "data", corpus_ident, "doc", "results", f"path_{pos}.pickle")
+        time_slices_safe = os.path.join(ROOT_DIR, "data", corpus_ident, "timeslices_safe", f"path_{pos}.pickle")
+        #filepath1_sent = os.path.join(ROOT_DIR, "data", corpus_ident, "sent", "results", f"res_{pos}.pickle")
+        #filepath2_sent = os.path.join(ROOT_DIR, "data", corpus_ident, "sent", "results", f"path_{pos}.pickle")
+
+        #filepath1_doc = os.path.join(ROOT_DIR, "data", corpus_ident, "doc", "results", f"res_{pos}.pickle")
+        #filepath2_doc = os.path.join(ROOT_DIR, "data", corpus_ident, "doc", "results", f"path_{pos}.pickle")
         verbose = False
     else:
         if verbose:
@@ -173,8 +245,8 @@ def process_list_of_cas_paths(cas_paths: Union[List[str], Tuple[List[str], int]]
             pbar = tqdm(total=len(cas_paths), desc="Processing List of Cas", leave=True, position=0, disable=True)
 
     # ==== Results are saved in buckets determined by their documents creation year ====
-    buckets_result_doc = dict()
-    buckets_result_sent = dict()
+    buckets_result_doc = [dict() for y in range(0, 5)]
+    buckets_result_sent = [dict() for y in range(0, 5)]
     buckets_paths = dict()
 
     # ==== Going through single casses ====
@@ -190,75 +262,84 @@ def process_list_of_cas_paths(cas_paths: Union[List[str], Tuple[List[str], int]]
         # ==== Performing measures on cas-object (for sent and doc based calculations) ====
         # ==== Calculating result for sent based and combining them for doc based ====
         result_sent = sent_based_measurements_for_cas(cas)
-        result_doc = doc_based_measurements_for_cas(result_sent)
+        result_sent_bucket_wise = [[], [], [], [], []]
+        if result_sent:
+            for sentence_result in result_sent:
+                sent_length = sentence_result[3]
+                bucket_idx = math.floor(sent_length / 10)
+                if bucket_idx > 4:
+                    bucket_idx = 4
+                result_sent_bucket_wise[bucket_idx].append(sentence_result)
 
-        if result_doc is not None:
-            # ==== pushing result into buckets they belong ====
-            # -> sent-based
-            if year in buckets_result_sent:
-                buckets_result_sent[year].extend(result_sent)
-            else:
-                buckets_result_sent[year] = result_sent
-            # -> doc-based
-            if year in buckets_result_doc:
-                buckets_result_doc[year].append(result_doc)
-            else:
-                buckets_result_doc[year] = [result_doc]
+            for result_sent_bucket_wise_idx in range(0, 5):
+                # ==== pushing result into buckets they belong ====
+                # --> sent-based:
+                if year in buckets_result_sent[result_sent_bucket_wise_idx]:
+                    buckets_result_sent[result_sent_bucket_wise_idx][year].extend(result_sent_bucket_wise[result_sent_bucket_wise_idx])
+                else:
+                    buckets_result_sent[result_sent_bucket_wise_idx][year] = result_sent_bucket_wise[result_sent_bucket_wise_idx]
+                # --> doc-based:
+                result_doc = doc_based_measurements_for_cas(result_sent_bucket_wise[result_sent_bucket_wise_idx])
 
-            # ==== year-filepath-buckets ====
-            if year in buckets_paths:
-                buckets_paths[year].append(cas_paths[i])
-            else:
-                buckets_paths[year] = [cas_paths[i]]
+                if result_doc is not None:
+                    if year in buckets_result_doc[result_sent_bucket_wise_idx]:
+                        buckets_result_doc[result_sent_bucket_wise_idx][year].append(result_doc)
+                    else:
+                        buckets_result_doc[result_sent_bucket_wise_idx][year] = [result_doc]
+
+        # ==== year-filepath-buckets ====
+        if year in buckets_paths:
+            buckets_paths[year].append(cas_paths[i])
+        else:
+            buckets_paths[year] = [cas_paths[i]]
 
         if verbose:
             pbar.update(1)
 
     if used_by_mp:
         # ==== Saving as pickle ====
-        # -> sent-based
-        with open(filepath1_sent, "wb") as f:
-            pickle.dump(obj=buckets_result_sent, file=f)
-        with open(filepath2_sent, "wb") as f:
+        # --> file-paths:
+        with open(time_slices_safe, "wb") as f:
             pickle.dump(obj=buckets_paths, file=f)
-        # -> doc-based
-        with open(filepath1_doc, "wb") as f:
-            pickle.dump(obj=buckets_result_doc, file=f)
-        with open(filepath2_doc, "wb") as f:
-            pickle.dump(obj=buckets_paths, file=f)
+        # --> sent-based
+        for idx in range(0, 5):
+            with open(os.path.join(data_dirs["sent"][idx], f"res_{pos}.pickle"), "wb") as f:
+                pickle.dump(obj=buckets_result_sent[idx], file=f)
+        # --> doc-based
+        for idx in range(0, 5):
+            with open(os.path.join(data_dirs["doc"][idx], f"res_{pos}.pickle"), "wb") as f:
+                pickle.dump(obj=buckets_result_doc[idx], file=f)
         return
     else:
         return (buckets_result_sent, buckets_result_doc), buckets_paths
 
 
-def combine_result_dicts(result: List[Tuple[dict, dict]]) -> Tuple[dict, dict]:
+def combine_result_dicts(result: List[dict]) -> dict:
     """
     Function combines result dicts from multiprocessing mapping result to one result tuple.
     :param result:
     :return:
     """
-    buckets_paths = dict()
+
     buckets_result = dict()
     for i in range(0, len(result)):
         # ==== filling result ====
-        for j in result[i][0]:
+        for j in result[i]:
             if j in buckets_result:
-                buckets_result[j].extend(result[i][0][j])
+                buckets_result[j].extend(result[i][j])
             else:
-                buckets_result[j] = result[i][0][j]
-        # ==== filling paths ====
-        for j in result[i][1]:
-            if j in buckets_paths:
-                buckets_paths[j].extend(result[i][1][j])
-            else:
-                buckets_paths[j] = result[i][1][j]
-    return buckets_result, buckets_paths
+                buckets_result[j] = result[i][j]
+
+    return buckets_result
+
 
 
 def load_dicts(dir_path: str,
-               verbose: bool) -> List[Tuple[dict, dict]]:
+               verbose: bool,
+               n_dicts: Optional[int] = None) -> List[dict]:
     """
     Function loads saved dicts.
+    :param n_dicts:
     :param verbose:
     :param dir_path:
     :return:
@@ -268,43 +349,33 @@ def load_dicts(dir_path: str,
     filepaths = [os.path.join(dir_path, filename) for filename in os.listdir(dir_path)]
 
     # ==== Sort them, so they can be easily loaded ====
-    filepaths.sort(key=lambda x: int(x.split("/")[-1].split("_")[-1].rstrip(".pickle")) if "res_" in x else int(x.split("/")[-1].split("_")[-1].rstrip(".pickle")) + 0.5)
+    filepaths.sort(key=lambda x: int(x.split("/")[-1].split("_")[-1].rstrip(".pickle")))
 
     # ==== Test if all are present ====
-    assert len(filepaths) % 2 == 0, "some result pickles are missing?!"
+    if n_dicts is not None:
+        assert len(filepaths) == n_dicts, "some result pickles are missing?!"
 
     # ==== Loading them all ====
-    result_tuples = []
+    result_dicts = []
     if verbose:
-        for i in tqdm(range(0, len(filepaths), 2), desc=f"loading dicts"):
+        for i in tqdm(range(0, len(filepaths)), desc=f"loading dicts"):
             with open(filepaths[i], "rb") as f:
                 res_buckets = pickle.load(f)
-            with open(filepaths[i+1], "rb") as f:
-                path_buckets = pickle.load(f)
-            result_tuples.append((res_buckets, path_buckets))
+            result_dicts.append(res_buckets)
     else:
-        for i in range(0, len(filepaths), 2):
+        for i in range(0, len(filepaths)):
             with open(filepaths[i], "rb") as f:
                 res_buckets = pickle.load(f)
-            with open(filepaths[i+1], "rb") as f:
-                path_buckets = pickle.load(f)
-            result_tuples.append((res_buckets, path_buckets))
+            result_dicts.append(res_buckets)
 
-    return result_tuples
+    return result_dicts
 
-
+"""
 def plot_pickle_result_dir(corpus_ident: str,
                            verbose: bool,
                            return_type: str = "sent",
                            fontsize: float = 4) -> Tuple[dict, dict]:
-    """
-    Function for plotting results.
-    :param corpus_ident:
-    :param verbose:
-    :param return_type:
-    :param fontsize:
-    :return:
-    """
+   
 
 
     # ==== Loading results from data-dir of given corpus ====
@@ -322,7 +393,7 @@ def plot_pickle_result_dir(corpus_ident: str,
 
     return buckets_result, buckets_paths
 
-
+"""
 
 if __name__ == '__main__':
     """
