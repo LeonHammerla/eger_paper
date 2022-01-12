@@ -6,7 +6,7 @@ from copy import copy
 from typing import Optional, Tuple, List, Dict, Union, Any, Callable
 from treelib import Tree, Node
 from tqdm import tqdm
-
+from deprecated import deprecated
 sys.path.append("/home/stud_homes/s5935481/uima_cassis/src")
 sys.path.append(os.path.realpath(os.path.join(os.path.dirname(__file__), '..', '..')))
 import cassis
@@ -164,6 +164,7 @@ def mdd_of_sent(tokens: List[cassis.typesystem.FeatureStructure],
     return position_sum / (len(tokens) - 1) if (len(tokens) - 1) > 0 else 0.0
 
 
+@deprecated(reason="Moved to dependency analysis (dependency index)")
 def altmann_of_sent(tokens: List[cassis.typesystem.FeatureStructure]) -> float:
     """
     MAL states that with increasing size of a linguistic construct, the size of its parts shrinks.
