@@ -451,7 +451,8 @@ def get_tci_and_l(_L: List[Node],
     # --> Calculating k:
     k = 0
     for node in dist_dict:
-        k += out_degree(node, dist_dict)
+        if out_degree(node, dist_dict) == 1:
+            k += 1
     # --> Calculating expected_number_of_leaves_in_caterpillar_graph:
     expected_number_of_leaves_in_caterpillar_graph = len(_L) + k
     # --> Calculation of TCI:
@@ -857,7 +858,7 @@ def width_analysis(dist_dict: Dict[Node, Dict[Union[int, float], List[Node]]],
     # --> lowest level of maximum width:
     lowest_level_of_max_width = width_max[1]
     # --> ratio of vertices belonging to the latter level:
-    ratio_of_v_at_level = len(dist_dict[root_node][lowest_level_of_max_width])
+    ratio_of_v_at_level = len(dist_dict[root_node][lowest_level_of_max_width]) / len(_Vs)
     # --> Hirsch index by level:
     hirsch_index = get_hirsch_index(dist_dict, dep_tree, root_node)
     # --> ratio of vertices contributing to h-index:
@@ -982,88 +983,7 @@ def combine_all_measurements(cas: cassis.Cas,
 
 
 def sent_based_measurements_for_cas(cas: cassis.Cas,
-                                    verbose: bool = False) -> List[Tuple[int, int, int, float]]:
-    """
-    Function for calculating all measurements for a given cas-object, sentence
-    by sentence and returning result-tuple for each sentence in a list.
-    :param verbose:
-    :param cas:
-    :return:
-    """
-
-    results = []
-
-    # ==== Going for each sentence in cas ====
-    sentences = select_sentences_from_cas(cas)
-
-    if verbose:
-        pbar = tqdm(total=len(sentences), desc="Calculating_sent_based", leave=True, disable=False, position=0)
-    else:
-        pbar = tqdm(total=len(sentences), desc="Calculating_sent_based", leave=True, disable=True, position=0)
-
-    for sentence in sentences:
-        tokens = select_tokens_of_sentence_from_cas(cas, sentence)
-        dependencies = select_dependencies_from_sentence(cas, sentence)
-
-        # ==== Calculating measurements ====
-        n_toks = n_token_in_sentence(tokens)
-        n_verbs = n_verbs_in_sentence(cas, tokens)
-        mdd = mdd_of_sent(tokens, dependencies)
-        max_depth, _ = calc_max_dep_depth_of_sentence_and_depthmap(cas, dependencies)
-
-        # TODO: Add Altmann-Measure
-        # altmann = altmann_of_sent(tokens)
-
-        # ==== Adding result tuple for each sentence to total result ====
-        results.append((n_toks, n_verbs, max_depth, mdd))
-
-        pbar.update(1)
-
-    return results
-
-
-def doc_based_measurements_for_cas(results: List[Tuple[int, int, int, float]]) -> Tuple[int, int, int, float, float, float, float]:
-    """
-    Function for converting sentence based list of result tuples of one cas to one doc based
-    result tuple.
-    :param results:
-    :return:
-    """
-    # TODO: Adding Altmann measurement
-    n_sents = len(results)
-    n_token = 0
-    n_verbs = 0
-    sum_max_depth = 0
-    weighted_mdd_sum = 0
-    for i in range(0, n_sents):
-        n_token += results[i][0]
-        n_verbs += results[i][1]
-        sum_max_depth += results[i][2]
-
-        # ==== Calculate MDD as weighted Average for a Doc as in: ====
-        # (The effects of sentence length on dependency distance, dependency direction and the implications–Based on a parallel English–Chinese dependency treebank)
-        weighted_mdd_sum += (results[i][3] * (results[i][0] - 1))
-
-    if (n_token - n_sents) > 0:
-        mdd = weighted_mdd_sum / (n_token - n_sents)
-    else:
-        mdd = 0
-
-    if n_sents > 0:
-        tok_per_sentence = n_token / n_sents
-        v_per_sentence = n_verbs / n_sents
-        avg_max_depth = sum_max_depth / n_sents
-    else:
-        tok_per_sentence = 0
-        v_per_sentence = 0
-        avg_max_depth = 0
-
-    return n_token, n_verbs, n_sents, tok_per_sentence, v_per_sentence, mdd, avg_max_depth
-
-
-
-def testf(cas: cassis.Cas,
-          verbose: bool = False):
+                                    verbose: bool = False) -> List[tuple]:
     """
     Function for calculating all measurements for a given cas-object, sentence
     by sentence and returning result-tuple for each sentence in a list.
@@ -1086,7 +1006,7 @@ def testf(cas: cassis.Cas,
         tokens = select_tokens_of_sentence_from_cas(cas, sentence)
 
         # ==== Calculating measurements ====
-        #results.append(select_dependency_root_from_sentence(cas, sentence)["DependencyType"])
+        # results.append(select_dependency_root_from_sentence(cas, sentence)["DependencyType"])
         if len(tokens) > 1:
             results.append(combine_all_measurements(cas, sentence))
         pbar.update(1)
@@ -1094,13 +1014,38 @@ def testf(cas: cassis.Cas,
     return results
 
 
+def doc_based_measurements_for_cas(results: List[tuple]) -> Union[tuple, None]:
+    """
+    Function for converting sentence based list of result tuples of one cas to one doc based
+    result tuple.
+    :param results:
+    :return:
+    """
+    # ==== Determining if Doc is non-empty ====
+    n_sents = len(results)
+
+    if n_sents > 0:
+        # ==== If not build average for all sentences in document ====
+        tuple_length = len(results[0])
+        result_tuple = [0 for i in range(0, tuple_length)]
+        for i in results:
+            for j in range(0, tuple_length):
+                result_tuple[j] += i[j]
+        result_tuple = [i / n_sents for i in result_tuple]
+        return tuple(result_tuple)
+    else:
+        return None
+
+
+
 if __name__ == '__main__':
     typesystem_path = os.path.join(ROOT_DIR, "TypeSystem.xml")
     typesystem = load_typesystem_from_path(typesystem_path)
     c = load_cas_from_path(filepath="/vol/s5935481/eger_resources/DTA/dta_kernkorpus_2020-07-20/ttlab_xmi/humboldt_kosmos03_1850.TEI-P5.xml/humboldt_kosmos03_1850.TEI-P5.xml#1.xmi.gz", typesystem=typesystem)
     #c = load_cas_from_path(filepath="/resources/corpora/paraliamentary_german/xmi_ttlab/LL2/10_1/272.txt.xmi.gz", typesystem=typesystem)
-    res = testf(c, verbose=True)
-    for i in res:
-       print(i)
+    res = sent_based_measurements_for_cas(c, verbose=True)
+    res = doc_based_measurements_for_cas(res)
+    for i in range(0, len(res)):
+       print(i, res[i])
     #res2 = doc_based_measurements_for_cas(res)
     #print(res2)
