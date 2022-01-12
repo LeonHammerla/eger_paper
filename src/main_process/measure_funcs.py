@@ -347,11 +347,20 @@ def get_lde(ssl: Dict[Union[int, float], List[Node]],
 
 
 def make_sse(tokens: List[cassis.typesystem.FeatureStructure],
-            arcs: Dict[str, list],
-            _js: Callable[[Node], int],
-            dep_tree: Tree) ->  Dict[int, List[Tuple[int, int]]]:
+             arcs: Dict[str, list],
+             _js: Callable[[Node], int],
+             dep_tree: Tree) ->  Dict[int, List[Tuple[int, int]]]:
+    """
+    Function constructs the set of subsets with one subset containing
+    all dependency arcs between two dependencys with the same distance (position-wise).
+    :param tokens:
+    :param arcs:
+    :param _js:
+    :param dep_tree:
+    :return:
+    """
     sse = dict()
-    for i in range(0, len(tokens) + 1):
+    for i in range(-len(tokens), len(tokens) + 1):
         edges = []
         for edge in arcs["edges"]:
             if _js(dep_tree.get_node(edge[0])) - _js(dep_tree.get_node(edge[1])) == i:
