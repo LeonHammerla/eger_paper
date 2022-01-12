@@ -132,10 +132,7 @@ def process_dir_of_xmi(dir_path: str,
 def process_list_of_cas_paths(cas_paths: Union[List[str], Tuple[List[str], int]],
                               typesystem: str,
                               verbose: bool,
-                              corpus_ident: str) -> Optional[Tuple[Tuple[Dict[str, List[Tuple[int, int, int, float]]],
-                                                                         Dict[str, List[Tuple[
-                                                                             int, int, int, float, float, float, float]]]],
-                                                                   Dict[str, List[str]]]]:
+                              corpus_ident: str) -> Optional[Tuple[Tuple[Dict[str, List[tuple]], Dict[str, List[tuple]]], Dict[str, List[str]]]]:
     """
     Function takes in a list of cas-file-paths and processes them sent or doc based.
     :param cas_paths:
@@ -195,23 +192,24 @@ def process_list_of_cas_paths(cas_paths: Union[List[str], Tuple[List[str], int]]
         result_sent = sent_based_measurements_for_cas(cas)
         result_doc = doc_based_measurements_for_cas(result_sent)
 
-        # ==== pushing result into buckets they belong ====
-        # -> sent-based
-        if year in buckets_result_sent:
-            buckets_result_sent[year].extend(result_sent)
-        else:
-            buckets_result_sent[year] = result_sent
-        # -> doc-based
-        if year in buckets_result_doc:
-            buckets_result_doc[year].append(result_doc)
-        else:
-            buckets_result_doc[year] = [result_doc]
+        if result_doc is not None:
+            # ==== pushing result into buckets they belong ====
+            # -> sent-based
+            if year in buckets_result_sent:
+                buckets_result_sent[year].extend(result_sent)
+            else:
+                buckets_result_sent[year] = result_sent
+            # -> doc-based
+            if year in buckets_result_doc:
+                buckets_result_doc[year].append(result_doc)
+            else:
+                buckets_result_doc[year] = [result_doc]
 
-        # ==== year-filepath-buckets ====
-        if year in buckets_paths:
-            buckets_paths[year].append(cas_paths[i])
-        else:
-            buckets_paths[year] = [cas_paths[i]]
+            # ==== year-filepath-buckets ====
+            if year in buckets_paths:
+                buckets_paths[year].append(cas_paths[i])
+            else:
+                buckets_paths[year] = [cas_paths[i]]
 
         if verbose:
             pbar.update(1)
@@ -336,14 +334,14 @@ if __name__ == '__main__':
                              return_type="doc")
     """
 
-    """
+
     # Hansard
     res = process_dir_of_xmi(dir_path="/resources/corpora/hansard_corpus/hansard_xmi_v2_ttlab",
                              corpus_ident="Hansard",
                              verbose=True,
                              n_procs=28)
 
-    """
+
 
     """
     # DTA
@@ -354,14 +352,14 @@ if __name__ == '__main__':
                              return_type="doc")
     """
 
-
+    """
     # Bundestag
     res = process_dir_of_xmi(dir_path="/resources/corpora/Bundestag/outT2W",
                              corpus_ident="Bundestag",
                              verbose=True,
                              n_procs=28)
 
-
+    """
     # =======================
     # ==== JUST PLOTTING ====
     # =======================
