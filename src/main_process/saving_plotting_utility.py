@@ -7,6 +7,7 @@ import matplotlib
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
+import tikzplotlib
 from matplotlib.backends.backend_pdf import PdfPages
 sys.path.append("/home/stud_homes/s5935481/uima_cassis/src")
 sys.path.append(os.path.realpath(os.path.join(os.path.dirname(__file__), '..', '..')))
@@ -55,35 +56,20 @@ def make_timeslices_txts(paths_dict: dict,
                                 data_dir=data_dir)
 
 
-def box_plot_of_result_at_idx(result_tuple_index: int,
+def box_plot_of_result_at_idx(y_label: str,
+                              result_tuple_index: int,
                               result_dict: dict,
-                              res_type: str,
                               fontsize: float = 4) -> matplotlib.figure.Figure:
     """
     Function for getting
+    :param y_label:
     :param fontsize:
     :param res_type:
     :param result_tuple_index:
     :param result_dict:
     :return:
     """
-    # ==== Mapping Dicts for correct indices ====
-    mapping_sent = ["n_verbs0", "complexity_ratio1", "absolute_complexity2", "order_of_tree3",
-                    "dependency_index4", "stratum_of_tree5", "depth_of_tree6",
-                    "ratio_vertices_on_lp_from_rt7", "leaf_distance_entropy8",
-                    "ratio_of_leafs_at_d1_to_rt9", "mean dependency distance10",
-                    "dependency distance entropy11", "ratio_arcs_adjacent_tokens12",
-                    "ratio_arcs_distances_occ_once13", "imbalance_index14", "ratio of leafs15",
-                    "number of leafs16", "ratio_arcs_CJ17", "ratio_arcs_CP17", "ratio_arcs_DA17", "ratio_arcs_HD17",
-                    "ratio_arcs_MO17", "ratio_arcs_NK17", "ratio_arcs_OA17", "ratio_arcs_OA217", "ratio_arcs_OC17", "ratio_arcs_PD17", "ratio_arcs_RC17",
-                    "ratio_arcs_SB17", "number_arcs_CJ18", "number_arcs_CP18", "number_arcs_DA18", "number_arcs_HD18",
-                    "number_arcs_MO18", "number_arcs_NK18", "number_arcs_OA18", "number_arcs_OA218", "number_arcs_OC18",
-                    "number_arcs_PD18", "number_arcs_RC18", "number_arcs_SB18", "width_of_tree19",
-                    "lowest_lv_max_width20", "ratio_vertices_belonging_latter_level21",
-                    "Hirsch_index22", "ratio_vertices_contributing_h_index23", "relative_h_index24"]
 
-    mapping_doc = mapping_sent
-    mapping_type = {"sent": mapping_sent, "doc": mapping_doc}
     data = {}
     max_length = 0
 
@@ -101,7 +87,7 @@ def box_plot_of_result_at_idx(result_tuple_index: int,
     # ==== Constructing pandas dataframe and plt figure, sorting by year ====
     data = {k: v for k, v in sorted(data.items(), key=lambda v: int(v[0]))}
     df = pd.DataFrame(data=data)
-    fig = df.plot(ylabel=mapping_type[res_type][result_tuple_index], kind="box", fontsize=fontsize, flierprops=FLIERPROBS, showfliers=True, rot=90).get_figure()
+    fig = df.plot(ylabel=y_label, kind="box", fontsize=fontsize, flierprops=FLIERPROBS, showfliers=True, rot=90).get_figure()
     return fig
 
 
@@ -111,22 +97,26 @@ def plotting_results(result_bucket: dict,
                      data_dir: str,
                      fontsize: float = 4):
     """
-    Function for plotting all results"
+    Function for plotting all results."
     :param data_dir:
     :param fontsize:
     :param result_bucket:
-    :param paths_dict:
-    :param corpus_ident:
     :param res_type:
     :param verbose:
     :return:
     """
 
     # ==== Removing dir if already exists to make a new clean one ====
+    tex_files_path = os.path.join("/".join(data_dir.split("/")[:-1]), "tex_files")
     try:
         os.remove(os.path.join("/".join(data_dir.split("/")[:-1]), "box_plots.pdf"))
     except:
         pass
+    try:
+        shutil.rmtree(tex_files_path)
+    except:
+        pass
+    pathlib.Path(tex_files_path).mkdir(parents=True, exist_ok=True)
 
     # ==== Finding Tuple-Length ====
     tuple_length = 0
@@ -143,11 +133,32 @@ def plotting_results(result_bucket: dict,
         pbar = tqdm(total=tuple_length, desc=f"Saving Plots: {data_dir}", leave=True, disable=True)
 
     # ==== Plotting all different Results ====
+    mapping_sent = ["n_verbs0", "complexity_ratio1", "absolute_complexity2", "order_of_tree3",
+                    "dependency_index4", "stratum_of_tree5", "depth_of_tree6",
+                    "ratio_vertices_on_lp_from_rt7", "leaf_distance_entropy8",
+                    "ratio_of_leafs_at_d1_to_rt9", "mean_dependency_distance10",
+                    "dependency_distance_entropy11", "ratio_arcs_adjacent_tokens12",
+                    "ratio_arcs_distances_occ_once13", "imbalance_index14", "ratio_of_leafs15",
+                    "number_of_leafs16", "ratio_arcs_CJ17", "ratio_arcs_CP17", "ratio_arcs_DA17", "ratio_arcs_HD17",
+                    "ratio_arcs_MO17", "ratio_arcs_NK17", "ratio_arcs_OA17", "ratio_arcs_OA217", "ratio_arcs_OC17",
+                    "ratio_arcs_PD17", "ratio_arcs_RC17",
+                    "ratio_arcs_SB17", "number_arcs_CJ18", "number_arcs_CP18", "number_arcs_DA18", "number_arcs_HD18",
+                    "number_arcs_MO18", "number_arcs_NK18", "number_arcs_OA18", "number_arcs_OA218", "number_arcs_OC18",
+                    "number_arcs_PD18", "number_arcs_RC18", "number_arcs_SB18", "width_of_tree19",
+                    "lowest_lv_max_width20", "ratio_vertices_belonging_latter_level21",
+                    "Hirsch_index22", "ratio_vertices_contributing_h_index23", "relative_h_index24"]
+
+    mapping_doc = mapping_sent
+    mapping_type = {"sent": mapping_sent, "doc": mapping_doc}
+
     with PdfPages(os.path.join("/".join(data_dir.split("/")[:-1]), "box_plots.pdf")) as pdf:
         for i in range(0, tuple_length):
-            fig = box_plot_of_result_at_idx(result_tuple_index=i,
+            y_label = mapping_type[res_type][i]
+            fig = box_plot_of_result_at_idx(y_label=y_label,
+                                            result_tuple_index=i,
                                             result_dict=result_bucket,
-                                            res_type=res_type,
                                             fontsize=fontsize)
             pdf.savefig(fig)
+            tikzplotlib.save(filepath=os.path.join(tex_files_path, f"{y_label}.tex"), extra_axis_parameters=["font={\\fontsize{3}{12}\selectfont}"], figure=fig)
+
             pbar.update(1)
