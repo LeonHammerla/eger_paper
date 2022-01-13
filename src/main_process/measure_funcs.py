@@ -820,6 +820,7 @@ def functional_analysis(arcs: Dict[str, list]) -> Tuple[List[float], List[float]
     :return:
     """
     dep_labels = ["CJ", "CP", "DA", "HD", "MO", "NK", "OA", "OA2", "OC", "PD", "RC", "SB"]
+    # universal_dep_labels = ["CONJ", "CCOMP", "", "--", "", "NEG", ]
     # ==== Some measurements for a functional dependency analysis ====
     # --> ratio of arcs of type X and number of arcs of type X:
     total_number_of_arcs = max(1, len(arcs["edges"]))
