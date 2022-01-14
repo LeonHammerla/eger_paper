@@ -403,16 +403,17 @@ if __name__ == '__main__':
                              verbose=True,
                              n_procs=28,
                              return_type="doc")
+    
     """
 
-
+    """
     # Hansard
     res = process_dir_of_xmi(dir_path="/resources/corpora/hansard_corpus/hansard_xmi_v2_ttlab",
                              corpus_ident="Hansard",
                              verbose=True,
                              n_procs=28)
 
-
+    """
 
     """
     # DTA
@@ -423,14 +424,14 @@ if __name__ == '__main__':
                              return_type="doc")
     """
 
-    """
+
     # Bundestag
     res = process_dir_of_xmi(dir_path="/resources/corpora/Bundestag/outT2W",
                              corpus_ident="Bundestag",
                              verbose=True,
                              n_procs=28)
 
-    """
+
     # =======================
     # ==== JUST PLOTTING ====
     # =======================

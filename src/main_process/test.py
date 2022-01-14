@@ -90,7 +90,9 @@ def degree(node, dist_dict):
         return len(dist_dict[node][1])
     except:
         return 0
-
+print("==============")
+print(tree.depth())
+print("==============")
 
 for i in all_nodes:
     print(degree(i, dist_dict))
