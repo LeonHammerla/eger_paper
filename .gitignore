@@ -16,6 +16,8 @@
 /data/Hansard/sent/sent_length_20-29/results/
 /data/Hansard/sent/sent_length_30-39/results/
 /data/Hansard/sent/sent_length_40+/results/
+# -> paths
+/data/Hansard/timeslices_safe/
 
 # Bundestag
 # -> doc
@@ -25,9 +27,10 @@
 /data/Bundestag/doc/sent_length_30-39/results/
 /data/Bundestag/doc/sent_length_40+/results/
 # -> sent
-
 /data/Bundestag/sent/sent_length_02-09/results/
 /data/Bundestag/sent/sent_length_10-19/results/
 /data/Bundestag/sent/sent_length_20-29/results/
 /data/Bundestag/sent/sent_length_30-39/results/
 /data/Bundestag/sent/sent_length_40+/results/
+# -> paths
+/data/Bundestag/timeslices_safe/
