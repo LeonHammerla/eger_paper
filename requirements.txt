@@ -8,3 +8,4 @@ matplotlib
 treelib
 Deprecated
 tikzplotlib
+statsmodels
