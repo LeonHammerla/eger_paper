@@ -16,6 +16,20 @@ sys.path.append(os.path.realpath(os.path.join(os.path.dirname(__file__), '..', '
 ROOT_DIR = os.path.realpath(os.path.join(os.path.dirname(__file__), '..', '..'))
 FLIERPROBS = dict(marker='x', markersize=0.5,
                       linestyle='none')
+MAPPING_SENT = ["n_verbs0", "complexity_ratio1", "absolute_complexity2", "order_of_tree3",
+                    "dependency_index4", "stratum_of_tree5", "depth_of_tree6",
+                    "ratio_vertices_on_lp_from_rt7", "leaf_distance_entropy8",
+                    "ratio_of_leafs_at_d1_to_rt9", "mean_dependency_distance10",
+                    "dependency_distance_entropy11", "ratio_arcs_adjacent_tokens12",
+                    "ratio_arcs_distances_occ_once13", "imbalance_index14", "ratio_of_leafs15",
+                    "number_of_leafs16", "ratio_arcs_CJ17", "ratio_arcs_CP17", "ratio_arcs_DA17", "ratio_arcs_HD17",
+                    "ratio_arcs_MO17", "ratio_arcs_NK17", "ratio_arcs_OA17", "ratio_arcs_OA217", "ratio_arcs_OC17",
+                    "ratio_arcs_PD17", "ratio_arcs_RC17",
+                    "ratio_arcs_SB17", "number_arcs_CJ18", "number_arcs_CP18", "number_arcs_DA18", "number_arcs_HD18",
+                    "number_arcs_MO18", "number_arcs_NK18", "number_arcs_OA18", "number_arcs_OA218", "number_arcs_OC18",
+                    "number_arcs_PD18", "number_arcs_RC18", "number_arcs_SB18", "width_of_tree19",
+                    "lowest_lv_max_width20", "ratio_vertices_belonging_latter_level21",
+                    "Hirsch_index22", "ratio_vertices_contributing_h_index23", "relative_h_index24"]
 
 
 def save_file_paths_time_slices(paths_dict: Dict[str, List[str]],
@@ -133,23 +147,8 @@ def plotting_results(result_bucket: dict,
         pbar = tqdm(total=tuple_length, desc=f"Saving Plots: {data_dir}", leave=True, disable=True)
 
     # ==== Plotting all different Results ====
-    mapping_sent = ["n_verbs0", "complexity_ratio1", "absolute_complexity2", "order_of_tree3",
-                    "dependency_index4", "stratum_of_tree5", "depth_of_tree6",
-                    "ratio_vertices_on_lp_from_rt7", "leaf_distance_entropy8",
-                    "ratio_of_leafs_at_d1_to_rt9", "mean_dependency_distance10",
-                    "dependency_distance_entropy11", "ratio_arcs_adjacent_tokens12",
-                    "ratio_arcs_distances_occ_once13", "imbalance_index14", "ratio_of_leafs15",
-                    "number_of_leafs16", "ratio_arcs_CJ17", "ratio_arcs_CP17", "ratio_arcs_DA17", "ratio_arcs_HD17",
-                    "ratio_arcs_MO17", "ratio_arcs_NK17", "ratio_arcs_OA17", "ratio_arcs_OA217", "ratio_arcs_OC17",
-                    "ratio_arcs_PD17", "ratio_arcs_RC17",
-                    "ratio_arcs_SB17", "number_arcs_CJ18", "number_arcs_CP18", "number_arcs_DA18", "number_arcs_HD18",
-                    "number_arcs_MO18", "number_arcs_NK18", "number_arcs_OA18", "number_arcs_OA218", "number_arcs_OC18",
-                    "number_arcs_PD18", "number_arcs_RC18", "number_arcs_SB18", "width_of_tree19",
-                    "lowest_lv_max_width20", "ratio_vertices_belonging_latter_level21",
-                    "Hirsch_index22", "ratio_vertices_contributing_h_index23", "relative_h_index24"]
-
-    mapping_doc = mapping_sent
-    mapping_type = {"sent": mapping_sent, "doc": mapping_doc}
+    mapping_doc = MAPPING_SENT
+    mapping_type = {"sent": MAPPING_SENT, "doc": mapping_doc}
 
     with PdfPages(os.path.join("/".join(data_dir.split("/")[:-1]), "box_plots.pdf")) as pdf:
         for i in range(0, tuple_length):
