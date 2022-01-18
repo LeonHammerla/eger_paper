@@ -2,8 +2,14 @@ import pathlib
 import os
 import shutil
 import sys
-from typing import Optional, Tuple, List, Dict
+from typing import Optional, Tuple, List, Dict, Union
 
+import tikzplotlib
+from matplotlib.backends.backend_pdf import PdfPages
+import numpy as np
+import matplotlib
+from statsmodels.tsa.stattools import acf, pacf
+import matplotlib.pyplot as plt
 sys.path.append("/home/stud_homes/s5935481/uima_cassis/src")
 
 ROOT_DIR = os.path.realpath(os.path.join(os.path.dirname(__file__), '..', '..'))
@@ -54,6 +60,71 @@ def combining_results(results: List[tuple], tuple_length: int) -> tuple:
     return tuple(mean_result_tuple)
 
 
+def correlation(timeseries: np.ndarray) -> float:
+    """
+    Function returns the correlation coefficient for a given
+    timeseries.
+    :param timeseries:
+    :return:
+    """
+    n_legs = len(timeseries)
+    legs = np.arange(n_legs)
+    return np.corrcoef(legs, timeseries)[0, 1]
+
+
+def make_fig(x: np.ndarray, y: np.ndarray, measurement_name: str) -> matplotlib.figure.Figure:
+    """
+    Function creates figure.
+    :param x:
+    :param y:
+    :param measurement_name:
+    :return:
+    """
+    fig = plt.figure()
+    plt.plot(x, y)
+    fig.suptitle(measurement_name + "\n", fontweight="bold")
+    return fig
+
+
+def plot_stats(stats_dict: Dict[str, Dict],
+               stats_path: str,
+               timeslices: np.ndarray,
+               size: int = 4):
+    """
+    Function plots all stats and saves them all in one big pdf
+    and every measure seperate in a .tex-file
+    all single valued measurements are saved in one .txt file.
+    :param stats_dict:
+    :param stats_path:
+    :param timeslices:
+    :param size:
+    :return:
+    """
+    # ==== Setting some plot params ====
+    params = {'legend.fontsize': 'large',
+              'axes.labelsize': size,
+              'axes.titlesize': size,
+              'xtick.labelsize': size,
+              'ytick.labelsize': size}
+    plt.rcParams.update(params)
+
+    # ==== Getting text string for writing single values to a .txt file ====
+    texts = [fr'$\{name}=%.2f$' % (stats_dict["single"][name],) for name in stats_dict["single"].keys()]
+    text_str = '\n'.join(texts)
+    # --> writing them:
+    with open(os.path.join(stats_path, "single_value_measurements.txt"), "w") as f:
+        f.write(text_str)
+
+    # ==== Plotting multi-value measurements and saving to a pdf and .tex files ====
+    # --> pdf:
+    with PdfPages(os.path.join(stats_path, "multi_value_measurements.pdf")) as pdf:
+        for multi_measure in stats_dict["multi"]:
+            fig = make_fig(x=timeslices, y=stats_dict["multi"][multi_measure], measurement_name=multi_measure)
+            pdf.savefig(fig)
+            tikzplotlib.save(filepath=os.path.join(stats_path, f"{multi_measure}.tex"),
+                             extra_axis_parameters=["font={\\fontsize{3}{12}\selectfont}"], figure=fig)
+
+
 def calculate_statistics(corpus_ident: str):
 
     tuple_length = len(MAPPING_SENT)
@@ -84,9 +155,28 @@ def calculate_statistics(corpus_ident: str):
             for timeslice in res_dict:
                 mean_result_tuple = combining_results(results=res_dict[timeslice], tuple_length=tuple_length)
                 mean_res_dict[timeslice] = mean_result_tuple
-
+            # --> order by date for timeseries:
+            mean_res_dict = {k: v for k, v in sorted(list(mean_res_dict.items()))}
+            # --> go through every measure and do statistics:
+            timeseries_measurement_data = []
             for measure_idx in range(0, tuple_length):
-                pathlib.Path(os.path.join(statistics_path, MAPPING_SENT[measure_idx])).mkdir(parents=True, exist_ok=True)
+                measure_path = os.path.join(statistics_path, MAPPING_SENT[measure_idx])
+                pathlib.Path(measure_path).mkdir(parents=True, exist_ok=True)
+                timeseries = []
+                timeslices = []
+                for timeslice in mean_res_dict:
+                    timeseries.append(mean_res_dict[timeslice][measure_idx])
+                    timeslices.append(timeslice)
+                timeseries_measurement_data.append(timeseries)
+                timeseries = np.array(timeseries)
+                timeslices = np.array(timeslices)
+                # --> acf:
+                acf_function = acf(x=timeseries, nlags=len(timeseries))
+                # --> pacf:
+                pacf_function = pacf(x=timeseries, nlags=len(timeseries))
+                # --> corr:
+                corr = correlation(timeseries=timeseries)
+                stats = {"single": {"cor": corr}, "funcs": {"acf": acf, "pacf": pacf}}
 
 
 
