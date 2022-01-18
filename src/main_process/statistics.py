@@ -177,7 +177,10 @@ def calculate_statistics(corpus_ident: str):
                 # --> corr:
                 corr = correlation(timeseries=timeseries)
                 stats = {"single": {"cor": corr}, "funcs": {"acf": acf, "pacf": pacf}}
-
+                # --> plotting and result saving:
+                plot_stats(stats_dict=stats,
+                           stats_path=measure_path,
+                           timeslices=timeslices)
 
 
 
