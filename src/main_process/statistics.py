@@ -3,17 +3,16 @@ import os
 import shutil
 import sys
 from typing import Optional, Tuple, List, Dict, Union
-
+from tqdm import tqdm
 import tikzplotlib
 from matplotlib.backends.backend_pdf import PdfPages
 import numpy as np
 import matplotlib
-from statsmodels.tsa.stattools import acf, pacf
+from statsmodels.tsa.stattools import acf, pacf_yw
 import matplotlib.pyplot as plt
+
 sys.path.append("/home/stud_homes/s5935481/uima_cassis/src")
-
 ROOT_DIR = os.path.realpath(os.path.join(os.path.dirname(__file__), '..', '..'))
-
 sys.path.append(ROOT_DIR)
 
 from src.main_process.main_process import load_dicts, combine_result_dicts
@@ -42,6 +41,52 @@ def find_all_result_paths(path: str) -> [str]:
         else:
             path = dir_stack.pop()
     return result_dirs
+
+
+def auto_correlate(timeseries_data: np.ndarray,
+                   nlags: int) -> np.ndarray:
+    """
+    Function for calculating autocorrelation.
+    :param nlags:
+    :param timeseries_data:
+    :return:
+    """
+    autocorrelation = []
+
+    for shift in range(nlags):
+        correlation = np.corrcoef(timeseries_data[:-shift], timeseries_data[shift:])[0, 1]
+        autocorrelation.append(correlation)
+
+    return np.array(autocorrelation)
+
+
+def partial_auto_correlate(timeseries_data: np.ndarray,
+                           nlags: int):
+    """
+    Function for calculating the partial autocorrelation.
+    :param timeseries_data:
+    :param nlags:
+    :return:
+    """
+    # partial autocorrelation
+    pac = []
+
+    # Start by treating the data as residuals:
+    # left over errors that you haven't been
+    # able to fit yet.
+    residuals = timeseries_data
+    for shift in range(nlags):
+        correlation = np.corrcoef(
+            timeseries_data[:-shift], residuals[shift:])[0, 1]
+        pac.append(correlation)
+
+        # Fit the new day's data and find the residuals.
+        slope, intercept = np.polyfit(timeseries_data[:-shift], residuals[shift:], 1)
+        estimate = intercept + slope * timeseries_data[:-shift]
+        # update residuals
+        residuals[shift:] = residuals[shift:] - estimate
+
+    return np.array(pac)
 
 
 def combining_results(results: List[tuple], tuple_length: int) -> tuple:
@@ -118,14 +163,15 @@ def plot_stats(stats_dict: Dict[str, Dict],
     # ==== Plotting multi-value measurements and saving to a pdf and .tex files ====
     # --> pdf:
     with PdfPages(os.path.join(stats_path, "multi_value_measurements.pdf")) as pdf:
-        for multi_measure in stats_dict["multi"]:
-            fig = make_fig(x=timeslices, y=stats_dict["multi"][multi_measure], measurement_name=multi_measure)
+        for multi_measure in stats_dict["funcs"]:
+            fig = make_fig(x=timeslices, y=stats_dict["funcs"][multi_measure], measurement_name=multi_measure)
             pdf.savefig(fig)
             tikzplotlib.save(filepath=os.path.join(stats_path, f"{multi_measure}.tex"),
                              extra_axis_parameters=["font={\\fontsize{3}{12}\selectfont}"], figure=fig)
 
 
-def calculate_statistics(corpus_ident: str):
+def calculate_statistics(corpus_ident: str,
+                         verbose: bool = True):
 
     tuple_length = len(MAPPING_SENT)
     # ==== Getting paths for pickled result dicts and loading them ====
@@ -138,6 +184,12 @@ def calculate_statistics(corpus_ident: str):
         # --> also loading them:
         res_dict = combine_result_dicts(result=load_dicts(dir_path=result_dir, verbose=False))
         result_dirs_dict[result_dir.split("/")[-3]].append((result_dir, res_dict))
+
+    # ==== PBar, if verbose ====
+    if verbose:
+        pbar = tqdm(total=len(result_dirs), desc="Calculating Statistics for all result-dirs")
+    else:
+        pbar = tqdm(total=len(result_dirs), desc="Calculating Statistics for all result-dirs", disable=True)
 
     # ==== Calculating statistics ====
     for res_type in result_dirs_dict:
@@ -171,17 +223,26 @@ def calculate_statistics(corpus_ident: str):
                 timeseries = np.array(timeseries)
                 timeslices = np.array(timeslices)
                 # --> acf:
-                acf_function = acf(x=timeseries, nlags=len(timeseries))
+                try:
+                    acf_function = acf(x=timeseries, nlags=len(timeseries))
+                except:
+                    print(timeseries)
+                    acf_function = np.array([0 for i in range(0, len(timeseries))])
                 # --> pacf:
-                pacf_function = pacf(x=timeseries, nlags=len(timeseries))
+                try:
+                    pacf_function = pacf_yw(x=timeseries, nlags=len(timeseries) - 1)
+                except:
+                    print(timeseries)
+                    pacf_function = np.array([0 for i in range(0, len(timeseries))])
+                #pacf_function = partial_auto_correlate(timeseries_data=timeseries, nlags=len(timeseries))
                 # --> corr:
                 corr = correlation(timeseries=timeseries)
-                stats = {"single": {"cor": corr}, "funcs": {"acf": acf, "pacf": pacf}}
+                stats = {"single": {"cor": corr}, "funcs": {"acf": acf_function, "pacf": pacf_function}}
                 # --> plotting and result saving:
                 plot_stats(stats_dict=stats,
                            stats_path=measure_path,
                            timeslices=timeslices)
-
+            pbar.update(1)
 
 
 calculate_statistics("Hansard")
