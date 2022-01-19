@@ -1,0 +1,47 @@
+% This file was created with tikzplotlib v0.9.17.
+\begin{tikzpicture}
+
+\definecolor{color0}{rgb}{0.12156862745098,0.466666666666667,0.705882352941177}
+
+\begin{axis}[
+font={\fontsize{3}{12}\selectfont},
+tick align=outside,
+tick pos=left,
+x grid style={white!69.0196078431373!black},
+xmin=-0.6, xmax=12.6,
+xtick style={color=black},
+xtick={0,1,2,3,4,5,6,7,8,9,10,11,12},
+xtick={0,1,2,3,4,5,6,7,8,9,10,11,12},
+xticklabels={1803,1804,1819,1820,1840,1860,1880,1900,1920,1940,1960,1980,2000},
+xticklabels={1803,1804,1819,1820,1840,1860,1880,1900,1920,1940,1960,1980,2000},
+y grid style={white!69.0196078431373!black},
+ymin=-0.458142184657813, ymax=1.06943534212656,
+ytick style={color=black}
+]
+\addplot [semithick, color0]
+table {%
+0 1
+1 0.20464137051324
+2 -0.247491866245958
+3 -0.38870684253125
+4 0.0361699880749942
+5 0.0118957374940366
+6 0.0653841623935472
+7 -0.0511158253945946
+8 0.065797171314126
+9 -0.124906908423446
+10 -0.156664265503715
+11 -0.0680958183627822
+12 0.153093096671802
+};
+\end{axis}
+
+\draw ({$(current bounding box.south west)!0.5!(current bounding box.south east)$}|-{$(current bounding box.south west)!0.98!(current bounding box.north west)$}) node[
+  scale=0.6,
+  anchor=north,
+  text=black,
+  rotate=0.0,
+  align=center
+]{\bfseries acf
+};
+\end{tikzpicture}
