@@ -1,0 +1,43 @@
+% This file was created with tikzplotlib v0.9.17.
+\begin{tikzpicture}
+
+\definecolor{color0}{rgb}{0.12156862745098,0.466666666666667,0.705882352941177}
+
+\begin{axis}[
+font={\fontsize{3}{12}\selectfont},
+tick align=outside,
+tick pos=left,
+x grid style={white!69.0196078431373!black},
+xmin=-0.6, xmax=12.6,
+xtick style={color=black},
+y grid style={white!69.0196078431373!black},
+ymin=-0.386426345830947, ymax=1.06602030218243,
+ytick style={color=black}
+]
+\addplot [semithick, color0]
+table {%
+0 1
+1 -0.303202884617916
+2 0.436648446511818
+3 0.0548193423545213
+4 0.0268834368440771
+5 0.0518535716496766
+6 -0.191041820071434
+7 -0.320406043648521
+8 -0.0917566674411063
+9 -0.0438579687350545
+10 -0.0910370732625007
+11 0.0964604064596247
+12 0.00893511760776795
+};
+\end{axis}
+
+\draw ({$(current bounding box.south west)!0.5!(current bounding box.south east)$}|-{$(current bounding box.south west)!0.98!(current bounding box.north west)$}) node[
+  scale=0.6,
+  anchor=north,
+  text=black,
+  rotate=0.0,
+  align=center
+]{\bfseries pacf_ful_lag_yw
+};
+\end{tikzpicture}

@@ -7,18 +7,59 @@
 font={\fontsize{3}{12}\selectfont},
 tick align=outside,
 tick pos=left,
+title={Partial Autocorrelation},
 x grid style={white!69.0196078431373!black},
-xmin=-0.6, xmax=12.6,
+xmin=-0.275, xmax=5.775,
 xtick style={color=black},
-xtick={0,1,2,3,4,5,6,7,8,9,10,11,12},
-xtick={0,1,2,3,4,5,6,7,8,9,10,11,12},
-xticklabels={1803,1804,1819,1820,1840,1860,1880,1900,1920,1940,1960,1980,2000},
-xticklabels={1803,1804,1819,1820,1840,1860,1880,1900,1920,1940,1960,1980,2000},
 y grid style={white!69.0196078431373!black},
-ymin=-2.36141860050935, ymax=9.83509935034886,
+ymin=-1, ymax=1,
 ytick style={color=black}
 ]
+\path [fill=color0, fill opacity=0.25]
+(axis cs:0.5,0.543596203409375)
+--(axis cs:0.5,-0.543596203409375)
+--(axis cs:2,-0.543596203409375)
+--(axis cs:3,-0.543596203409375)
+--(axis cs:4,-0.543596203409375)
+--(axis cs:5.5,-0.543596203409375)
+--(axis cs:5.5,0.543596203409375)
+--(axis cs:5.5,0.543596203409375)
+--(axis cs:4,0.543596203409375)
+--(axis cs:3,0.543596203409375)
+--(axis cs:2,0.543596203409375)
+--(axis cs:0.5,0.543596203409375)
+--cycle;
+
+\path [draw=color0, semithick]
+(axis cs:0,0)
+--(axis cs:0,1);
+
+\path [draw=color0, semithick]
+(axis cs:1,0)
+--(axis cs:1,-0.579159398638325);
+
+\path [draw=color0, semithick]
+(axis cs:2,0)
+--(axis cs:2,0.21291954478816);
+
+\path [draw=color0, semithick]
+(axis cs:3,0)
+--(axis cs:3,0.0991905371820836);
+
+\path [draw=color0, semithick]
+(axis cs:4,0)
+--(axis cs:4,0.204967505527513);
+
+\path [draw=color0, semithick]
+(axis cs:5,0)
+--(axis cs:5,0.239155554776758);
+
 \addplot [semithick, color0]
+table {%
+-0.275 -2.22044604925031e-16
+5.775 -2.22044604925031e-16
+};
+\addplot [semithick, color0, mark=*, mark size=2.5, mark options={solid}, only marks]
 table {%
 0 1
 1 -0.579159398638325
@@ -26,22 +67,7 @@ table {%
 3 0.0991905371820836
 4 0.204967505527513
 5 0.239155554776758
-6 -0.0319334984137935
-7 -0.657563512532082
-8 -0.598324353027107
-9 -1.80703142092489
-10 2.07347713053427
-11 1.01830533036109
-12 9.28071217076439
 };
 \end{axis}
 
-\draw ({$(current bounding box.south west)!0.5!(current bounding box.south east)$}|-{$(current bounding box.south west)!0.98!(current bounding box.north west)$}) node[
-  scale=0.6,
-  anchor=north,
-  text=black,
-  rotate=0.0,
-  align=center
-]{\bfseries pacf
-};
 \end{tikzpicture}

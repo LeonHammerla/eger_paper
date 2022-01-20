@@ -7,25 +7,108 @@
 font={\fontsize{3}{12}\selectfont},
 tick align=outside,
 tick pos=left,
+title={Autocorrelation},
 x grid style={white!69.0196078431373!black},
-xmin=-0.6, xmax=12.6,
+xmin=-0.625, xmax=13.125,
 xtick style={color=black},
-xtick={0,1,2,3,4,5,6,7,8,9,10,11,12},
-xtick={0,1,2,3,4,5,6,7,8,9,10,11,12},
-xticklabels={1803,1804,1819,1820,1840,1860,1880,1900,1920,1940,1960,1980,2000},
-xticklabels={1803,1804,1819,1820,1840,1860,1880,1900,1920,1940,1960,1980,2000},
 y grid style={white!69.0196078431373!black},
-ymin=-0.474989037546476, ymax=1.0702375732165,
+ymin=-1, ymax=1,
 ytick style={color=black}
 ]
+\path [fill=color0, fill opacity=0.25]
+(axis cs:0.5,0.543596203409375)
+--(axis cs:0.5,-0.543596203409375)
+--(axis cs:2,-0.761738485313586)
+--(axis cs:3,-0.858572875238761)
+--(axis cs:4,-0.873351208949626)
+--(axis cs:5,-0.880882568197113)
+--(axis cs:6,-0.886781133297007)
+--(axis cs:7,-0.908462524705323)
+--(axis cs:8,-0.960272334247152)
+--(axis cs:9,-0.999632358003538)
+--(axis cs:10,-1.02926064882243)
+--(axis cs:11,-1.05173776208725)
+--(axis cs:12.5,-1.06487543776304)
+--(axis cs:12.5,1.06487543776304)
+--(axis cs:12.5,1.06487543776304)
+--(axis cs:11,1.05173776208725)
+--(axis cs:10,1.02926064882243)
+--(axis cs:9,0.999632358003538)
+--(axis cs:8,0.960272334247151)
+--(axis cs:7,0.908462524705323)
+--(axis cs:6,0.886781133297007)
+--(axis cs:5,0.880882568197113)
+--(axis cs:4,0.873351208949626)
+--(axis cs:3,0.858572875238761)
+--(axis cs:2,0.761738485313586)
+--(axis cs:0.5,0.543596203409375)
+--cycle;
+
+\path [draw=color0, semithick]
+(axis cs:0,0)
+--(axis cs:0,1);
+
+\path [draw=color0, semithick]
+(axis cs:1,0)
+--(axis cs:1,0.694127823223112);
+
+\path [draw=color0, semithick]
+(axis cs:2,0)
+--(axis cs:2,0.515255499891611);
+
+\path [draw=color0, semithick]
+(axis cs:3,0)
+--(axis cs:3,0.208106549113728);
+
+\path [draw=color0, semithick]
+(axis cs:4,0)
+--(axis cs:4,0.149516459240253);
+
+\path [draw=color0, semithick]
+(axis cs:5,0)
+--(axis cs:5,-0.132825542291872);
+
+\path [draw=color0, semithick]
+(axis cs:6,0)
+--(axis cs:6,-0.256633804792834);
+
+\path [draw=color0, semithick]
+(axis cs:7,0)
+--(axis cs:7,-0.404751464329977);
+
+\path [draw=color0, semithick]
+(axis cs:8,0)
+--(axis cs:8,-0.361288168577378);
+
+\path [draw=color0, semithick]
+(axis cs:9,0)
+--(axis cs:9,-0.318927126059573);
+
+\path [draw=color0, semithick]
+(axis cs:10,0)
+--(axis cs:10,-0.281329146482489);
+
+\path [draw=color0, semithick]
+(axis cs:11,0)
+--(axis cs:11,-0.21691451074235);
+
+\path [draw=color0, semithick]
+(axis cs:12,0)
+--(axis cs:12,-0.0943365681922287);
+
 \addplot [semithick, color0]
+table {%
+-0.625 -2.22044604925031e-16
+13.125 -2.22044604925031e-16
+};
+\addplot [semithick, color0, mark=*, mark size=2.5, mark options={solid}, only marks]
 table {%
 0 1
 1 0.694127823223112
-2 0.51525549989161
+2 0.515255499891611
 3 0.208106549113728
 4 0.149516459240253
-5 -0.132825542291871
+5 -0.132825542291872
 6 -0.256633804792834
 7 -0.404751464329977
 8 -0.361288168577378
@@ -36,12 +119,4 @@ table {%
 };
 \end{axis}
 
-\draw ({$(current bounding box.south west)!0.5!(current bounding box.south east)$}|-{$(current bounding box.south west)!0.98!(current bounding box.north west)$}) node[
-  scale=0.6,
-  anchor=north,
-  text=black,
-  rotate=0.0,
-  align=center
-]{\bfseries acf
-};
 \end{tikzpicture}
