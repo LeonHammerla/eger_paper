@@ -95,7 +95,7 @@ def partial_auto_correlate(timeseries_data: np.ndarray,
     return np.array(pac)
 
 
-def combining_results(results: List[tuple], tuple_length: int) -> tuple:
+def combining_results(results: List[tuple], tuple_length: int) -> Optional[tuple]:
     """
     Function creates mean result tuple for a list of tuples.
     :param tuple_length:
@@ -103,12 +103,16 @@ def combining_results(results: List[tuple], tuple_length: int) -> tuple:
     :return:
     """
     res_length = len(results)
-    mean_result_tuple = [0 for i in range(0, tuple_length)]
-    for res in results:
-        for idx in range(0, tuple_length):
-            mean_result_tuple[idx] += res[idx]
-    mean_result_tuple = [measure / res_length for measure in mean_result_tuple]
-    return tuple(mean_result_tuple)
+    if len(results) > 0:
+        mean_result_tuple = [0 for i in range(0, tuple_length)]
+        for res in results:
+            for idx in range(0, tuple_length):
+                mean_result_tuple[idx] += res[idx]
+        mean_result_tuple = [measure / res_length for measure in mean_result_tuple]
+        return tuple(mean_result_tuple)
+    else:
+        return None
+
 
 
 def correlation(timeseries: np.ndarray) -> float:
@@ -260,7 +264,10 @@ def calculate_statistics(corpus_ident: str,
             mean_res_dict = dict()
             for timeslice in res_dict:
                 mean_result_tuple = combining_results(results=res_dict[timeslice], tuple_length=tuple_length)
-                mean_res_dict[timeslice] = mean_result_tuple
+                if mean_result_tuple is None:
+                    pass
+                else:
+                    mean_res_dict[timeslice] = mean_result_tuple
             # --> order by date for timeseries:
             mean_res_dict = {k: v for k, v in sorted(list(mean_res_dict.items()))}
             # --> go through every measure and do statistics:
