@@ -11,7 +11,7 @@ import numpy as np
 import matplotlib
 from statsmodels.tsa.stattools import acf, pacf, pacf_yw
 import matplotlib.pyplot as plt
-
+from deprecated import deprecated
 sys.path.append("/home/stud_homes/s5935481/uima_cassis/src")
 ROOT_DIR = os.path.realpath(os.path.join(os.path.dirname(__file__), '..', '..'))
 sys.path.append(ROOT_DIR)
@@ -47,6 +47,7 @@ def find_all_result_paths(path: str) -> [str]:
     return result_dirs
 
 
+@deprecated(reason="Function does not work and is probably not needed (would need some work)")
 def auto_correlate(timeseries_data: np.ndarray,
                    nlags: int) -> np.ndarray:
     """
@@ -64,6 +65,7 @@ def auto_correlate(timeseries_data: np.ndarray,
     return np.array(autocorrelation)
 
 
+@deprecated(reason="Function does not work and is probably not needed (would need some work)")
 def partial_auto_correlate(timeseries_data: np.ndarray,
                            nlags: int):
     """
@@ -207,6 +209,23 @@ def calculate_statistics(corpus_ident: str,
                          verbose: bool = True,
                          size: int = 4,
                          plot_mechanic: str = "automatically"):
+    """
+    Function for Calculating statistics for a given Corpus.
+
+    - corpus_ident: Name of Corpus (DTA, Hansard, COAH etc.)
+    - nlags: number of lags that should be used for lagged statistic calculations like acf or pacf
+             if None max is used
+    - verbose: show progress bar
+    - size: font size of plots
+    - plot_mechanic: want to use built-in statsmodels plot functions or plain matplotlib figure (automatically for built-in,
+                     manually else)
+    :param corpus_ident:
+    :param nlags:
+    :param verbose:
+    :param size:
+    :param plot_mechanic:
+    :return:
+    """
 
     tuple_length = len(MAPPING_SENT)
     # ==== Getting paths for pickled result dicts and loading them ====
