@@ -1,3 +1,4 @@
+import math
 import pathlib
 import os
 import shutil
@@ -8,7 +9,7 @@ import tikzplotlib
 from matplotlib.backends.backend_pdf import PdfPages
 import numpy as np
 import matplotlib
-from statsmodels.tsa.stattools import acf, pacf_yw
+from statsmodels.tsa.stattools import acf, pacf, pacf_yw
 import matplotlib.pyplot as plt
 
 sys.path.append("/home/stud_homes/s5935481/uima_cassis/src")
@@ -17,6 +18,9 @@ sys.path.append(ROOT_DIR)
 
 from src.main_process.main_process import load_dicts, combine_result_dicts
 from src.main_process.saving_plotting_utility import MAPPING_SENT
+
+from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
+
 
 def find_all_result_paths(path: str) -> [str]:
     """
@@ -131,10 +135,10 @@ def make_fig(x: np.ndarray, y: np.ndarray, measurement_name: str) -> matplotlib.
     return fig
 
 
-def plot_stats(stats_dict: Dict[str, Dict],
-               stats_path: str,
-               timeslices: np.ndarray,
-               size: int = 4):
+def plot_stats_manually(stats_dict: Dict[str, Dict],
+                        stats_path: str,
+                        timeslices: np.ndarray,
+                        size: int = 4):
     """
     Function plots all stats and saves them all in one big pdf
     and every measure seperate in a .tex-file
@@ -154,7 +158,7 @@ def plot_stats(stats_dict: Dict[str, Dict],
     plt.rcParams.update(params)
 
     # ==== Getting text string for writing single values to a .txt file ====
-    texts = [fr'$\{name}=%.2f$' % (stats_dict["single"][name],) for name in stats_dict["single"].keys()]
+    texts = [fr'{name}={stats_dict["single"][name]}' for name in stats_dict["single"].keys()]
     text_str = '\n'.join(texts)
     # --> writing them:
     with open(os.path.join(stats_path, "single_value_measurements.txt"), "w") as f:
@@ -170,8 +174,39 @@ def plot_stats(stats_dict: Dict[str, Dict],
                              extra_axis_parameters=["font={\\fontsize{3}{12}\selectfont}"], figure=fig)
 
 
+def plot_stats_automatically(stats_dict: Dict[str, Dict],
+                             stats_path: str):
+
+    """
+    Savers pre Existing figures.
+    :param stats_dict:
+    :param stats_path:
+    :return:
+    """
+    # ==== Getting text string for writing single values to a .txt file ====
+    texts = [fr'{name}={stats_dict["single"][name]}' for name in stats_dict["single"].keys()]
+    text_str = '\n'.join(texts)
+    # --> writing them:
+    with open(os.path.join(stats_path, "single_value_measurements.txt"), "w") as f:
+        f.write(text_str)
+
+    # ==== Plotting multi-value measurements and saving to a pdf and .tex files ====
+    # --> pdf:
+    with PdfPages(os.path.join(stats_path, "multi_value_measurements.pdf")) as pdf:
+        for multi_measure in stats_dict["funcs"]:
+            fig = stats_dict["funcs"][multi_measure]
+            pdf.savefig(fig)
+            try:
+                tikzplotlib.save(filepath=os.path.join(stats_path, f"{multi_measure}.tex"),
+                                 extra_axis_parameters=["font={\\fontsize{3}{12}\selectfont}"], figure=fig)
+            except:
+                print(os.path.join(stats_path, f"{multi_measure}.tex"))
+
 def calculate_statistics(corpus_ident: str,
-                         verbose: bool = True):
+                         nlags: Optional[int] = None,
+                         verbose: bool = True,
+                         size: int = 4,
+                         plot_mechanic: str = "automatically"):
 
     tuple_length = len(MAPPING_SENT)
     # ==== Getting paths for pickled result dicts and loading them ====
@@ -222,27 +257,68 @@ def calculate_statistics(corpus_ident: str,
                 timeseries_measurement_data.append(timeseries)
                 timeseries = np.array(timeseries)
                 timeslices = np.array(timeslices)
-                # --> acf:
-                try:
-                    acf_function = acf(x=timeseries, nlags=len(timeseries))
-                except:
-                    print(timeseries)
-                    acf_function = np.array([0 for i in range(0, len(timeseries))])
-                # --> pacf:
-                try:
-                    pacf_function = pacf_yw(x=timeseries, nlags=len(timeseries) - 1)
-                except:
-                    print(timeseries)
-                    pacf_function = np.array([0 for i in range(0, len(timeseries))])
-                #pacf_function = partial_auto_correlate(timeseries_data=timeseries, nlags=len(timeseries))
-                # --> corr:
-                corr = correlation(timeseries=timeseries)
-                stats = {"single": {"cor": corr}, "funcs": {"acf": acf_function, "pacf": pacf_function}}
-                # --> plotting and result saving:
-                plot_stats(stats_dict=stats,
-                           stats_path=measure_path,
-                           timeslices=timeslices)
+
+                if plot_mechanic == "manually":
+                    # --> acf:
+                    try:
+                        acf_function = acf(x=timeseries, nlags=len(timeseries) - 1 if nlags is None else nlags)
+                    except:
+                        #print(timeseries)
+                        acf_function = np.array([0 for i in range(0, len(timeseries) if nlags is None else nlags)])
+                    # --> pacf:
+                    try:
+                        pacf_function = pacf_yw(x=timeseries, nlags=len(timeseries) - 1 if nlags is None else nlags, method="mle")
+                    except:
+                        #print(timeseries)
+                        pacf_function = np.array([0 for i in range(0, len(timeseries) if nlags is None else nlags)])
+                    # --> corr:
+                    corr = correlation(timeseries=timeseries)
+                    stats = {"single": {"cor": corr}, "funcs": {"acf": acf_function, "pacf": pacf_function}}
+                    # --> plotting and result saving:
+                    plot_stats_manually(stats_dict=stats,
+                                        stats_path=measure_path,
+                                        timeslices=np.arange(len(timeseries) if nlags is None else nlags),
+                                        size=size)
+                else:
+                    # ==== Setting some plot params ====
+                    params = {'legend.fontsize': 'large',
+                              'axes.labelsize': size,
+                              'axes.titlesize': size,
+                              'xtick.labelsize': size,
+                              'ytick.labelsize': size}
+                    plt.rcParams.update(params)
+
+                    # --> acf:
+                    try:
+                        acf_fig = plot_acf(x=timeseries, lags=len(timeseries) - 1 if nlags is None else nlags)
+                    except:
+                        # print(timeseries)
+                        acf_fig = make_fig(x=np.arange(len(timeseries) if nlags is None else nlags),
+                                           y=np.array([0 for i in range(0, len(timeseries) if nlags is None else nlags)]),
+                                           measurement_name="acf")
+                    # --> pacf:
+                    try:
+                        pacf_fig = plot_pacf(x=timeseries, lags=math.floor(len(timeseries)/2) -1 if nlags is None else nlags)
+                        pacf_ful_lag_yw = make_fig(x=np.arange(len(timeseries) if nlags is None else nlags),
+                                                   y=pacf_yw(x=timeseries, nlags=len(timeseries) - 1 if nlags is None else nlags, method="mle"),
+                                                   measurement_name="pacf_ful_lag_yw")
+                    except:
+                        # print(timeseries)
+                        pacf_fig = make_fig(x=np.arange(math.floor(len(timeseries)/2) if nlags is None else nlags),
+                                            y=np.array([0 for i in range(0, math.floor(len(timeseries)/2) if nlags is None else nlags)]),
+                                            measurement_name="pacf")
+                        pacf_ful_lag_yw = make_fig(x=np.arange(len(timeseries) if nlags is None else nlags),
+                                                   y=np.array([0 for i in range(0, len(timeseries) if nlags is None else nlags)]),
+                                                   measurement_name="pacf_ful_lag_yw")
+                    # --> corr:
+                    corr = correlation(timeseries=timeseries)
+                    stats = {"single": {"cor": corr}, "funcs": {"acf": acf_fig, "pacf": pacf_fig, "pacf_ful_lag_yw":pacf_ful_lag_yw}}
+                    # --> plotting and result saving:
+                    plot_stats_automatically(stats_dict=stats,
+                                             stats_path=measure_path)
+
             pbar.update(1)
 
 
-calculate_statistics("Hansard")
+calculate_statistics("DTA")
+calculate_statistics("COAH")
