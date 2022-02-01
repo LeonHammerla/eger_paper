@@ -9,3 +9,5 @@ treelib
 Deprecated
 tikzplotlib
 statsmodels
+pylatex
+pdflatex
