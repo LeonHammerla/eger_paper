@@ -116,6 +116,7 @@ def save_whole_eger_paper_results(local_path: bool = False):
     copy_data_files_to_destination(filepaths=file_paths, destination_path=os.path.join(project_path, "data"))
     zip_dir(project_path, os.path.join(ROOT_DIR, "src/latex/eger_paper_results.zip"))
 
+
 def export_results_as_one_tex(corpus_ident: str,
                               local_path: bool = False) -> None:
     """
@@ -141,12 +142,16 @@ def export_results_as_one_tex(corpus_ident: str,
     doc.preamble.append(Command('usepgfplotslibrary', arguments="groupplots,dateplot"))
     doc.preamble.append(Command('usetikzlibrary', arguments="patterns,shapes.arrows"))
     doc.preamble.append(Command('pgfplotsset', arguments="compat=newest"))
+    #doc.preamble.append(Command('usepgfplotslibrary', arguments="external"))
+    #doc.append(NoEscape(r'\tikzexternalize'))
     # --> add preamble:
     doc.preamble.append(Command('title', 'Graphics Eger Paper'))
     doc.preamble.append(Command('author', 'Leon Hammerla'))
     doc.preamble.append(Command('date', NoEscape(r'\today')))
     # --> maketitle command:
     doc.append(NoEscape(r'\maketitle'))
+    doc.append(NoEscape(r"\newpage"))
+    doc.append(NoEscape(r'\tableofcontents'))
     doc.append(NoEscape(r"\newpage"))
 
     # ==== Adding Result-Plots ====
@@ -266,7 +271,7 @@ def export_results_as_one_tex(corpus_ident: str,
                 pbar.update(1)
                 pbar.refresh()
 
-    doc.generate_pdf(os.path.join(ROOT_DIR, f"src/latex/eger_paper_results/{corpus_ident}"), clean_tex=False, compiler='pdflatex')
+    doc.generate_pdf(os.path.join(ROOT_DIR, f"src/latex/eger_paper_results/{corpus_ident}"), clean_tex=False, compiler='pdflatex', silent=False)
     # ==== Export .tex file ====
     # doc.generate_tex(os.path.join(ROOT_DIR, f"src/latex/eger_paper_results/{corpus_ident}"))
 
@@ -336,4 +341,6 @@ if __name__ == '__main__':
     """
     #export_results_as_one_tex("Hansard")
 
-    save_whole_eger_paper_results(local_path=True)
+    # save_whole_eger_paper_results(local_path=False)
+
+    export_results_as_one_tex("DTA", True)
