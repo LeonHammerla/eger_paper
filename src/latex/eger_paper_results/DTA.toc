@@ -1,0 +1,186 @@
+\contentsline {section}{\numberline {1}sent{-}Based:}{3}%
+\contentsline {subsection}{\numberline {1.1}n verbs0}{3}%
+\contentsline {subsubsection}{\numberline {1.1.1}Statistics{-}acf}{3}%
+\contentsline {subsubsection}{\numberline {1.1.2}Statistics{-}pacf}{4}%
+\contentsline {subsubsection}{\numberline {1.1.3}Statistics{-}cor}{5}%
+\contentsline {subsection}{\numberline {1.2}complexity ratio1}{6}%
+\contentsline {subsubsection}{\numberline {1.2.1}Statistics{-}acf}{6}%
+\contentsline {subsubsection}{\numberline {1.2.2}Statistics{-}pacf}{7}%
+\contentsline {subsubsection}{\numberline {1.2.3}Statistics{-}cor}{8}%
+\contentsline {subsection}{\numberline {1.3}absolute complexity2}{9}%
+\contentsline {subsubsection}{\numberline {1.3.1}Statistics{-}acf}{9}%
+\contentsline {subsubsection}{\numberline {1.3.2}Statistics{-}pacf}{10}%
+\contentsline {subsubsection}{\numberline {1.3.3}Statistics{-}cor}{11}%
+\contentsline {subsection}{\numberline {1.4}order of tree3}{12}%
+\contentsline {subsubsection}{\numberline {1.4.1}Statistics{-}acf}{12}%
+\contentsline {subsubsection}{\numberline {1.4.2}Statistics{-}pacf}{13}%
+\contentsline {subsubsection}{\numberline {1.4.3}Statistics{-}cor}{14}%
+\contentsline {subsection}{\numberline {1.5}dependency index4}{15}%
+\contentsline {subsubsection}{\numberline {1.5.1}Statistics{-}acf}{15}%
+\contentsline {subsubsection}{\numberline {1.5.2}Statistics{-}pacf}{16}%
+\contentsline {subsubsection}{\numberline {1.5.3}Statistics{-}cor}{17}%
+\contentsline {subsection}{\numberline {1.6}stratum of tree5}{18}%
+\contentsline {subsubsection}{\numberline {1.6.1}Statistics{-}acf}{18}%
+\contentsline {subsubsection}{\numberline {1.6.2}Statistics{-}pacf}{19}%
+\contentsline {subsubsection}{\numberline {1.6.3}Statistics{-}cor}{20}%
+\contentsline {subsection}{\numberline {1.7}depth of tree6}{21}%
+\contentsline {subsubsection}{\numberline {1.7.1}Statistics{-}acf}{21}%
+\contentsline {subsubsection}{\numberline {1.7.2}Statistics{-}pacf}{22}%
+\contentsline {subsubsection}{\numberline {1.7.3}Statistics{-}cor}{23}%
+\contentsline {subsection}{\numberline {1.8}ratio vertices on lp from rt7}{24}%
+\contentsline {subsubsection}{\numberline {1.8.1}Statistics{-}acf}{24}%
+\contentsline {subsubsection}{\numberline {1.8.2}Statistics{-}pacf}{25}%
+\contentsline {subsubsection}{\numberline {1.8.3}Statistics{-}cor}{26}%
+\contentsline {subsection}{\numberline {1.9}leaf distance entropy8}{27}%
+\contentsline {subsubsection}{\numberline {1.9.1}Statistics{-}acf}{27}%
+\contentsline {subsubsection}{\numberline {1.9.2}Statistics{-}pacf}{28}%
+\contentsline {subsubsection}{\numberline {1.9.3}Statistics{-}cor}{29}%
+\contentsline {subsection}{\numberline {1.10}ratio of leafs at d1 to rt9}{30}%
+\contentsline {subsubsection}{\numberline {1.10.1}Statistics{-}acf}{30}%
+\contentsline {subsubsection}{\numberline {1.10.2}Statistics{-}pacf}{31}%
+\contentsline {subsubsection}{\numberline {1.10.3}Statistics{-}cor}{32}%
+\contentsline {subsection}{\numberline {1.11}mean dependency distance10}{33}%
+\contentsline {subsubsection}{\numberline {1.11.1}Statistics{-}acf}{33}%
+\contentsline {subsubsection}{\numberline {1.11.2}Statistics{-}pacf}{34}%
+\contentsline {subsubsection}{\numberline {1.11.3}Statistics{-}cor}{35}%
+\contentsline {subsection}{\numberline {1.12}dependency distance entropy11}{36}%
+\contentsline {subsubsection}{\numberline {1.12.1}Statistics{-}acf}{36}%
+\contentsline {subsubsection}{\numberline {1.12.2}Statistics{-}pacf}{37}%
+\contentsline {subsubsection}{\numberline {1.12.3}Statistics{-}cor}{38}%
+\contentsline {subsection}{\numberline {1.13}ratio arcs adjacent tokens12}{39}%
+\contentsline {subsubsection}{\numberline {1.13.1}Statistics{-}acf}{39}%
+\contentsline {subsubsection}{\numberline {1.13.2}Statistics{-}pacf}{40}%
+\contentsline {subsubsection}{\numberline {1.13.3}Statistics{-}cor}{41}%
+\contentsline {subsection}{\numberline {1.14}ratio arcs distances occ once13}{42}%
+\contentsline {subsubsection}{\numberline {1.14.1}Statistics{-}acf}{42}%
+\contentsline {subsubsection}{\numberline {1.14.2}Statistics{-}pacf}{43}%
+\contentsline {subsubsection}{\numberline {1.14.3}Statistics{-}cor}{44}%
+\contentsline {subsection}{\numberline {1.15}imbalance index14}{45}%
+\contentsline {subsubsection}{\numberline {1.15.1}Statistics{-}acf}{45}%
+\contentsline {subsubsection}{\numberline {1.15.2}Statistics{-}pacf}{46}%
+\contentsline {subsubsection}{\numberline {1.15.3}Statistics{-}cor}{47}%
+\contentsline {subsection}{\numberline {1.16}ratio of leafs15}{48}%
+\contentsline {subsubsection}{\numberline {1.16.1}Statistics{-}acf}{48}%
+\contentsline {subsubsection}{\numberline {1.16.2}Statistics{-}pacf}{49}%
+\contentsline {subsubsection}{\numberline {1.16.3}Statistics{-}cor}{50}%
+\contentsline {subsection}{\numberline {1.17}number of leafs16}{51}%
+\contentsline {subsubsection}{\numberline {1.17.1}Statistics{-}acf}{51}%
+\contentsline {subsubsection}{\numberline {1.17.2}Statistics{-}pacf}{52}%
+\contentsline {subsubsection}{\numberline {1.17.3}Statistics{-}cor}{53}%
+\contentsline {subsection}{\numberline {1.18}width of tree19}{54}%
+\contentsline {subsubsection}{\numberline {1.18.1}Statistics{-}acf}{54}%
+\contentsline {subsubsection}{\numberline {1.18.2}Statistics{-}pacf}{55}%
+\contentsline {subsubsection}{\numberline {1.18.3}Statistics{-}cor}{56}%
+\contentsline {subsection}{\numberline {1.19}lowest lv max width20}{57}%
+\contentsline {subsubsection}{\numberline {1.19.1}Statistics{-}acf}{57}%
+\contentsline {subsubsection}{\numberline {1.19.2}Statistics{-}pacf}{58}%
+\contentsline {subsubsection}{\numberline {1.19.3}Statistics{-}cor}{59}%
+\contentsline {subsection}{\numberline {1.20}ratio vertices belonging latter level21}{60}%
+\contentsline {subsubsection}{\numberline {1.20.1}Statistics{-}acf}{60}%
+\contentsline {subsubsection}{\numberline {1.20.2}Statistics{-}pacf}{61}%
+\contentsline {subsubsection}{\numberline {1.20.3}Statistics{-}cor}{62}%
+\contentsline {subsection}{\numberline {1.21}Hirsch index22}{63}%
+\contentsline {subsubsection}{\numberline {1.21.1}Statistics{-}acf}{63}%
+\contentsline {subsubsection}{\numberline {1.21.2}Statistics{-}pacf}{64}%
+\contentsline {subsubsection}{\numberline {1.21.3}Statistics{-}cor}{65}%
+\contentsline {subsection}{\numberline {1.22}ratio vertices contributing h index23}{66}%
+\contentsline {subsubsection}{\numberline {1.22.1}Statistics{-}acf}{66}%
+\contentsline {subsubsection}{\numberline {1.22.2}Statistics{-}pacf}{67}%
+\contentsline {subsubsection}{\numberline {1.22.3}Statistics{-}cor}{68}%
+\contentsline {subsection}{\numberline {1.23}relative h index24}{69}%
+\contentsline {subsubsection}{\numberline {1.23.1}Statistics{-}acf}{69}%
+\contentsline {subsubsection}{\numberline {1.23.2}Statistics{-}pacf}{70}%
+\contentsline {subsubsection}{\numberline {1.23.3}Statistics{-}cor}{71}%
+\contentsline {section}{\numberline {2}doc{-}Based:}{72}%
+\contentsline {subsection}{\numberline {2.1}n verbs0}{72}%
+\contentsline {subsubsection}{\numberline {2.1.1}Statistics{-}acf}{72}%
+\contentsline {subsubsection}{\numberline {2.1.2}Statistics{-}pacf}{73}%
+\contentsline {subsubsection}{\numberline {2.1.3}Statistics{-}cor}{74}%
+\contentsline {subsection}{\numberline {2.2}complexity ratio1}{75}%
+\contentsline {subsubsection}{\numberline {2.2.1}Statistics{-}acf}{75}%
+\contentsline {subsubsection}{\numberline {2.2.2}Statistics{-}pacf}{76}%
+\contentsline {subsubsection}{\numberline {2.2.3}Statistics{-}cor}{77}%
+\contentsline {subsection}{\numberline {2.3}absolute complexity2}{78}%
+\contentsline {subsubsection}{\numberline {2.3.1}Statistics{-}acf}{78}%
+\contentsline {subsubsection}{\numberline {2.3.2}Statistics{-}pacf}{79}%
+\contentsline {subsubsection}{\numberline {2.3.3}Statistics{-}cor}{80}%
+\contentsline {subsection}{\numberline {2.4}order of tree3}{81}%
+\contentsline {subsubsection}{\numberline {2.4.1}Statistics{-}acf}{81}%
+\contentsline {subsubsection}{\numberline {2.4.2}Statistics{-}pacf}{82}%
+\contentsline {subsubsection}{\numberline {2.4.3}Statistics{-}cor}{83}%
+\contentsline {subsection}{\numberline {2.5}dependency index4}{84}%
+\contentsline {subsubsection}{\numberline {2.5.1}Statistics{-}acf}{84}%
+\contentsline {subsubsection}{\numberline {2.5.2}Statistics{-}pacf}{85}%
+\contentsline {subsubsection}{\numberline {2.5.3}Statistics{-}cor}{86}%
+\contentsline {subsection}{\numberline {2.6}stratum of tree5}{87}%
+\contentsline {subsubsection}{\numberline {2.6.1}Statistics{-}acf}{87}%
+\contentsline {subsubsection}{\numberline {2.6.2}Statistics{-}pacf}{88}%
+\contentsline {subsubsection}{\numberline {2.6.3}Statistics{-}cor}{89}%
+\contentsline {subsection}{\numberline {2.7}depth of tree6}{90}%
+\contentsline {subsubsection}{\numberline {2.7.1}Statistics{-}acf}{90}%
+\contentsline {subsubsection}{\numberline {2.7.2}Statistics{-}pacf}{91}%
+\contentsline {subsubsection}{\numberline {2.7.3}Statistics{-}cor}{92}%
+\contentsline {subsection}{\numberline {2.8}ratio vertices on lp from rt7}{93}%
+\contentsline {subsubsection}{\numberline {2.8.1}Statistics{-}acf}{93}%
+\contentsline {subsubsection}{\numberline {2.8.2}Statistics{-}pacf}{94}%
+\contentsline {subsubsection}{\numberline {2.8.3}Statistics{-}cor}{95}%
+\contentsline {subsection}{\numberline {2.9}leaf distance entropy8}{96}%
+\contentsline {subsubsection}{\numberline {2.9.1}Statistics{-}acf}{96}%
+\contentsline {subsubsection}{\numberline {2.9.2}Statistics{-}pacf}{97}%
+\contentsline {subsubsection}{\numberline {2.9.3}Statistics{-}cor}{98}%
+\contentsline {subsection}{\numberline {2.10}ratio of leafs at d1 to rt9}{99}%
+\contentsline {subsubsection}{\numberline {2.10.1}Statistics{-}acf}{99}%
+\contentsline {subsubsection}{\numberline {2.10.2}Statistics{-}pacf}{100}%
+\contentsline {subsubsection}{\numberline {2.10.3}Statistics{-}cor}{101}%
+\contentsline {subsection}{\numberline {2.11}mean dependency distance10}{102}%
+\contentsline {subsubsection}{\numberline {2.11.1}Statistics{-}acf}{102}%
+\contentsline {subsubsection}{\numberline {2.11.2}Statistics{-}pacf}{103}%
+\contentsline {subsubsection}{\numberline {2.11.3}Statistics{-}cor}{104}%
+\contentsline {subsection}{\numberline {2.12}dependency distance entropy11}{105}%
+\contentsline {subsubsection}{\numberline {2.12.1}Statistics{-}acf}{105}%
+\contentsline {subsubsection}{\numberline {2.12.2}Statistics{-}pacf}{106}%
+\contentsline {subsubsection}{\numberline {2.12.3}Statistics{-}cor}{107}%
+\contentsline {subsection}{\numberline {2.13}ratio arcs adjacent tokens12}{108}%
+\contentsline {subsubsection}{\numberline {2.13.1}Statistics{-}acf}{108}%
+\contentsline {subsubsection}{\numberline {2.13.2}Statistics{-}pacf}{109}%
+\contentsline {subsubsection}{\numberline {2.13.3}Statistics{-}cor}{110}%
+\contentsline {subsection}{\numberline {2.14}ratio arcs distances occ once13}{111}%
+\contentsline {subsubsection}{\numberline {2.14.1}Statistics{-}acf}{111}%
+\contentsline {subsubsection}{\numberline {2.14.2}Statistics{-}pacf}{112}%
+\contentsline {subsubsection}{\numberline {2.14.3}Statistics{-}cor}{113}%
+\contentsline {subsection}{\numberline {2.15}imbalance index14}{114}%
+\contentsline {subsubsection}{\numberline {2.15.1}Statistics{-}acf}{114}%
+\contentsline {subsubsection}{\numberline {2.15.2}Statistics{-}pacf}{115}%
+\contentsline {subsubsection}{\numberline {2.15.3}Statistics{-}cor}{116}%
+\contentsline {subsection}{\numberline {2.16}ratio of leafs15}{117}%
+\contentsline {subsubsection}{\numberline {2.16.1}Statistics{-}acf}{117}%
+\contentsline {subsubsection}{\numberline {2.16.2}Statistics{-}pacf}{118}%
+\contentsline {subsubsection}{\numberline {2.16.3}Statistics{-}cor}{119}%
+\contentsline {subsection}{\numberline {2.17}number of leafs16}{120}%
+\contentsline {subsubsection}{\numberline {2.17.1}Statistics{-}acf}{120}%
+\contentsline {subsubsection}{\numberline {2.17.2}Statistics{-}pacf}{121}%
+\contentsline {subsubsection}{\numberline {2.17.3}Statistics{-}cor}{122}%
+\contentsline {subsection}{\numberline {2.18}width of tree19}{123}%
+\contentsline {subsubsection}{\numberline {2.18.1}Statistics{-}acf}{123}%
+\contentsline {subsubsection}{\numberline {2.18.2}Statistics{-}pacf}{124}%
+\contentsline {subsubsection}{\numberline {2.18.3}Statistics{-}cor}{125}%
+\contentsline {subsection}{\numberline {2.19}lowest lv max width20}{126}%
+\contentsline {subsubsection}{\numberline {2.19.1}Statistics{-}acf}{126}%
+\contentsline {subsubsection}{\numberline {2.19.2}Statistics{-}pacf}{127}%
+\contentsline {subsubsection}{\numberline {2.19.3}Statistics{-}cor}{128}%
+\contentsline {subsection}{\numberline {2.20}ratio vertices belonging latter level21}{129}%
+\contentsline {subsubsection}{\numberline {2.20.1}Statistics{-}acf}{129}%
+\contentsline {subsubsection}{\numberline {2.20.2}Statistics{-}pacf}{130}%
+\contentsline {subsubsection}{\numberline {2.20.3}Statistics{-}cor}{131}%
+\contentsline {subsection}{\numberline {2.21}Hirsch index22}{132}%
+\contentsline {subsubsection}{\numberline {2.21.1}Statistics{-}acf}{132}%
+\contentsline {subsubsection}{\numberline {2.21.2}Statistics{-}pacf}{133}%
+\contentsline {subsubsection}{\numberline {2.21.3}Statistics{-}cor}{134}%
+\contentsline {subsection}{\numberline {2.22}ratio vertices contributing h index23}{135}%
+\contentsline {subsubsection}{\numberline {2.22.1}Statistics{-}acf}{135}%
+\contentsline {subsubsection}{\numberline {2.22.2}Statistics{-}pacf}{136}%
+\contentsline {subsubsection}{\numberline {2.22.3}Statistics{-}cor}{137}%
+\contentsline {subsection}{\numberline {2.23}relative h index24}{138}%
+\contentsline {subsubsection}{\numberline {2.23.1}Statistics{-}acf}{138}%
+\contentsline {subsubsection}{\numberline {2.23.2}Statistics{-}pacf}{139}%
+\contentsline {subsubsection}{\numberline {2.23.3}Statistics{-}cor}{140}%

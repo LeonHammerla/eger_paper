@@ -91,7 +91,16 @@ def copy_data_files_to_destination(filepaths: List[str],
         pbar.update(1)
 
 
-def save_whole_eger_paper_results(local_path: bool = False):
+def save_whole_eger_paper_results(local_path: bool = False,
+                                  plotting_measurements: bool = True,
+                                  plotting_statistics: bool = True):
+    """
+    Function for Saving all Corpora as pdf and one bitg .tex document.
+    :param local_path:
+    :param plotting_measurements:
+    :param plotting_statistics:
+    :return:
+    """
 
     # ==== Different Corpora ====
     corpora = ["Hansard", "COAH", "DTA", "Bundestag"]
@@ -109,7 +118,10 @@ def save_whole_eger_paper_results(local_path: bool = False):
 
     # --> Saving .tex for all corpora:
     for corpus in corpora:
-        export_results_as_one_tex(corpus_ident=corpus, local_path=local_path)
+        export_results_as_one_tex(corpus_ident=corpus,
+                                  local_path=local_path,
+                                  plotting_statistics=plotting_statistics,
+                                  plotting_measurement=plotting_measurements)
 
     # --> Saving all .tex files:
     file_paths = find_all_tex_files(path=os.path.join(ROOT_DIR, "data"))
@@ -118,9 +130,13 @@ def save_whole_eger_paper_results(local_path: bool = False):
 
 
 def export_results_as_one_tex(corpus_ident: str,
-                              local_path: bool = False) -> None:
+                              local_path: bool = False,
+                              plotting_measurement: bool = True,
+                              plotting_statistics: bool = True) -> None:
     """
     Function Saves Results of all calculations to one big latex project.
+    :param plotting_statistics:
+    :param plotting_measurement:
     :param corpus_ident:
     :param local_path:
     :return:
@@ -174,34 +190,8 @@ def export_results_as_one_tex(corpus_ident: str,
         with doc.create(Section(f"{res_type}-Based:")):
             for measurement in relevant_measurements:
                 with doc.create(Subsection(NoEscape(measurement.replace("_", " ")))):
-                    # --> Creating Figure:
-                    with doc.create(Figure(position='ht')) as fig:
-                        # --> basic figure structure:
-                        fig.append(NoEscape(r"\centering"))
-                        fig.append(
-                            Command("setlength", arguments=[NoEscape(r"\abovecaptionskip"), NoEscape(r"-35pt")]))
-                        # --> adding single subplots to figure:
-                        c = 0
-                        for sent_length in sent_lengths:
-                            # --> getting path:
-                            if local_path:
-                                measurement_plot_path = os.path.join(ROOT_DIR, f"data/{corpus_ident}/{res_type}/{sent_length}/tex_files/{measurement}.tex")
-                            else:
-                                measurement_plot_path = f"data/{corpus_ident}/{res_type}_{sent_length}_tex_files_{measurement}.tex"
-
-                            # fig.append(Command("caption", arguments="Testoo"))
-                            fig.append(Command("subfloat", options=NoEscape(sent_length.replace("_", " ")),
-                                                arguments=Command("scalebox", arguments=["0.6", Command("input",
-                                                                                                        arguments=NoEscape(measurement_plot_path))])))
-                            c += 1
-                            # --> Grouping figs two in one row:
-                            if c % 2 == 0:
-                                fig.append(NoEscape(r"\\"))
-
-                    doc.append(NoEscape(r"\newpage"))
-
-                    # --> creating figure for acf-statistics:
-                    with doc.create(Subsubsection("Statistics-acf")):
+                    if plotting_measurement:
+                        # --> Creating Figure:
                         with doc.create(Figure(position='ht')) as fig:
                             # --> basic figure structure:
                             fig.append(NoEscape(r"\centering"))
@@ -212,61 +202,89 @@ def export_results_as_one_tex(corpus_ident: str,
                             for sent_length in sent_lengths:
                                 # --> getting path:
                                 if local_path:
-                                    acf_plot_path = os.path.join(ROOT_DIR, f"data/{corpus_ident}/{res_type}/{sent_length}/statistics/{measurement}/acf.tex")
+                                    measurement_plot_path = os.path.join(ROOT_DIR, f"data/{corpus_ident}/{res_type}/{sent_length}/tex_files/{measurement}.tex")
                                 else:
-                                    acf_plot_path = f"data/{corpus_ident}/{res_type}_{sent_length}_statistics_{measurement}_acf.tex"
-
+                                    measurement_plot_path = f"data/{corpus_ident}/{res_type}_{sent_length}_tex_files_{measurement}.tex"
 
                                 # fig.append(Command("caption", arguments="Testoo"))
                                 fig.append(Command("subfloat", options=NoEscape(sent_length.replace("_", " ")),
-                                                   arguments=Command("scalebox", arguments=["0.6", Command("input",
-                                                                                                           arguments=NoEscape(
-                                                                                                               acf_plot_path))])))
+                                                    arguments=Command("scalebox", arguments=["0.6", Command("input",
+                                                                                                            arguments=NoEscape(measurement_plot_path))])))
                                 c += 1
                                 # --> Grouping figs two in one row:
                                 if c % 2 == 0:
                                     fig.append(NoEscape(r"\\"))
 
-                    doc.append(NoEscape(r"\newpage"))
+                        doc.append(NoEscape(r"\newpage"))
 
-                    # --> creating figure for pacf-statistics:
-                    with doc.create(Subsubsection("Statistics-pacf")):
-                        with doc.create(Figure(position='ht')) as fig:
-                            # --> basic figure structure:
-                            fig.append(NoEscape(r"\centering"))
-                            fig.append(
-                                Command("setlength", arguments=[NoEscape(r"\abovecaptionskip"), NoEscape(r"-35pt")]))
-                            # --> adding single subplots to figure:
-                            c = 0
+                    if plotting_statistics:
+                        # --> creating figure for acf-statistics:
+                        with doc.create(Subsubsection("Statistics-acf")):
+                            with doc.create(Figure(position='ht')) as fig:
+                                # --> basic figure structure:
+                                fig.append(NoEscape(r"\centering"))
+                                fig.append(
+                                    Command("setlength", arguments=[NoEscape(r"\abovecaptionskip"), NoEscape(r"-35pt")]))
+                                # --> adding single subplots to figure:
+                                c = 0
+                                for sent_length in sent_lengths:
+                                    # --> getting path:
+                                    if local_path:
+                                        acf_plot_path = os.path.join(ROOT_DIR, f"data/{corpus_ident}/{res_type}/{sent_length}/statistics/{measurement}/acf.tex")
+                                    else:
+                                        acf_plot_path = f"data/{corpus_ident}/{res_type}_{sent_length}_statistics_{measurement}_acf.tex"
+
+
+                                    # fig.append(Command("caption", arguments="Testoo"))
+                                    fig.append(Command("subfloat", options=NoEscape(sent_length.replace("_", " ")),
+                                                       arguments=Command("scalebox", arguments=["0.6", Command("input",
+                                                                                                               arguments=NoEscape(
+                                                                                                                   acf_plot_path))])))
+                                    c += 1
+                                    # --> Grouping figs two in one row:
+                                    if c % 2 == 0:
+                                        fig.append(NoEscape(r"\\"))
+
+                        doc.append(NoEscape(r"\newpage"))
+
+                        # --> creating figure for pacf-statistics:
+                        with doc.create(Subsubsection("Statistics-pacf")):
+                            with doc.create(Figure(position='ht')) as fig:
+                                # --> basic figure structure:
+                                fig.append(NoEscape(r"\centering"))
+                                fig.append(
+                                    Command("setlength", arguments=[NoEscape(r"\abovecaptionskip"), NoEscape(r"-35pt")]))
+                                # --> adding single subplots to figure:
+                                c = 0
+                                for sent_length in sent_lengths:
+                                    # --> getting path:
+                                    if local_path:
+                                        pacf_plot_path = os.path.join(ROOT_DIR, f"data/{corpus_ident}/{res_type}/{sent_length}/statistics/{measurement}/pacf.tex")
+                                    else:
+                                        pacf_plot_path = f"data/{corpus_ident}/{res_type}_{sent_length}_statistics_{measurement}_pacf.tex"
+
+                                    # fig.append(Command("caption", arguments="Testoo"))
+                                    fig.append(Command("subfloat", options=NoEscape(sent_length.replace("_", " ")),
+                                                       arguments=Command("scalebox", arguments=["0.6", Command("input",
+                                                                                                               arguments=NoEscape(
+                                                                                                                   pacf_plot_path))])))
+                                    c += 1
+                                    # --> Grouping figs two in one row:
+                                    if c % 2 == 0:
+                                        fig.append(NoEscape(r"\\"))
+
+                        doc.append(NoEscape(r"\newpage"))
+
+                        # --> writing correlation to .tex file:
+                        with doc.create(Subsubsection("Statistics-cor")):
+                            doc.append(NoEscape(r"\noindent"))
                             for sent_length in sent_lengths:
-                                # --> getting path:
-                                if local_path:
-                                    pacf_plot_path = os.path.join(ROOT_DIR, f"data/{corpus_ident}/{res_type}/{sent_length}/statistics/{measurement}/pacf.tex")
-                                else:
-                                    pacf_plot_path = f"data/{corpus_ident}/{res_type}_{sent_length}_statistics_{measurement}_pacf.tex"
+                                cor_path = os.path.join(ROOT_DIR, f"data/{corpus_ident}/{res_type}/{sent_length}/statistics/{measurement}/single_value_measurements.txt")
+                                with open(cor_path, "r") as f:
+                                    cor = f.readlines()[0].split("=")[-1]
+                                    doc.append(NoEscape(rf"{sent_length.replace('_', ' ')} - Correlation: {cor}\\"))
 
-                                # fig.append(Command("caption", arguments="Testoo"))
-                                fig.append(Command("subfloat", options=NoEscape(sent_length.replace("_", " ")),
-                                                   arguments=Command("scalebox", arguments=["0.6", Command("input",
-                                                                                                           arguments=NoEscape(
-                                                                                                               pacf_plot_path))])))
-                                c += 1
-                                # --> Grouping figs two in one row:
-                                if c % 2 == 0:
-                                    fig.append(NoEscape(r"\\"))
-
-                    doc.append(NoEscape(r"\newpage"))
-
-                    # --> writing correlation to .tex file:
-                    with doc.create(Subsubsection("Statistics-cor")):
-                        doc.append(NoEscape(r"\noindent"))
-                        for sent_length in sent_lengths:
-                            cor_path = os.path.join(ROOT_DIR, f"data/{corpus_ident}/{res_type}/{sent_length}/statistics/{measurement}/single_value_measurements.txt")
-                            with open(cor_path, "r") as f:
-                                cor = f.readlines()[0].split("=")[-1]
-                                doc.append(NoEscape(rf"{sent_length.replace('_', ' ')} - Correlation: {cor}\\"))
-
-                    doc.append(NoEscape(r"\newpage"))
+                        doc.append(NoEscape(r"\newpage"))
 
                 pbar.update(1)
                 pbar.refresh()
@@ -341,6 +359,6 @@ if __name__ == '__main__':
     """
     #export_results_as_one_tex("Hansard")
 
-    # save_whole_eger_paper_results(local_path=False)
+    # save_whole_eger_paper_results(local_path=True, plotting_measurements=False)
 
-    export_results_as_one_tex("DTA", True)
+    export_results_as_one_tex("Bundestag", True, plotting_measurement=False)

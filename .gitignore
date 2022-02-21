@@ -70,3 +70,5 @@
 /data/COAH/timeslices_safe/
 # ===============================================
 
+/venv/
+/src/latex/bin/
